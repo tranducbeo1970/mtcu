@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/AFTN.xsl'?>
+<Message>
+    <MessageID>CTM001</MessageID>
+    <Priority>DD</Priority>
+    <Addresses>ABCBMHAA</Addresses>
+    <Addresses>ABCBMHAB</Addresses>
+    <Addresses>ABCBMHAC</Addresses>
+    <Addresses>ABCBMHAD</Addresses>
+    <Addresses>ABCBMHAE</Addresses>
+    <Addresses>ABCBMHAF</Addresses>
+    <Addresses>ABCBMHAG</Addresses>
+    <Addresses>ABCBMHAH</Addresses>
+    <Addresses>ABCBMHAI</Addresses>
+    <Addresses>ABCBMHAJ</Addresses>
+    <Addresses>ABCBMHAK</Addresses>
+    <Addresses>ABCBMHAL</Addresses>
+    <Addresses>ABCBMHAM</Addresses>
+    <Addresses>ABCBMHAN</Addresses>
+    <Addresses>ABCBMHAO</Addresses>
+    <Addresses>ABCBMHAP</Addresses>
+    <Addresses>ABCBMHAQ</Addresses>
+    <Addresses>ABCBMHAR</Addresses>
+    <Addresses>ABCBMHAS</Addresses>
+    <Addresses>ABCBMHAT</Addresses>
+    <Addresses>ABCBMHAU</Addresses>
+    <FilingTime>220303</FilingTime>
+    <Originator>BCAAFTBA</Originator>
+    <OHI>OPTIONAL_HEADING_INFO</OHI>
+    <Content>CT610M01</Content>
+</Message>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+    
+    <appender name="consoleAppender" class="org.apache.log4j.ConsoleAppender">
+        <param name="Threshold" value="INFO" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %-5p  [%c{1}] %m %n" />
+            <!--param name="ConversionPattern" value="%d{yy/MM/dd HH:mm:ss} %-5p %m %n" /-->
+        </layout>
+    </appender>
+
+    <appender name="receiverLogAppender" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="Threshold" value="INFO" />
+        <param name="File" value="E:\\Log\\receiver.log"/>
+        <param name="DatePattern" value="'.'yyyy-MM-dd" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %-5p  [%c{1}] %m %n" />
+        </layout>
+    </appender>
+    
+    <appender name="deliverLogAppender" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="Threshold" value="INFO" />
+        <param name="File" value="E:\\Log\\deliver.log"/>
+        <param name="DatePattern" value="'.'yyyy-MM-dd" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %-5p  [%c{1}] %m %n" />
+        </layout>
+    </appender>
+    
+    <appender name="gatewayLogAppender" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="Threshold" value="INFO" />
+        <param name="File" value="E:\\Log\\log.log"/>
+        <param name="DatePattern" value="'.'yyyy-MM-dd" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %-5p  [%c{1}] %m %n" />
+        </layout>
+    </appender>
+
+    <logger name="amhs.mt.MtMessageReceiver" additivity="false" >
+        <level value="info" />
+        <appender-ref ref="consoleAppender"/>
+        <appender-ref ref="receiverLogAppender"/>
+    </logger>
+    
+     <logger name="amhs.mt.MtMessageDeliver" additivity="false" >
+        <level value="info" />
+        <appender-ref ref="consoleAppender"/>
+        <appender-ref ref="deliverLogAppender"/>
+    </logger>
+    
+    <root>
+        <level value="info" />
+        <appender-ref ref="consoleAppender"/>
+        <appender-ref ref="gatewayLogAppender"/>
+    </root>
+ 
+</log4j:configuration>

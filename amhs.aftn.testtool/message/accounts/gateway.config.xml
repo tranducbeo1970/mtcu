@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Config>
+    <HostName>gateway.attech</HostName>
+    <DomainID>/PRMD=SSSS/ADMD=ICAO/C=XX/</DomainID>
+    <ChannelName>x400mt</ChannelName>
+    <LogFile>x400api.xml</LogFile>
+</Config>

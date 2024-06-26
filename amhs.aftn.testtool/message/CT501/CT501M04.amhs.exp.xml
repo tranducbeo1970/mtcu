@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/amhs.message.xsl'?>
+<Message>
+    <OriginEncodeInformationType>ia5-text</OriginEncodeInformationType>
+    <ContentType>22</ContentType>
+    <Priority>1</Priority>
+    <ATS>
+        <Priority>GG</Priority>
+        <FilingTime>050104</FilingTime>
+        <Text>CT501M04</Text>
+    </ATS>
+    <Recipient>
+        <OR>/CN=IUTAMHAA/OU=IUTA/O=IUT-REGION/PRMD=IUTLAND/ADMD=ICAO/C=XX/</OR>
+    </Recipient>
+</Message>

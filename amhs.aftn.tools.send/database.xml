@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+	<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+	<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+	<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/amss</property>
+	<property name="hibernate.connection.username">root</property>
+	<property name="hibernate.connection.password"></property>
+	<property name="hibernate.connection.useUnicode">true</property>
+	<property name="hibernate.connection.characterEncoding">UTF-8</property> 
+	<property name="hibernate.connection.charSet">UTF-8</property> 
+	<property name="hibernate.show_sql">false</property>
+	<!-- property name="hibernate.query.factory_class">org.hibernate.hql.classic.ClassicQueryTranslatorFactory</property -->
+	<property name="hibernate.query.factory_class">org.hibernate.hql.internal.classic.ClassicQueryTranslatorFactory</property>
+	<property name="hibernate.current_session_context_class">thread</property>
+	<property name="hibernate.c3p0.min_size">2</property>
+	<property name="hibernate.c3p0.max_size">5</property>
+	<property name="hibernate.c3p0.timeout">300</property>
+	<property name="hibernate.c3p0.max_statements">0</property>
+	<property name="hibernate.c3p0.idle_test_period">0</property>
+	<mapping class="com.attech.amhs.mtcu.database.entity.MessageConversionLog"/>
+	<mapping class="com.attech.amhs.mtcu.database.entity.AddressConversionLog"/>
+	<mapping class="com.attech.amhs.mtcu.database.entity.AftnMessage"/>
+	<mapping class="com.attech.amhs.mtcu.database.entity.SysConfig"/>
+	<mapping class="com.attech.amhs.mtcu.database.entity.GatewayIn"/>
+	<mapping class="com.attech.amhs.mtcu.database.entity.GatewayOut"/>
+	<!--mapping resource="amhs/database/entities/Channel.xml"/-->
+    </session-factory>
+</hibernate-configuration>
+

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.10.8
+Created-By: 1.8.0_391-b13 (Oracle Corporation)
+Bundle-Name: mtcu
+Version: 1.0.2_b1930
+Built-Date: 2024-06-20 03:02:02 UTC
+Implementation-Title: mtcu
+Built-Num: 1930
+URL: www.attech.com.vn
+

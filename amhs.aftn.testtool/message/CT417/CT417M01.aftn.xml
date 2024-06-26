@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/AFTN.xsl'?>
+<Message>
+    <MessageID>CTM001</MessageID>
+    <Priority>SS</Priority>
+    <Addresses>AAAAMHAZ</Addresses>
+    <FilingTime>010102</FilingTime>
+    <Originator>BAAAFAAA</Originator>
+    <OHI></OHI>
+    <Content>R 010159 AAAAMHAZ</Content>
+</Message>

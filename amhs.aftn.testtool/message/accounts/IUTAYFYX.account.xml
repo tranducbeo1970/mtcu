@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Account>
+    <Name>IUTAYFYX</Name>
+    <OR>/CN=IUTAYFYX/OU=IUTA/O=IUT-REGION/PRMD=IUTLAND/ADMD=ICAO/C=XX/</OR>
+    <PresentationAddress>"593"/URI+0000+URL+itot://192.168.112.20</PresentationAddress>
+    <MailBox>"3001"/URI+0000+URL+itot://192.168.112.20:3001</MailBox>
+    <Password>attech</Password>
+</Account>

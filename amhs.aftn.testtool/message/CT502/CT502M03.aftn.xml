@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/AFTN.xsl'?>
+<Message>
+    <MessageID>CTM003</MessageID>
+    <Priority>SS</Priority>
+    <Addresses>IUTAMHAA</Addresses>
+    <FilingTime>050203</FilingTime>
+    <Originator>BAAAFTAA</Originator>
+    <OHI>SHORT_OHI_LINE</OHI>
+    <Content>CT502M03.THIS IS CONTENT OF MESSAGE CT501M03</Content>
+</Message>

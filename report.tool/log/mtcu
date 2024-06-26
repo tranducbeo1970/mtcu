@@ -1,0 +1,197 @@
+2022-07-07 14:51:05,538 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 14:51:05,646 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 14:51:06,850 ERROR  [Run] Errrrrrrror ! 
+java.io.FileNotFoundException: config.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at report.tool.XmlSerializer.deserialize(XmlSerializer.java:44)
+	at report.tool.XmlSerializer.load(XmlSerializer.java:55)
+	at report.tool.Run.main(Run.java:26)
+2022-07-07 14:51:43,805 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 14:51:43,909 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 14:51:45,092 ERROR  [DeliveryThread] Lỗi! %s 
+java.lang.NullPointerException
+	at report.tool.DeliveryThread.run(DeliveryThread.java:27)
+2022-07-07 14:51:57,741 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 14:51:57,881 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 14:54:30,029 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 14:54:30,133 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 14:54:31,273 ERROR  [DeliveryThread] Lỗi! %s 
+java.lang.NullPointerException
+	at report.tool.DeliveryThread.run(DeliveryThread.java:27)
+2022-07-07 14:58:20,243 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 14:58:20,389 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 14:58:40,452 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 14:58:40,735 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 15:07:02,478 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 15:07:02,579 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 15:07:03,773 INFO   [DeliveryThread] Lấy điện văn cần phát 
+2022-07-07 15:08:55,330 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 15:08:55,432 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 15:08:56,584 INFO   [DeliveryThread] Lấy điện văn cần phát 
+2022-07-07 15:10:08,147 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 15:10:08,285 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 15:11:12,441 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 15:11:12,595 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 15:11:34,408 INFO   [DeliveryThread] Lấy điện văn cần phát 
+2022-07-07 15:17:41,886 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 15:17:41,990 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 15:17:43,151 INFO   [DeliveryThread] Lấy điện văn cần phát 
+2022-07-07 15:17:54,040 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 15:17:54,176 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 15:18:03,814 INFO   [DeliveryThread] Lấy điện văn cần phát 
+2022-07-07 15:21:01,195 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 15:21:01,298 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 15:21:02,454 INFO   [DeliveryThread] Lấy điện văn cần phát 
+2022-07-07 15:21:02,622 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-07 15:21:02,623 ERROR  [MtConnection] Connection closed (code: 0) 
+2022-07-07 15:21:02,637 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-07 15:21:02,638 ERROR  [MtConnection] Connection closed (code: 0) 
+2022-07-07 15:21:02,656 INFO   [DeliveryThread] Đợi điện văn mới 
+2022-07-07 15:21:05,670 INFO   [DeliveryThread] Lấy điện văn cần phát 
+2022-07-07 15:21:05,681 INFO   [DeliveryThread] Đợi điện văn mới 
+2022-07-07 15:21:08,690 INFO   [DeliveryThread] Lấy điện văn cần phát 
+2022-07-07 15:21:08,703 INFO   [DeliveryThread] Đợi điện văn mới 
+2022-07-07 15:28:26,417 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 15:28:26,518 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 15:29:34,194 INFO   [MtConnection] Connected 
+2022-07-07 15:29:34,222 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-07 15:29:34,222 ERROR  [MtConnection] Connection closed (code: 0) 
+2022-07-07 15:29:34,222 INFO   [MtConnection] Disconnected 
+2022-07-07 15:30:44,928 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 15:30:45,060 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 15:31:08,353 INFO   [MtConnection] Connected 
+2022-07-07 15:35:28,905 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 15:35:29,042 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 15:35:30,661 INFO   [MtConnection] Connected 
+2022-07-07 15:35:48,190 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-07 15:35:48,191 ERROR  [MtConnection] Connection closed (code: 0) 
+2022-07-07 15:35:48,192 INFO   [MtConnection] Disconnected 
+2022-07-07 17:12:05,889 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 17:12:06,087 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 17:12:08,129 INFO   [MtConnection] Connected 
+2022-07-07 17:12:08,155 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-07 17:12:08,155 ERROR  [DeliveryThread] Lỗi! %s 
+com.isode.x400.highlevel.X400APIException: Delivery message fail (code: 3 - Bad parameter value)
+	at report.tool.MtConnection.sendDump(MtConnection.java:208)
+	at report.tool.DeliveryThread.run(DeliveryThread.java:29)
+2022-07-07 17:35:30,048 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 17:35:30,171 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 17:35:31,575 INFO   [MtConnection] Connected 
+2022-07-07 17:35:31,597 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-07 17:35:31,597 ERROR  [DeliveryThread] Lỗi! %s 
+com.isode.x400.highlevel.X400APIException: Delivery message fail (code: 3 - Bad parameter value)
+	at report.tool.MtConnection.sendDump(MtConnection.java:208)
+	at report.tool.DeliveryThread.run(DeliveryThread.java:29)
+2022-07-07 17:39:01,905 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 17:39:02,036 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 17:39:03,325 INFO   [MtConnection] Connected 
+2022-07-07 17:39:03,328 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-07 17:39:03,329 ERROR  [DeliveryThread] Lỗi! %s 
+com.isode.x400.highlevel.X400APIException: Delivery message fail (code: 3 - Bad parameter value)
+	at report.tool.MtConnection.sendDump(MtConnection.java:208)
+	at report.tool.DeliveryThread.run(DeliveryThread.java:29)
+2022-07-07 17:40:25,655 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 17:40:25,766 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 17:40:27,057 INFO   [MtConnection] Connected 
+2022-07-07 17:40:27,060 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-07 17:40:27,060 ERROR  [DeliveryThread] Lỗi! %s 
+com.isode.x400.highlevel.X400APIException: Delivery message fail (code: 3 - Bad parameter value)
+	at report.tool.MtConnection.sendDump(MtConnection.java:208)
+	at report.tool.DeliveryThread.run(DeliveryThread.java:29)
+2022-07-07 17:40:39,347 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 17:40:39,461 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 17:40:40,765 INFO   [MtConnection] Connected 
+2022-07-07 17:40:40,769 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-07 17:40:40,770 ERROR  [DeliveryThread] Lỗi! %s 
+com.isode.x400.highlevel.X400APIException: Delivery message fail (code: 3 - Bad parameter value)
+	at report.tool.MtConnection.sendDump(MtConnection.java:208)
+	at report.tool.DeliveryThread.run(DeliveryThread.java:29)
+2022-07-07 17:49:20,636 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 17:49:20,747 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 17:49:22,029 INFO   [MtConnection] Connected 
+2022-07-07 17:49:22,033 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-07 17:49:22,033 ERROR  [DeliveryThread] Lỗi! %s 
+com.isode.x400.highlevel.X400APIException: Delivery message fail (code: 3 - Bad parameter value)
+	at report.tool.MtConnection.sendDump(MtConnection.java:208)
+	at report.tool.DeliveryThread.run(DeliveryThread.java:29)
+2022-07-07 17:55:59,312 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 17:55:59,423 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 17:56:00,711 INFO   [MtConnection] Connected 
+2022-07-07 17:56:00,715 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-07 17:56:00,716 ERROR  [DeliveryThread] Lỗi! %s 
+com.isode.x400.highlevel.X400APIException: Delivery message fail (code: 3 - Bad parameter value)
+	at report.tool.MtConnection.sendDump(MtConnection.java:208)
+	at report.tool.DeliveryThread.run(DeliveryThread.java:29)
+2022-07-08 00:10:54,419 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 00:10:54,524 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 00:10:55,790 INFO   [MtConnection] Connected 
+2022-07-08 00:10:55,794 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-08 00:10:55,795 ERROR  [DeliveryThread] Lỗi! %s 
+com.isode.x400.highlevel.X400APIException: Delivery message fail (code: 3)
+	at report.tool.MtConnection.send(MtConnection.java:170)
+	at report.tool.MtConnection.sendDump(MtConnection.java:259)
+	at report.tool.DeliveryThread.run(DeliveryThread.java:29)
+2022-07-08 00:17:34,922 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 00:17:35,031 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 00:17:36,254 INFO   [MtConnection] Connected 
+2022-07-08 00:17:36,259 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-08 00:17:36,260 ERROR  [DeliveryThread] Lỗi! %s 
+com.isode.x400.highlevel.X400APIException: Delivery message fail (code: 3)
+	at report.tool.MtConnection.send(MtConnection.java:170)
+	at report.tool.MtConnection.sendDump(MtConnection.java:259)
+	at report.tool.DeliveryThread.run(DeliveryThread.java:29)
+2022-07-08 00:22:05,907 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 00:22:06,011 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 00:22:07,194 INFO   [MtConnection] Connected 
+2022-07-08 00:22:07,309 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-08 00:22:07,310 ERROR  [MtConnection] Connection closed (code: 0) 
+2022-07-08 00:22:07,310 INFO   [MtConnection] Disconnected 
+2022-07-08 00:23:27,290 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 00:23:27,392 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 00:23:28,567 INFO   [MtConnection] Connected 
+2022-07-08 00:23:28,589 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-08 00:23:28,589 ERROR  [MtConnection] Connection closed (code: 0) 
+2022-07-08 00:23:28,589 INFO   [MtConnection] Disconnected 
+2022-07-08 00:24:15,440 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 00:24:15,542 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 00:24:16,753 INFO   [MtConnection] Connected 
+2022-07-08 00:24:16,800 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-08 00:24:16,800 ERROR  [MtConnection] Connection closed (code: 0) 
+2022-07-08 00:24:16,800 INFO   [MtConnection] Disconnected 
+2022-07-08 00:24:41,647 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 00:24:41,752 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 00:24:42,938 INFO   [MtConnection] Connected 
+2022-07-08 00:24:42,961 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-08 00:24:42,961 ERROR  [MtConnection] Connection closed (code: 0) 
+2022-07-08 00:24:42,961 INFO   [MtConnection] Disconnected 
+2022-07-08 00:25:13,272 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 00:25:13,375 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 00:25:14,568 INFO   [MtConnection] Connected 
+2022-07-08 00:25:14,588 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-08 00:25:14,588 ERROR  [MtConnection] Connection closed (code: 0) 
+2022-07-08 00:25:14,589 INFO   [MtConnection] Disconnected 
+2022-07-08 00:29:13,666 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 00:29:13,769 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 00:29:14,941 INFO   [MtConnection] Connected 
+2022-07-08 00:29:14,963 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-08 00:29:14,963 ERROR  [MtConnection] Connection closed (code: 0) 
+2022-07-08 00:29:14,964 INFO   [MtConnection] Disconnected 
+2022-07-08 00:30:20,749 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 00:30:20,855 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 00:30:22,039 INFO   [MtConnection] Connected 
+2022-07-08 00:30:22,061 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-08 00:30:22,061 ERROR  [MtConnection] Connection closed (code: 0) 
+2022-07-08 00:30:22,061 INFO   [MtConnection] Disconnected 
+2022-07-08 00:34:17,885 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 00:34:17,986 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 00:34:19,173 INFO   [MtConnection] Connected 
+2022-07-08 00:34:19,194 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-08 00:34:19,195 ERROR  [MtConnection] Connection closed (code: 0) 
+2022-07-08 00:34:19,195 INFO   [MtConnection] Disconnected 
+2022-07-08 00:35:09,479 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 00:35:09,580 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 00:35:41,096 INFO   [MtConnection] Connected 
+2022-07-08 00:35:41,116 ERROR  [MtConnection] Message deleted (code: 0) 
+2022-07-08 00:36:17,361 ERROR  [MtConnection] Message deleted (code: 0) 

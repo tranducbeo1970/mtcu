@@ -1,0 +1,7046 @@
+version: 1
+dn: o=conversion-address-lookup-definition
+o: conversion-address-lookup-definition
+objectClass: organization
+objectClass: top
+
+dn: o=custom-address-lookup,o=conversion-address-lookup-definition
+o: custom-address-lookup
+objectClass: organization
+objectClass: top
+
+dn: o=VVTSYZZZ,o=custom-address-lookup,o=conversion-address-lookup-definitio
+ n
+mhsORAddresses: /CN=VVTSYFYZ/OU=YFYZ/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C
+ =XX/
+o: VVTSYZZZ
+objectClass: mhsUser
+objectClass: organization
+objectClass: top
+
+dn: o=aftn-address-lookup,o=conversion-address-lookup-definition
+o: aftn-address-lookup
+objectClass: organization
+objectClass: top
+
+dn: cn=VV,o=aftn-address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=VIETNAM/ADMD=ICAO/C=XX/
+atn-icao-designator: VV
+cn: VV
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: o=address-lookup,o=conversion-address-lookup-definition
+o: address-lookup
+objectClass: organization
+objectClass: top
+
+dn: cn=OS,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=OS/ADMD=ICAO/C=XX/
+atn-icao-designator: OS
+cn: OS
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=OR,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=OR/ADMD=ICAO/C=XX/
+atn-icao-designator: OR
+cn: OR
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=OP,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=OP/ADMD=ICAO/C=XX/
+atn-icao-designator: OP
+cn: OP
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=OO,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=OO/ADMD=ICAO/C=XX/
+atn-icao-designator: OO
+cn: OO
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=OM,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=AE,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=UAE/ADMD=ICAO/C=XX/
+atn-icao-designator: OM
+cn: OM
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=OL,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=OL/ADMD=ICAO/C=XX/
+atn-icao-designator: OL
+cn: OL
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=OK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=OK/ADMD=ICAO/C=XX/
+atn-icao-designator: OK
+cn: OK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=OJ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=JO,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=OJ/ADMD=ICAO/C=XX/
+atn-icao-designator: OJ
+cn: OJ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=OI,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=OI/ADMD=ICAO/C=XX/
+atn-icao-designator: OI
+cn: OI
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=OE,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=SA,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=SAUDI ARABIA/ADMD=ICAO/C=XX/
+atn-icao-designator: OE
+cn: OE
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=OB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=BH,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=OB/ADMD=ICAO/C=XX/
+atn-icao-designator: OB
+cn: OB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=OA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=OA/ADMD=ICAO/C=XX/
+atn-icao-designator: OA
+cn: OA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=NZ,o=address-lookup,o=conversion-address-lookup-definition
+c: NZ
+description: New Zealand
+objectClass: country
+objectClass: top
+
+dn: o=NZ**,c=NZ,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: NZCH
+o: NZ**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=NZ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=NZ,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=NZ/ADMD=ICAO/C=XX/
+atn-icao-designator: NZ
+cn: NZ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=NW,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=NW/ADMD=ICAO/C=XX/
+atn-icao-designator: NW
+cn: NW
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=NV,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=NV/ADMD=ICAO/C=XX/
+atn-icao-designator: NV
+cn: NV
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=NT,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=NT/ADMD=ICAO/C=XX/
+atn-icao-designator: NT
+cn: NT
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=NSTU,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=NST/ADMD=ICAO/C=XX/
+atn-icao-designator: NSTU
+cn: NSTU
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=NSFQ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=NST/ADMD=ICAO/C=XX/
+atn-icao-designator: NSFQ
+cn: NSFQ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=NSAS,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=NST/ADMD=ICAO/C=XX/
+atn-icao-designator: NSAS
+cn: NSAS
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=NS,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=NS/ADMD=ICAO/C=XX/
+atn-icao-designator: NS
+cn: NS
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=NO,o=address-lookup,o=conversion-address-lookup-definition
+c: NO
+description: Norway
+objectClass: country
+objectClass: top
+
+dn: o=EN**,c=NO,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ENHB
+o: EN**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=NL,o=address-lookup,o=conversion-address-lookup-definition
+c: NL
+description: Netherlands
+objectClass: country
+objectClass: top
+
+dn: o=EH**,c=NL,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EH
+o: EH**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=NL,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=NL/ADMD=ICAO/C=XX/
+atn-icao-designator: NL
+cn: NL
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=NI,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=NI/ADMD=ICAO/C=XX/
+atn-icao-designator: NI
+cn: NI
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=NGF,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=NGF/ADMD=ICAO/C=XX/
+atn-icao-designator: NGF
+cn: NGF
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=NG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=NG/ADMD=ICAO/C=XX/
+atn-icao-designator: NG
+cn: NG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=NFT,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=NFT/ADMD=ICAO/C=XX/
+atn-icao-designator: NFT
+cn: NFT
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=NF,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=FJ,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=FIJI/ADMD=ICAO/C=XX/
+atn-icao-designator: NF
+cn: NF
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=NC,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=NC/ADMD=ICAO/C=XX/
+atn-icao-designator: NC
+cn: NC
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=MZ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=MZ/ADMD=ICAO/C=XX/
+atn-icao-designator: MZ
+cn: MZ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=MY,o=address-lookup,o=conversion-address-lookup-definition
+c: MY
+description: Malaysia
+objectClass: country
+objectClass: top
+
+dn: o=WMTD,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMTD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMSA,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMSA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMLH,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMLH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKS,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKP,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKN,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKM,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKL,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKK,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKJ,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKI,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKF,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKE,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKD,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKC,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKB,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMKA,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMKA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMGK,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMGK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMFD,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMFD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMFC,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMFC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMBT,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMBT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMBJ,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMBJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMAS,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMAS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMAP,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMAP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WMAD,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WMAD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WM**,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WM
+o: WM**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WBKW,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WB
+o: WBKW
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WBKS,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WB
+o: WBKS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WBKL,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WB
+o: WBKL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WBKK,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WB
+o: WBKK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WBKD,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WB
+o: WBKD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WBKC,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WB
+o: WBKC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WBGS,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WB
+o: WBGS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WBGR,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WB
+o: WBGR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WBGG,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WB
+o: WBGG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WBGB,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WB
+o: WBGB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WBFC,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WB
+o: WBFC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WB**,c=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WB
+o: WB**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=MY,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=MY/ADMD=ICAO/C=XX/
+atn-icao-designator: MY
+cn: MY
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=MX,o=address-lookup,o=conversion-address-lookup-definition
+c: MX
+description: Mexico
+objectClass: country
+objectClass: top
+
+dn: o=MM**,c=MX,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: MM
+o: MM**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=MW,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=MW/ADMD=ICAO/C=XX/
+atn-icao-designator: MW
+cn: MW
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=MU,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CU,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=MU/ADMD=ICAO/C=XX/
+atn-icao-designator: MU
+cn: MU
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=MT,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=MT/ADMD=ICAO/C=XX/
+atn-icao-designator: MT
+cn: MT
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=MS,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=MS/ADMD=ICAO/C=XX/
+atn-icao-designator: MS
+cn: MS
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=MR,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=MR/ADMD=ICAO/C=XX/
+atn-icao-designator: MR
+cn: MR
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=MP,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=PA,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=PANAMA/ADMD=ICAO/C=XX/
+atn-icao-designator: MP
+cn: MP
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=MO,o=address-lookup,o=conversion-address-lookup-definition
+c: MO
+description: Macao
+objectClass: country
+objectClass: top
+
+dn: o=VM**,c=MO,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: VM
+o: VM**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=MN,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=MN/ADMD=ICAO/C=XX/
+atn-icao-designator: MN
+cn: MN
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=MM,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=MX,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=MM/ADMD=ICAO/C=XX/
+atn-icao-designator: MM
+cn: MM
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=MK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=MK/ADMD=ICAO/C=XX/
+atn-icao-designator: MK
+cn: MK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=MH,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=MH/ADMD=ICAO/C=XX/
+atn-icao-designator: MH
+cn: MH
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=MG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=MG/ADMD=ICAO/C=XX/
+atn-icao-designator: MG
+cn: MG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=MD,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=MD/ADMD=ICAO/C=XX/
+atn-icao-designator: MD
+cn: MD
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=MB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=MB/ADMD=ICAO/C=XX/
+atn-icao-designator: MB
+cn: MB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LZ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=SK,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=LZ/ADMD=ICAO/C=XX/
+atn-icao-designator: LZ
+cn: LZ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LYTV,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LY/ADMD=ICAO/C=XX/
+atn-icao-designator: LYTV
+cn: LYTV
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LYPO,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LY/ADMD=ICAO/C=XX/
+atn-icao-designator: LYPO
+cn: LYPO
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LYPG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LY/ADMD=ICAO/C=XX/
+atn-icao-designator: LYPG
+cn: LYPG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LYNK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LY/ADMD=ICAO/C=XX/
+atn-icao-designator: LYNK
+cn: LYNK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LYBR,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LY/ADMD=ICAO/C=XX/
+atn-icao-designator: LYBR
+cn: LYBR
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LY,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=RS,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=SERBIA/ADMD=ICAO/C=XX/
+atn-icao-designator: LY
+cn: LY
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LX,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LX/ADMD=ICAO/C=XX/
+atn-icao-designator: LX
+cn: LX
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LW,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LW/ADMD=ICAO/C=XX/
+atn-icao-designator: LW
+cn: LW
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LV,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LV/ADMD=ICAO/C=XX/
+atn-icao-designator: LV
+cn: LV
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LU,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LU/ADMD=ICAO/C=XX/
+atn-icao-designator: LU
+cn: LU
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=LT,o=address-lookup,o=conversion-address-lookup-definition
+c: LT
+description: Lithuania
+objectClass: country
+objectClass: top
+
+dn: o=EY**,c=LT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EYVC
+o: EY**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=LT,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LT/ADMD=ICAO/C=XX/
+atn-icao-designator: LT
+cn: LT
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LS,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CH,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=SUISSE/ADMD=ICAO/C=XX/
+atn-icao-designator: LS
+cn: LS
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LR,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=RO,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=ROMANIA/ADMD=ICAO/C=XX/
+atn-icao-designator: LR
+cn: LR
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LQ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=BA,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=ANSA BH/ADMD=ICAO/C=XX/
+atn-icao-designator: LQ
+cn: LQ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LP,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=PT,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=PORTUGAL/ADMD=ICAO/C=XX/
+atn-icao-designator: LP
+cn: LP
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LO,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=AT,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=AUSTRIA/ADMD=ICAO/C=XX/
+atn-icao-designator: LO
+cn: LO
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LN,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LN/ADMD=ICAO/C=XX/
+atn-icao-designator: LN
+cn: LN
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LM,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LM/ADMD=ICAO/C=XX/
+atn-icao-designator: LM
+cn: LM
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LL,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LL/ADMD=ICAO/C=XX/
+atn-icao-designator: LL
+cn: LL
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LK/ADMD=ICAO/C=XX/
+atn-icao-designator: LK
+cn: LK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LJ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LJ/ADMD=ICAO/C=XX/
+atn-icao-designator: LJ
+cn: LJ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LI,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=IT,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=ITALY/ADMD=ICAO/C=XX/
+atn-icao-designator: LI
+cn: LI
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LH,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LH/ADMD=ICAO/C=XX/
+atn-icao-designator: LH
+cn: LH
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=GR,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=GREECE/ADMD=ICAO/C=XX/
+atn-icao-designator: LG
+cn: LG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LF,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=FR,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=FRANCE/ADMD=ICAO/C=XX/
+atn-icao-designator: LF
+cn: LF
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LE,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=ES,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=SPAIN/ADMD=ICAO/C=XX/
+atn-icao-designator: LE
+cn: LE
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LD,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=HR,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=LD/ADMD=ICAO/C=XX/
+atn-icao-designator: LD
+cn: LD
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LC,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CY,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CYPRUS/ADMD=ICAO/C=XX/
+atn-icao-designator: LC
+cn: LC
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LB/ADMD=ICAO/C=XX/
+atn-icao-designator: LB
+cn: LB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=LA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=LA/ADMD=ICAO/C=XX/
+atn-icao-designator: LA
+cn: LA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=KR,o=address-lookup,o=conversion-address-lookup-definition
+c: KR
+description: Korea
+objectClass: country
+objectClass: top
+
+dn: o=RK**,c=KR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: RKSS
+o: RK**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=K,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=K/ADMD=ICAO/C=XX/
+atn-icao-designator: K
+cn: K
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=JO,o=address-lookup,o=conversion-address-lookup-definition
+c: JO
+description: Jordan
+objectClass: country
+objectClass: top
+
+dn: o=OJ**,c=JO,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: OJAC
+o: OJ**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=IT,o=address-lookup,o=conversion-address-lookup-definition
+c: IT
+description: Italy
+objectClass: country
+objectClass: top
+
+dn: o=LIRW,c=IT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LIRW
+o: LIRW
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LIRT,c=IT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LIRW
+o: LIRT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LIR*,c=IT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LIRR
+o: LIR*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LIPK,c=IT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LIRW
+o: LIPK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LIP*,c=IT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LIPP
+o: LIP*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LIMS,c=IT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LIRW
+o: LIMS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LIM*,c=IT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LIMM
+o: LIM*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LIB*,c=IT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LIBB
+o: LIB*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LI**,c=IT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LIRW
+o: LI**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=IN,o=address-lookup,o=conversion-address-lookup-definition
+c: IN
+description: India
+objectClass: country
+objectClass: top
+
+dn: o=VO**,c=IN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: VOMM
+o: VO**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=VI**,c=IN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: VIDD
+o: VI**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=VE**,c=IN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: VECC
+o: VE**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=VA**,c=IN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: VABB
+o: VA**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=ID,o=address-lookup,o=conversion-address-lookup-definition
+c: ID
+description: Indonesia
+objectClass: country
+objectClass: top
+
+dn: o=WR**,c=ID,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WRRR
+o: WR**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WI**,c=ID,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WIII
+o: WI**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WA**,c=ID,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: WAAA
+o: WA**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=HU,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=HU/ADMD=ICAO/C=XX/
+atn-icao-designator: HU
+cn: HU
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=HT,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=HT/ADMD=ICAO/C=XX/
+atn-icao-designator: HT
+cn: HT
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=HS,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=HS/ADMD=ICAO/C=XX/
+atn-icao-designator: HS
+cn: HS
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=HR,o=address-lookup,o=conversion-address-lookup-definition
+c: HR
+description: Croatia
+objectClass: country
+objectClass: top
+
+dn: o=LD**,c=HR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LDZA
+o: LD**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=HR,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=HR/ADMD=ICAO/C=XX/
+atn-icao-designator: HR
+cn: HR
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: o=HONGKONG,o=address-lookup,o=conversion-address-lookup-definition
+description: O
+o: HONGKONG
+o: O
+objectClass: organization
+objectClass: top
+
+dn: o=VH**,o=HONGKONG,o=address-lookup,o=conversion-address-lookup-definitio
+ n
+atn-facility-name: HKGCAD
+o: VH**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=HL,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=HL/ADMD=ICAO/C=XX/
+atn-icao-designator: HL
+cn: HL
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=HK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=HK/ADMD=ICAO/C=XX/
+atn-icao-designator: HK
+cn: HK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=HH,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=HH/ADMD=ICAO/C=XX/
+atn-icao-designator: HH
+cn: HH
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=HE,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=EG,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=HE/ADMD=ICAO/C=XX/
+atn-icao-designator: HE
+cn: HE
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=HD,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=HD/ADMD=ICAO/C=XX/
+atn-icao-designator: HD
+cn: HD
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=HC,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=HC/ADMD=ICAO/C=XX/
+atn-icao-designator: HC
+cn: HC
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=HB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=HB/ADMD=ICAO/C=XX/
+atn-icao-designator: HB
+cn: HB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=HA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=HA/ADMD=ICAO/C=XX/
+atn-icao-designator: HA
+cn: HA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=GY,o=address-lookup,o=conversion-address-lookup-definition
+c: GY
+description: Guyana
+objectClass: country
+objectClass: top
+
+dn: o=SY**,c=GY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SYGC
+o: SY**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=GV,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=GV/ADMD=ICAO/C=XX/
+atn-icao-designator: GV
+cn: GV
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=GU,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=GU/ADMD=ICAO/C=XX/
+atn-icao-designator: GU
+cn: GU
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=GS,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=GS/ADMD=ICAO/C=XX/
+atn-icao-designator: GS
+cn: GS
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=GR,o=address-lookup,o=conversion-address-lookup-definition
+c: GR
+description: Greece
+objectClass: country
+objectClass: top
+
+dn: o=LG**,c=GR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LGGG
+o: LG**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=GQ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=GQ/ADMD=ICAO/C=XX/
+atn-icao-designator: GQ
+cn: GQ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=GO,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=GO/ADMD=ICAO/C=XX/
+atn-icao-designator: GO
+cn: GO
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=GM,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=GM/ADMD=ICAO/C=XX/
+atn-icao-designator: GM
+cn: GM
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=GL,o=address-lookup,o=conversion-address-lookup-definition
+c: GL
+description: Greenland
+objectClass: country
+objectClass: top
+
+dn: o=BG**,c=GL,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: BGSF
+o: BG**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=GL,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=GL/ADMD=ICAO/C=XX/
+atn-icao-designator: GL
+cn: GL
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=GG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=GG/ADMD=ICAO/C=XX/
+atn-icao-designator: GG
+cn: GG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=GF,o=address-lookup,o=conversion-address-lookup-definition
+c: GF
+description: French Guiana
+objectClass: country
+objectClass: top
+
+dn: o=SO**,c=GF,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SOCA
+o: SO**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=GF,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=GF/ADMD=ICAO/C=XX/
+atn-icao-designator: GF
+cn: GF
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=GE,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=ES,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=SPAIN/ADMD=ICAO/C=XX/
+atn-icao-designator: GE
+cn: GE
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=GC,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=ES,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=SPAIN/ADMD=ICAO/C=XX/
+atn-icao-designator: GC
+cn: GC
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=GB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=GB/ADMD=ICAO/C=XX/
+atn-icao-designator: GB
+cn: GB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=GA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=GA/ADMD=ICAO/C=XX/
+atn-icao-designator: GA
+cn: GA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FZ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FZ/ADMD=ICAO/C=XX/
+atn-icao-designator: FZ
+cn: FZ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FY,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FY/ADMD=ICAO/C=XX/
+atn-icao-designator: FY
+cn: FY
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FX,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FX/ADMD=ICAO/C=XX/
+atn-icao-designator: FX
+cn: FX
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FW,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FW/ADMD=ICAO/C=XX/
+atn-icao-designator: FW
+cn: FW
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FV,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FV/ADMD=ICAO/C=XX/
+atn-icao-designator: FV
+cn: FV
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FT,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FT/ADMD=ICAO/C=XX/
+atn-icao-designator: FT
+cn: FT
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FS,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FS/ADMD=ICAO/C=XX/
+atn-icao-designator: FS
+cn: FS
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=FR,o=address-lookup,o=conversion-address-lookup-definition
+c: FR
+description: France
+objectClass: country
+objectClass: top
+
+dn: o=LF**,c=FR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LFLF
+o: LF**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=FQ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FQ/ADMD=ICAO/C=XX/
+atn-icao-designator: FQ
+cn: FQ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FP,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FP/ADMD=ICAO/C=XX/
+atn-icao-designator: FP
+cn: FP
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FO,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FO/ADMD=ICAO/C=XX/
+atn-icao-designator: FO
+cn: FO
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FN,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FN/ADMD=ICAO/C=XX/
+atn-icao-designator: FN
+cn: FN
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FME,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FME/ADMD=ICAO/C=XX/
+atn-icao-designator: FME
+cn: FME
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FMC,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FMC/ADMD=ICAO/C=XX/
+atn-icao-designator: FMC
+cn: FMC
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FM,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FM/ADMD=ICAO/C=XX/
+atn-icao-designator: FM
+cn: FM
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FL,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FL/ADMD=ICAO/C=XX/
+atn-icao-designator: FL
+cn: FL
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FK/ADMD=ICAO/C=XX/
+atn-icao-designator: FK
+cn: FK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=FJ,o=address-lookup,o=conversion-address-lookup-definition
+c: FJ
+description: Fiji
+objectClass: country
+objectClass: top
+
+dn: o=NF**,c=FJ,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: NFFN
+o: NF**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=FJ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FJ/ADMD=ICAO/C=XX/
+atn-icao-designator: FJ
+cn: FJ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FI,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FI/ADMD=ICAO/C=XX/
+atn-icao-designator: FI
+cn: FI
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FH,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FH/ADMD=ICAO/C=XX/
+atn-icao-designator: FH
+cn: FH
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FG/ADMD=ICAO/C=XX/
+atn-icao-designator: FG
+cn: FG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FE,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FE/ADMD=ICAO/C=XX/
+atn-icao-designator: FE
+cn: FE
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FD,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FD/ADMD=ICAO/C=XX/
+atn-icao-designator: FD
+cn: FD
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FC,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FC/ADMD=ICAO/C=XX/
+atn-icao-designator: FC
+cn: FC
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FB/ADMD=ICAO/C=XX/
+atn-icao-designator: FB
+cn: FB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=FA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=FA/ADMD=ICAO/C=XX/
+atn-icao-designator: FA
+cn: FA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=EY,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=LT,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=EY/ADMD=ICAO/C=XX/
+atn-icao-designator: EY
+cn: EY
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=EV,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=EV/ADMD=ICAO/C=XX/
+atn-icao-designator: EV
+cn: EV
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: o=EUROCONTROL,o=address-lookup,o=conversion-address-lookup-definition
+description: O
+o: EUROCONTROL
+o: O
+objectClass: organization
+objectClass: top
+
+dn: o=EUSN,o=EUROCONTROL,o=address-lookup,o=conversion-address-lookup-defini
+ tion
+atn-facility-name: EURONOTAM
+o: EUSN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EUEC,o=EUROCONTROL,o=address-lookup,o=conversion-address-lookup-defini
+ tion
+atn-facility-name: EAD
+o: EUEC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EUCH,o=EUROCONTROL,o=address-lookup,o=conversion-address-lookup-defini
+ tion
+atn-facility-name: EUROCONTROL-NMH
+o: EUCH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EUCB,o=EUROCONTROL,o=address-lookup,o=conversion-address-lookup-defini
+ tion
+atn-facility-name: EUROCONTROL-NMB
+o: EUCB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=EUECX,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=EUECX/ADMD=ICAO/C=XX/
+atn-icao-designator: EUECX
+cn: EUECX
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=EU,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: o=Eurocontrol,o=Address-Lookup,o=conversion-addres
+ s-lookup-definition
+atn-global-domain-identifier: /PRMD=EUROPE/ADMD=ICAO/C=XX/
+atn-icao-designator: EU
+cn: EU
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ET,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=DE,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=GERMANY/ADMD=ICAO/C=XX/
+atn-icao-designator: ET
+cn: ET
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=ES,o=address-lookup,o=conversion-address-lookup-definition
+c: ES
+description: Spain
+objectClass: country
+objectClass: top
+
+dn: o=LE**,c=ES,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LEEE
+o: LE**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=GE**,c=ES,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LEEE
+o: GE**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=GC**,c=ES,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LEEE
+o: GC**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=ES,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=ES/ADMD=ICAO/C=XX/
+atn-icao-designator: ES
+cn: ES
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=EP,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=EP/ADMD=ICAO/C=XX/
+atn-icao-designator: EP
+cn: EP
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=EN,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=NO,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=NORWAY/ADMD=ICAO/C=XX/
+atn-icao-designator: EN
+cn: EN
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=EL,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=EL/ADMD=ICAO/C=XX/
+atn-icao-designator: EL
+cn: EL
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=EK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=DK,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=DENMARK/ADMD=ICAO/C=XX/
+atn-icao-designator: EK
+cn: EK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=EI,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=EI/ADMD=ICAO/C=XX/
+atn-icao-designator: EI
+cn: EI
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=EH,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=NL,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=EH/ADMD=ICAO/C=XX/
+atn-icao-designator: EH
+cn: EH
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=EG,o=address-lookup,o=conversion-address-lookup-definition
+c: EG
+description: Egypt
+objectClass: country
+objectClass: top
+
+dn: o=HE**,c=EG,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: HECA
+o: HE**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=EG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=EG/ADMD=ICAO/C=XX/
+atn-icao-designator: EG
+cn: EG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=EF,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=EF/ADMD=ICAO/C=XX/
+atn-icao-designator: EF
+cn: EF
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=EE,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=EE/ADMD=ICAO/C=XX/
+atn-icao-designator: EE
+cn: EE
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ED,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=DE,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=GERMANY/ADMD=ICAO/C=XX/
+atn-icao-designator: ED
+cn: ED
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=EC,o=address-lookup,o=conversion-address-lookup-definition
+c: EC
+description: Ecuador
+objectClass: country
+objectClass: top
+
+dn: o=SE**,c=EC,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SEGU
+o: SE**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=EB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=BE,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=BELGIUM/ADMD=ICAO/C=XX/
+atn-icao-designator: EB
+cn: EB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=DZ,o=address-lookup,o=conversion-address-lookup-definition
+c: DZ
+description: Algeria
+objectClass: country
+objectClass: top
+
+dn: o=DA**,c=DZ,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: DAAA
+o: DA**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=DX,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=DX/ADMD=ICAO/C=XX/
+atn-icao-designator: DX
+cn: DX
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=DT,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=TN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=DT/ADMD=ICAO/C=XX/
+atn-icao-designator: DT
+cn: DT
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=DR,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=DR/ADMD=ICAO/C=XX/
+atn-icao-designator: DR
+cn: DR
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=DN,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=DN/ADMD=ICAO/C=XX/
+atn-icao-designator: DN
+cn: DN
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=DK,o=address-lookup,o=conversion-address-lookup-definition
+c: DK
+description: Denmark
+objectClass: country
+objectClass: top
+
+dn: o=EK**,c=DK,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EKCH
+o: EK**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=DI,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=DI/ADMD=ICAO/C=XX/
+atn-icao-designator: DI
+cn: DI
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=DG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=DG/ADMD=ICAO/C=XX/
+atn-icao-designator: DG
+cn: DG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=DF,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=DF/ADMD=ICAO/C=XX/
+atn-icao-designator: DF
+cn: DF
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=DE,o=address-lookup,o=conversion-address-lookup-definition
+c: DE
+description: Germany
+objectClass: country
+objectClass: top
+
+dn: o=ETO*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ETEE
+o: ETO*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ETI*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ETEE
+o: ETI*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ETE*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ETEE
+o: ETE*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ET**,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ETCC
+o: ET**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDYY,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: MAASTRICHT-UAC
+o: EDYY
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDX*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDX*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDW*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDW*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDV*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDV*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDU*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDU*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDT*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDT*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDS*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDS*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDR*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDR*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDQ*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDQ*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDP*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDP*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDO*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDO*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDN*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDN*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDM*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDM*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDL*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDL*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDK*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDK*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDJ*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDJ*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDH*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDH*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDG*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDG*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDF*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDF*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDE*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDE*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDW,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDDW
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDV,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDDV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDT,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDDT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDS,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDDS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDR,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDDR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDP,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDDP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDN,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDDN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDM,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDDM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDL,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDDL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDK,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDDK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDH,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDDH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDG,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDDG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDF,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDGG
+o: EDDF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDE,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDDE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDC,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDDC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDDB,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDDB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDC*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDC*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDB*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDB*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=EDA*,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDWW
+o: EDA*
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ED**,c=DE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EDDD
+o: ED**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=DB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=DB/ADMD=ICAO/C=XX/
+atn-icao-designator: DB
+cn: DB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=DA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=DZ,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=DA/ADMD=ICAO/C=XX/
+atn-icao-designator: DA
+cn: DA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=CY,o=address-lookup,o=conversion-address-lookup-definition
+c: CY
+description: Cyprus
+objectClass: country
+objectClass: top
+
+dn: o=LC**,c=CY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LCCC
+o: LC**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=CU,o=address-lookup,o=conversion-address-lookup-definition
+c: CU
+description: Cuba
+objectClass: country
+objectClass: top
+
+dn: o=MU**,c=CU,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: MU
+o: MU**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=CO,o=address-lookup,o=conversion-address-lookup-definition
+c: CO
+description: Colombia
+objectClass: country
+objectClass: top
+
+dn: o=SK**,c=CO,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SKED
+o: SK**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=CN,o=address-lookup,o=conversion-address-lookup-definition
+c: CN
+description: China
+objectClass: country
+objectClass: top
+
+dn: o=ZY**,c=CN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ZBBB
+o: ZY**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ZW**,c=CN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ZBBB
+o: ZW**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ZU**,c=CN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ZBBB
+o: ZU**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ZT**,c=CN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ZBBB
+o: ZT**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ZS**,c=CN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ZBBB
+o: ZS**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ZP**,c=CN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ZGGG
+o: ZP**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ZL**,c=CN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ZGGG
+o: ZL**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ZJ**,c=CN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ZGGG
+o: ZJ**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ZH**,c=CN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ZGGG
+o: ZH**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ZG**,c=CN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ZGGG
+o: ZG**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=ZB**,c=CN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: ZBBB
+o: ZB**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=CL,o=address-lookup,o=conversion-address-lookup-definition
+c: CL
+description: Chile
+objectClass: country
+objectClass: top
+
+dn: o=SH**,c=CL,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SCEL
+o: SH**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SC**,c=CL,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SCEL
+o: SC**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=CH,o=address-lookup,o=conversion-address-lookup-definition
+c: CH
+description: Switzerland
+objectClass: country
+objectClass: top
+
+dn: o=LS**,c=CH,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LS
+o: LS**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=C,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=C/ADMD=ICAO/C=XX/
+atn-icao-designator: C
+cn: C
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=BR,o=address-lookup,o=conversion-address-lookup-definition
+c: BR
+description: Brazil
+objectClass: country
+objectClass: top
+
+dn: o=SS**,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SS**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBZZ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBZZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBYS,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBYS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBYA,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBYA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXU,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBXU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXT,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBXT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXS,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBXS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXR,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBXR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXQ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBXQ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXP,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBXP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXO,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBXO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXN,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBXN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXM,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBXM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXL,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBXL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXK,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBXK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXG,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBXG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXF,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBXF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXE,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBXE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXD,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBXD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXC,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBXC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXB,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBXB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBXA,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBXA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWZ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBWZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWY,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBWY
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWX,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBWX
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWV,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBWV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWU,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBWU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWT,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBWT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWS,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBWS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWR,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBWR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWQ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBWQ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWP,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBWP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWO,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBWO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWN,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBWN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWM,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBWM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWL,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBWL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWK,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBWK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWJ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBWJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWI,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBWI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWH,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBWH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWG,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBWG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWF,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBWF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWE,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBWE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWC,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBWC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWB,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBWB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBWA,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBWA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBVT,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBVT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBVH,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBVH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBVG,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBVG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBUR,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBUR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBUL,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBUL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBUG,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBUG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBUF,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBUF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBUA,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBUA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBTU,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBTU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBTT,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBTT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBTS,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBTS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBTR,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBTR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBTL,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBTL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBTK,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBTK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBTF,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBTF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBTE,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBTE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBTD,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBTD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBTC,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBTC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBTB,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBTB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBTA,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBTA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBSV,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBSV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBST,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBST
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBSR,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBSR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBSP,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBSP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBSN,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBSN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBSM,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBSM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBSL,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBSL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBSJ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBSJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBSC,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBSC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBRQ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBRQ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBRP,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBRP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBRJ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBRJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBRF,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBRF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBRE,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBRE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBRB,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBRB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBQV,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBQV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBPV,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBPV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBPS,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBPS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBPR,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBPR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBPP,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBPP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBPN,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBPN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBPL,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBPL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBPK,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBPK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBPJ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBPJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBPF,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBPF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBPC,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBPC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBPB,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBPB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBPA,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBPA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBOI,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBOI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBNT,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBNT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBNM,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBNM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBNF,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBNF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBMY,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBMY
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBMT,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBMT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBMS,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBMS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBMQ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBMQ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBMO,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBMO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBMN,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBMN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBMM,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBMM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBML,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBML
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBMK,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBMK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBMH,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBMH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBME,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBME
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBMD,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBMD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBMC,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBMC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBMA,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBMA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBLS,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBLS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBLP,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBLP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBLO,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBLO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBLN,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBLN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBLJ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBLJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBLE,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBLE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBLB,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBLB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBKP,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBKP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBKG,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBKG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBJV,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBJV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBJU,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBJU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBJR,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBJR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBJP,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBJP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBJF,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBJF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBJC,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBJC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBIZ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBIZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBIT,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBIT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBIP,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBIP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBIL,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBIL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBIH,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBIH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBIC,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBIC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBHZ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBHZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBHT,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBHT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBGW,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBGW
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBGV,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBGV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBGU,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBGU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBGR,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBGR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBGO,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBGO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBGM,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBGM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBGL,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBGL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBFZ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBFZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBFU,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBFU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBFS,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBFS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBFN,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBFN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBFL,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBFL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBFI,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBFI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBES,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBES
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBEK,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBEK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBEG,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBEG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBEC,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBEC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBDN,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBDN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCZ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBCZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCY,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBCY
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCX,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBCX
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCW,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBCW
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCV,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBCV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCT,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBCT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCR,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBCR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCP,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBCP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCO,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBCO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCN,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBCN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCM,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBCM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCJ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBCJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCI,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBCI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCH,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBCH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCG,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBCG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCD,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBCD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCC,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBCC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCB,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBCB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBCA,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBCA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBBZ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBBZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBBW,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBBW
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBBV,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBBV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBBU,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBBU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBBT,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBBT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBBS,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBBS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBBR,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBBR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBBQ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBBQ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBBI,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBBI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBBH,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBBH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBBG,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBCT
+o: SBBG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBBE,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBBE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBAZ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBAZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBAX,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBAX
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBAU,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBAU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBAT,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBAT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBAS,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBAS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBAR,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBAR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBAQ,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBAQ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBAO,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBRF
+o: SBAO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBAN,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBAN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBAM,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBAM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBAF,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SBAF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SBAA,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBEG
+o: SBAA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SB**,c=BR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SBBR
+o: SB**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=BO,o=address-lookup,o=conversion-address-lookup-definition
+c: BO
+description: Bolivia
+objectClass: country
+objectClass: top
+
+dn: o=SL**,c=BO,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SLLP
+o: SL**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=BKPR,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=BKPR/ADMD=ICAO/C=XX/
+atn-icao-designator: BKPR
+cn: BKPR
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=BI,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=BI/ADMD=ICAO/C=XX/
+atn-icao-designator: BI
+cn: BI
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=BH,o=address-lookup,o=conversion-address-lookup-definition
+c: BH
+description: Bahrain
+objectClass: country
+objectClass: top
+
+dn: o=OBZZ,c=BH,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: CIVIL AVIATION AFFAIRS
+o: OBZZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=OBKH,c=BH,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: BAHRAIN DEFENCE FORCE
+o: OBKH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=OBBS,c=BH,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: BAHRAIN DEFENCE FORCE
+o: OBBS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=OBBI,c=BH,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: CIVIL AVIATION AFFAIRS
+o: OBBI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=OBBB,c=BH,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: CIVIL AVIATION AFFAIRS
+o: OBBB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=BG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=GL,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=GREENLAND/ADMD=ICAO/C=XX/
+atn-icao-designator: BG
+cn: BG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=BE,o=address-lookup,o=conversion-address-lookup-definition
+c: BE
+description: Belgium
+objectClass: country
+objectClass: top
+
+dn: o=EB**,c=BE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: EBBR
+o: EB**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=BA,o=address-lookup,o=conversion-address-lookup-definition
+c: BA
+description: Bosnia And Herzegovina
+objectClass: country
+objectClass: top
+
+dn: o=LQBK,c=BA,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LQBK
+o: LQBK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LQ**,c=BA,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LQQQ
+o: LQ**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=AY,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=AY/ADMD=ICAO/C=XX/
+atn-icao-designator: AY
+cn: AY
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=AU,o=address-lookup,o=conversion-address-lookup-definition
+c: AU
+description: Australia
+objectClass: country
+objectClass: top
+
+dn: o=Y***,c=AU,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: YBBN
+o: Y***
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=AT,o=address-lookup,o=conversion-address-lookup-definition
+c: AT
+description: Austria
+objectClass: country
+objectClass: top
+
+dn: o=LO**,c=AT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LOVV
+o: LO**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=AR,o=address-lookup,o=conversion-address-lookup-definition
+c: AR
+description: Argentina
+objectClass: country
+objectClass: top
+
+dn: o=SAZO,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZN,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZM,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZL,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZK,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZJ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZI,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZH,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZG,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZF,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZE,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZD,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZB,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZA,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAYS,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAYS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAYO,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAYO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAYJ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAYJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAYE,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAYE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAYB,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAYB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWZ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWU,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWT,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWS,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWR,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWP,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWO,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWM,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWL,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWK,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWJ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWH,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWG,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWE,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWD,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAWB,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAWB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVY,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVY
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVV,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVU,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVT,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVS,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVR,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVQ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVQ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVP,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVN,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVM,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVJ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVH,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVF,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVE,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVD,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVB,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAVA,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAVC
+o: SAVA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SATU,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SATU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SATR,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SATR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SATO,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SATO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SATM,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SATM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SATK,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SATK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SATI,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SATI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SATG,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SATG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SATD,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SATD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SATC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SATC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAST,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SAST
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SASR,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SASR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SASQ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SASQ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SASO,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SASO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SASM,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SASM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SASL,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SASL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SASJ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SASJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SASC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SASC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SASA,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SASA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARW,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARW
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARV,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARU,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SART,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SART
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARS,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARR,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARP,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARO,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARM,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARL,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARK,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARI,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARG,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARF,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARE,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARD,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SARC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SARE
+o: SARC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAOU,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SAOU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAOS,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SAOS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAOR,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SAOR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAOM,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SAOM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAOL,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SAOL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAOE,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SAOE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAOD,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SAOD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAOC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SAOC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SANW,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SANW
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SANU,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SANU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SANT,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SANT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SANQ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SANQ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SANO,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SANO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SANL,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SANL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SANI,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SANI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SANH,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SANH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SANE,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SANE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SANC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SANC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SANB,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SANB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMV,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMU,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMS,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMR,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMQ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMQ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMP,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMM,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAML,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAML
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMK,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMJ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMI,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMH,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMF,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAME,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAME
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMD,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAMA,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAME
+o: SAMA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAHZ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAHZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAHV,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAHV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAHS,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAHS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAHR,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAHR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAHI,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAHI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAHE,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAHE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAHC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAHC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAFV,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAFV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAFT,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAFT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAFR,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAFR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAFE,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAFE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAFC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAFC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAFA,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAFA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAEZ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAEZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAEU,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAEU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAET,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAET
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAEM,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAEM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAEL,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAEL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAEK,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAEK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAEF,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAEF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAEA,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAEA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADZ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADS,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADR,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADQ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADQ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADP,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADO,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADM,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADL,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADJ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADI,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADG,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADF,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADD,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SADC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SADC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACV,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACU,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACT,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACS,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACR,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACQ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACQ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACP,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACO,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACN,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACM,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACL,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACK,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACI,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACG,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACF,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACE,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACD,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SACA,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SACO
+o: SACA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SABP,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SABP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SABM,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SABM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SABE,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SABE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SABC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SABC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SABA,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SABA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAV,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAU,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAT,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAR,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAP,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAO,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAN,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAN
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAM,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAK,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAJ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAI,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAG,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAC,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAAA,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAAA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SA**,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SA**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZZ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZY,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZY
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZX,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZX
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZW,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZW
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZV,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZV
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZU,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZU
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZT,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZS,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZR,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZQ,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZQ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=SAZP,c=AR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SAEZ
+o: SAZP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=AN,o=address-lookup,o=conversion-address-lookup-definition
+c: AN
+description: Netherlands Antilles
+objectClass: country
+objectClass: top
+
+dn: o=TNCS,c=AN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: TNCM
+o: TNCS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=TNCM,c=AN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: TNCM
+o: TNCM
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=TNCF,c=AN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: TNCC
+o: TNCF
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=TNCE,c=AN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: TNCM
+o: TNCE
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=TNCC,c=AN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: TNCC
+o: TNCC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=TNCB,c=AN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: TNCC
+o: TNCB
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=AN,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=AN/ADMD=ICAO/C=XX/
+atn-icao-designator: AN
+cn: AN
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=AG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=AG/ADMD=ICAO/C=XX/
+atn-icao-designator: AG
+cn: AG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=AE,o=address-lookup,o=conversion-address-lookup-definition
+c: AE
+description: United Arab Emirates
+objectClass: country
+objectClass: top
+
+dn: o=OM**,c=AE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: OMAE
+o: OM**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=ZY,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CHINA/ADMD=ICAO/C=XX/
+atn-icao-designator: ZY
+cn: ZY
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ZW,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CHINA/ADMD=ICAO/C=XX/
+atn-icao-designator: ZW
+cn: ZW
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ZU,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CHINA/ADMD=ICAO/C=XX/
+atn-icao-designator: ZU
+cn: ZU
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ZT,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CHINA/ADMD=ICAO/C=XX/
+atn-icao-designator: ZT
+cn: ZT
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ZS,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CHINA/ADMD=ICAO/C=XX/
+atn-icao-designator: ZS
+cn: ZS
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ZP,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CHINA/ADMD=ICAO/C=XX/
+atn-icao-designator: ZP
+cn: ZP
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ZM,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=ZM/ADMD=ICAO/C=XX/
+atn-icao-designator: ZM
+cn: ZM
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ZL,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CHINA/ADMD=ICAO/C=XX/
+atn-icao-designator: ZL
+cn: ZL
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ZK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=ZK/ADMD=ICAO/C=XX/
+atn-icao-designator: ZK
+cn: ZK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ZJ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CHINA/ADMD=ICAO/C=XX/
+atn-icao-designator: ZJ
+cn: ZJ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ZH,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CHINA/ADMD=ICAO/C=XX/
+atn-icao-designator: ZH
+cn: ZH
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ZG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CHINA/ADMD=ICAO/C=XX/
+atn-icao-designator: ZG
+cn: ZG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=ZB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CHINA/ADMD=ICAO/C=XX/
+atn-icao-designator: ZB
+cn: ZB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=Y,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=AU,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=AUSTRALIA/ADMD=ICAO/C=XX/
+atn-icao-designator: Y
+cn: Y
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=WS,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=SG,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=SINGAPORE/ADMD=ICAO/C=XX/
+atn-icao-designator: WS
+cn: WS
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=WR,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=ID,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=INDONESIA/ADMD=ICAO/C=XX/
+atn-icao-designator: WR
+cn: WR
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=WP,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=WP/ADMD=ICAO/C=XX/
+atn-icao-designator: WP
+cn: WP
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=WM,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=MY,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=MALAYSIA/ADMD=ICAO/C=XX/
+atn-icao-designator: WM
+cn: WM
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=WI,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=ID,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=INDONESIA/ADMD=ICAO/C=XX/
+atn-icao-designator: WI
+cn: WI
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=WBSB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=WBSB/ADMD=ICAO/C=XX/
+atn-icao-designator: WBSB
+cn: WBSB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=WBAK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=WBSB/ADMD=ICAO/C=XX/
+atn-icao-designator: WBAK
+cn: WBAK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=WB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=MY,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=MALAYSIA/ADMD=ICAO/C=XX/
+atn-icao-designator: WB
+cn: WB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=WA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=ID,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=INDONESIA/ADMD=ICAO/C=XX/
+atn-icao-designator: WA
+cn: WA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VY,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=VY/ADMD=ICAO/C=XX/
+atn-icao-designator: VY
+cn: VY
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VV,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=VN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=VIETNAM/ADMD=ICAO/C=XX/
+atn-icao-designator: VV
+cn: VV
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VT,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=TH,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=THAILAND/ADMD=ICAO/C=XX/
+atn-icao-designator: VT
+cn: VT
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VR,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=VR/ADMD=ICAO/C=XX/
+atn-icao-designator: VR
+cn: VR
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VQ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=VQ/ADMD=ICAO/C=XX/
+atn-icao-designator: VQ
+cn: VQ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VO,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=IN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=INDIA/ADMD=ICAO/C=XX/
+atn-icao-designator: VO
+cn: VO
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=VN,o=address-lookup,o=conversion-address-lookup-definition
+c: VN
+description: VIET NAM
+objectClass: country
+objectClass: top
+
+dn: o=VV**,c=VN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: VVTS
+o: VV**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=VN,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=VN/ADMD=ICAO/C=XX/
+atn-icao-designator: VN
+cn: VN
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VM,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=MO,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=MACAO/ADMD=ICAO/C=XX/
+atn-icao-designator: VM
+cn: VM
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VL,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=VL/ADMD=ICAO/C=XX/
+atn-icao-designator: VL
+cn: VL
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VI,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=IN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=INDIA/ADMD=ICAO/C=XX/
+atn-icao-designator: VI
+cn: VI
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VH,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: o=HongKong,o=Address-Lookup,o=conversion-address-l
+ ookup-definition
+atn-global-domain-identifier: /PRMD=HONGKONG/ADMD=ICAO/C=XX/
+atn-icao-designator: VH
+cn: VH
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=VG/ADMD=ICAO/C=XX/
+atn-icao-designator: VG
+cn: VG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=VE,o=address-lookup,o=conversion-address-lookup-definition
+c: VE
+description: Venezuela
+objectClass: country
+objectClass: top
+
+dn: o=SV**,c=VE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SVMI
+o: SV**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=VE,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=IN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=INDIA/ADMD=ICAO/C=XX/
+atn-icao-designator: VE
+cn: VE
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VD,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=VD/ADMD=ICAO/C=XX/
+atn-icao-designator: VD
+cn: VD
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VC,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=VC/ADMD=ICAO/C=XX/
+atn-icao-designator: VC
+cn: VC
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=VA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=IN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=INDIA/ADMD=ICAO/C=XX/
+atn-icao-designator: VA
+cn: VA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=UY,o=address-lookup,o=conversion-address-lookup-definition
+c: UY
+description: Uruguay
+objectClass: country
+objectClass: top
+
+dn: o=SU**,c=UY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SUMU
+o: SU**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=UW,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=RU,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=RUSSIA/ADMD=ICAO/C=XX/
+atn-icao-designator: UW
+cn: UW
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UU,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=RU,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=RUSSIA/ADMD=ICAO/C=XX/
+atn-icao-designator: UU
+cn: UU
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UTD,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=UTD/ADMD=ICAO/C=XX/
+atn-icao-designator: UTD
+cn: UTD
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UTA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=UTA/ADMD=ICAO/C=XX/
+atn-icao-designator: UTA
+cn: UTA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UT,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=UT/ADMD=ICAO/C=XX/
+atn-icao-designator: UT
+cn: UT
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=US,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=RU,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=RUSSIA/ADMD=ICAO/C=XX/
+atn-icao-designator: US
+cn: US
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UR,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=RU,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=RUSSIA/ADMD=ICAO/C=XX/
+atn-icao-designator: UR
+cn: UR
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UO,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=RU,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=RUSSIA/ADMD=ICAO/C=XX/
+atn-icao-designator: UO
+cn: UO
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UN,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=RU,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=RUSSIA/ADMD=ICAO/C=XX/
+atn-icao-designator: UN
+cn: UN
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UMKK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=RU,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=RUSSIA/ADMD=ICAO/C=XX/
+atn-icao-designator: UMKK
+cn: UMKK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UM,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=UM/ADMD=ICAO/C=XX/
+atn-icao-designator: UM
+cn: UM
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UL,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=RU,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=RUSSIA/ADMD=ICAO/C=XX/
+atn-icao-designator: UL
+cn: UL
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=UK/ADMD=ICAO/C=XX/
+atn-icao-designator: UK
+cn: UK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UI,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=RU,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=RUSSIA/ADMD=ICAO/C=XX/
+atn-icao-designator: UI
+cn: UI
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UH,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=RU,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=RUSSIA/ADMD=ICAO/C=XX/
+atn-icao-designator: UH
+cn: UH
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=UG/ADMD=ICAO/C=XX/
+atn-icao-designator: UG
+cn: UG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UE,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=RU,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=RUSSIA/ADMD=ICAO/C=XX/
+atn-icao-designator: UE
+cn: UE
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UD,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=UD/ADMD=ICAO/C=XX/
+atn-icao-designator: UD
+cn: UD
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=UB/ADMD=ICAO/C=XX/
+atn-icao-designator: UB
+cn: UB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UAF,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=UAF/ADMD=ICAO/C=XX/
+atn-icao-designator: UAF
+cn: UAF
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=UA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=UA/ADMD=ICAO/C=XX/
+atn-icao-designator: UA
+cn: UA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TX,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TX/ADMD=ICAO/C=XX/
+atn-icao-designator: TX
+cn: TX
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TV,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TV/ADMD=ICAO/C=XX/
+atn-icao-designator: TV
+cn: TV
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TU,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TU/ADMD=ICAO/C=XX/
+atn-icao-designator: TU
+cn: TU
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TT,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TT/ADMD=ICAO/C=XX/
+atn-icao-designator: TT
+cn: TT
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TR,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TR/ADMD=ICAO/C=XX/
+atn-icao-designator: TR
+cn: TR
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TQ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TQ/ADMD=ICAO/C=XX/
+atn-icao-designator: TQ
+cn: TQ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TNCA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TNCA/ADMD=ICAO/C=XX/
+atn-icao-designator: TNCA
+cn: TNCA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=TN,o=address-lookup,o=conversion-address-lookup-definition
+c: TN
+description: Tunisia
+objectClass: country
+objectClass: top
+
+dn: o=DT**,c=TN,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: DTTC
+o: DT**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=TN,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=AN,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=TN/ADMD=ICAO/C=XX/
+atn-icao-designator: TN
+cn: TN
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TL,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TL/ADMD=ICAO/C=XX/
+atn-icao-designator: TL
+cn: TL
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TK/ADMD=ICAO/C=XX/
+atn-icao-designator: TK
+cn: TK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TJ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TJ/ADMD=ICAO/C=XX/
+atn-icao-designator: TJ
+cn: TJ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TI,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TI/ADMD=ICAO/C=XX/
+atn-icao-designator: TI
+cn: TI
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=TH,o=address-lookup,o=conversion-address-lookup-definition
+c: TH
+description: Thailand
+objectClass: country
+objectClass: top
+
+dn: o=VT**,c=TH,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: VTBB
+o: VT**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=TG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TG/ADMD=ICAO/C=XX/
+atn-icao-designator: TG
+cn: TG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TF,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TF/ADMD=ICAO/C=XX/
+atn-icao-designator: TF
+cn: TF
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TD,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TD/ADMD=ICAO/C=XX/
+atn-icao-designator: TD
+cn: TD
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TB/ADMD=ICAO/C=XX/
+atn-icao-designator: TB
+cn: TB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=TA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=TA/ADMD=ICAO/C=XX/
+atn-icao-designator: TA
+cn: TA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=SY,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=GY,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=GUYANA/ADMD=ICAO/C=XX/
+atn-icao-designator: SY
+cn: SY
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=SV,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=VE,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=VENEZUELA/ADMD=ICAO/C=XX/
+atn-icao-designator: SV
+cn: SV
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=SU,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=UY,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=URUGUAY/ADMD=ICAO/C=XX/
+atn-icao-designator: SU
+cn: SU
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=SS,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=BR,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=SB/ADMD=ICAO/C=XX/
+atn-icao-designator: SS
+cn: SS
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=SR,o=address-lookup,o=conversion-address-lookup-definition
+c: SR
+description: Suriname
+objectClass: country
+objectClass: top
+
+dn: o=SM**,c=SR,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SMPM
+o: SM**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=SP,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=PE,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=PERU/ADMD=ICAO/C=XX/
+atn-icao-designator: SP
+cn: SP
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=SO,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=GF,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=FRENCH GUIANA/ADMD=ICAO/C=XX/
+atn-icao-designator: SO
+cn: SO
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=SM,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=SR,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=SURINAME/ADMD=ICAO/C=XX/
+atn-icao-designator: SM
+cn: SM
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=SL,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=BO,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=BOLIVIA/ADMD=ICAO/C=XX/
+atn-icao-designator: SL
+cn: SL
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=SK,o=address-lookup,o=conversion-address-lookup-definition
+c: SK
+description: Slovakia
+objectClass: country
+objectClass: top
+
+dn: o=LZ**,c=SK,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LZBB
+o: LZ**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=SK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CO,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=COLOMBIA/ADMD=ICAO/C=XX/
+atn-icao-designator: SK
+cn: SK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=SH,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CL,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CHILE/ADMD=ICAO/C=XX/
+atn-icao-designator: SH
+cn: SH
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=SG,o=address-lookup,o=conversion-address-lookup-definition
+c: SG
+description: Singapore
+objectClass: country
+objectClass: top
+
+dn: o=WSSS,c=SG,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: CAASG
+o: WSSS
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WSSL,c=SG,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: CAASG
+o: WSSL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WSJC,c=SG,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: CAASG
+o: WSJC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WSAT,c=SG,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: CAASG
+o: WSAT
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WSAR,c=SG,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: CAASG
+o: WSAR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WSAP,c=SG,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: CAASG
+o: WSAP
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WSAH,c=SG,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: CAASG
+o: WSAH
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WSAG,c=SG,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: CAASG
+o: WSAG
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WSAC,c=SG,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: CAASG
+o: WSAC
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=WS**,c=SG,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: CAASG
+o: WS**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=SG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=PY,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=SG/ADMD=ICAO/C=XX/
+atn-icao-designator: SG
+cn: SG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=SF,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=SF/ADMD=ICAO/C=XX/
+atn-icao-designator: SF
+cn: SF
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=SE,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=EC,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=ECUADOR/ADMD=ICAO/C=XX/
+atn-icao-designator: SE
+cn: SE
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=SC,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=CL,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=CHILE/ADMD=ICAO/C=XX/
+atn-icao-designator: SC
+cn: SC
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=SB,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=BR,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=SB/ADMD=ICAO/C=XX/
+atn-icao-designator: SB
+cn: SB
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=SA,o=address-lookup,o=conversion-address-lookup-definition
+c: SA
+description: Saudi Arabia
+objectClass: country
+objectClass: top
+
+dn: o=OE**,c=SA,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: OEJD
+o: OE**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=SA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=AR,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=SA/ADMD=ICAO/C=XX/
+atn-icao-designator: SA
+cn: SA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=RU,o=address-lookup,o=conversion-address-lookup-definition
+c: RU
+description: Russia
+objectClass: country
+objectClass: top
+
+dn: o=UW**,c=RU,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: UW
+o: UW**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=UU**,c=RU,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: UU
+o: UU**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=US**,c=RU,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: US
+o: US**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=UR**,c=RU,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: UR
+o: UR**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=UO**,c=RU,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: UO
+o: UO**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=UN**,c=RU,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: UN
+o: UN**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=UMKK,c=RU,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: UMKK
+o: UMKK
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=UL**,c=RU,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: UL
+o: UL**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=UI**,c=RU,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: UI
+o: UI**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=UH**,c=RU,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: UH
+o: UH**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=UE**,c=RU,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: UE
+o: UE**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: c=RS,o=address-lookup,o=conversion-address-lookup-definition
+c: RS
+description: Serbia
+objectClass: country
+objectClass: top
+
+dn: o=LY**,c=RS,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LYYY
+o: LY**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=RP,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=RP/ADMD=ICAO/C=XX/
+atn-icao-designator: RP
+cn: RP
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=RO,o=address-lookup,o=conversion-address-lookup-definition
+c: RO
+description: Romania
+objectClass: country
+objectClass: top
+
+dn: o=LR**,c=RO,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LRBB
+o: LR**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=RO,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=RJ/ADMD=ICAO/C=XX/
+atn-icao-designator: RO
+cn: RO
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=RK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 1
+atn-AmhsMD-namingcontext: c=KR,o=Address-Lookup,o=conversion-address-lookup-
+ definition
+atn-global-domain-identifier: /PRMD=RK/ADMD=ICAO/C=XX/
+atn-icao-designator: RK
+cn: RK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=RJ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=RJ/ADMD=ICAO/C=XX/
+atn-icao-designator: RJ
+cn: RJ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=RC,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=RC/ADMD=ICAO/C=XX/
+atn-icao-designator: RC
+cn: RC
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=PY,o=address-lookup,o=conversion-address-lookup-definition
+c: PY
+description: Paraguay
+objectClass: country
+objectClass: top
+
+dn: o=SG**,c=PY,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SGAS
+o: SG**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=PW,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PW/ADMD=ICAO/C=XX/
+atn-icao-designator: PW
+cn: PW
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=PTR,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PTR/ADMD=ICAO/C=XX/
+atn-icao-designator: PTR
+cn: PTR
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=PT,o=address-lookup,o=conversion-address-lookup-definition
+c: PT
+description: Portugal
+objectClass: country
+objectClass: top
+
+dn: o=LPSJ,c=PT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LPAZ
+o: LPSJ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LPPO,c=PT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LPAZ
+o: LPPO
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LPPI,c=PT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LPAZ
+o: LPPI
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LPPD,c=PT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LPAZ
+o: LPPD
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LPLA,c=PT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LPAZ
+o: LPLA
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LPHR,c=PT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LPAZ
+o: LPHR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LPGR,c=PT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LPAZ
+o: LPGR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LPFL,c=PT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LPAZ
+o: LPFL
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LPCR,c=PT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LPAZ
+o: LPCR
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LPAZ,c=PT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LPAZ
+o: LPAZ
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: o=LP**,c=PT,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: LPPT
+o: LP**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=PT,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PT/ADMD=ICAO/C=XX/
+atn-icao-designator: PT
+cn: PT
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=PP,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PP/ADMD=ICAO/C=XX/
+atn-icao-designator: PP
+cn: PP
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=PO,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PO/ADMD=ICAO/C=XX/
+atn-icao-designator: PO
+cn: PO
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=PM,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PM/ADMD=ICAO/C=XX/
+atn-icao-designator: PM
+cn: PM
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=PLP,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PLP/ADMD=ICAO/C=XX/
+atn-icao-designator: PLP
+cn: PLP
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=PL,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PL/ADMD=ICAO/C=XX/
+atn-icao-designator: PL
+cn: PL
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=PK,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PK/ADMD=ICAO/C=XX/
+atn-icao-designator: PK
+cn: PK
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=PJ,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PJ/ADMD=ICAO/C=XX/
+atn-icao-designator: PJ
+cn: PJ
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=PH,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PH/ADMD=ICAO/C=XX/
+atn-icao-designator: PH
+cn: PH
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=PG,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PG/ADMD=ICAO/C=XX/
+atn-icao-designator: PG
+cn: PG
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=PF,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PF/ADMD=ICAO/C=XX/
+atn-icao-designator: PF
+cn: PF
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=PE,o=address-lookup,o=conversion-address-lookup-definition
+c: PE
+description: Peru
+objectClass: country
+objectClass: top
+
+dn: o=SP**,c=PE,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: SPIM
+o: SP**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=PC,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PC/ADMD=ICAO/C=XX/
+atn-icao-designator: PC
+cn: PC
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: c=PA,o=address-lookup,o=conversion-address-lookup-definition
+c: PA
+description: Panama
+objectClass: country
+objectClass: top
+
+dn: o=MP**,c=PA,o=address-lookup,o=conversion-address-lookup-definition
+atn-facility-name: MPTO
+o: MP**
+objectClass: atn-Organization
+objectClass: organization
+objectClass: top
+
+dn: cn=PA,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=PA/ADMD=ICAO/C=XX/
+atn-icao-designator: PA
+cn: PA
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=OY,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=OY/ADMD=ICAO/C=XX/
+atn-icao-designator: OY
+cn: OY
+objectClass: atn-AmhsMD
+objectClass: top
+
+dn: cn=OT,o=address-lookup,o=conversion-address-lookup-definition
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=OT/ADMD=ICAO/C=XX/
+atn-icao-designator: OT
+cn: OT
+objectClass: atn-AmhsMD
+objectClass: top
+

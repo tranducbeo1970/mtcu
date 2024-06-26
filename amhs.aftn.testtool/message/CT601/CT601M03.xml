@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/amhs.message.xsl'?>
+<Message>
+    <Subject>CT601M03</Subject>
+    <ContentID>CT601M03</ContentID>
+    <OriginEncodeInformationType>2.6.3.4.2</OriginEncodeInformationType>
+    <ContentType>22</ContentType>
+    <Priority>2</Priority>
+    <ConversionProhibited>0</ConversionProhibited>
+    <ConversionWithLossProhibited>0</ConversionWithLossProhibited>
+    <DLExpasionProhibited>0</DLExpasionProhibited>
+    <ATS>
+        <Extended>0</Extended>
+        <EOHMode>3</EOHMode>
+        <Priority>SS</Priority>
+        <FilingTime>220912</FilingTime>
+        <Text>CT601M03</Text>
+    </ATS>
+    <Recipient>
+        <OR>/CN=BBBAFTAA/OU=BBBA/O=BB-REGION2/PRMD=AFTNLAND-2/ADMD=ICAO/C=XX/</OR>
+        <ReceiptNotify>2</ReceiptNotify>
+        <Report>DR_DELIVERY_REPORT</Report>
+    </Recipient>
+</Message>

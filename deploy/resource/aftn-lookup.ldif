@@ -1,0 +1,14 @@
+version: 1
+dn: o=aftn-address-lookup
+o: aftn-address-lookup
+objectClass: organization
+objectClass: top
+
+dn: cn=VV,o=aftn-address-lookup
+atn-amhs-addressing-scheme: 0
+atn-global-domain-identifier: /PRMD=VIETNAM/ADMD=ICAO/C=XX/
+atn-icao-designator: VV
+cn: VV
+objectClass: atn-AmhsMD
+objectClass: top
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/AFTN.xsl'?>
+<Message>
+    <MessageID>CTM002</MessageID>
+    <Priority>DD</Priority>
+    <Addresses>ABCBMHAA</Addresses>
+    <FilingTime>220303</FilingTime>
+    <Originator>BCAAFTBM</Originator>
+    <OHI>OPTIONAL_HEADING_INFO</OHI>
+    <Content>CT610M02</Content>
+</Message>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Report>
+    <ContentID>CT509M01</ContentID>
+    <ContentType>22</ContentType>
+    <EncodedInfomationType>2.6.3.4.2</EncodedInfomationType>
+    <Originator>/CN=BAAAFTAA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</Originator>
+    <ReportRecipient>
+        <OR>/CN=IUTAMHAA/OU=IUTA/O=IUT-REGION/PRMD=IUTLAND/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>2</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>1</NonDeliveryDiagnosticCode>
+    </ReportRecipient>
+</Report>

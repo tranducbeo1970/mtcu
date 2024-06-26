@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<IPN>
+    <ContentID>CT506M01</ContentID>
+    <SubjectIPM>140618094822688Z*/CN=BAAAFTAA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</SubjectIPM>
+    <NonReceiptReason>0</NonReceiptReason>
+    <DiscardReason>0</DiscardReason>
+    <Recipients>
+        <OR>/CN=BAAAFTAA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <ReceiptNotify>0</ReceiptNotify>
+        <Report>DR_DELIVERY_REPORT</Report>
+    </Recipients>
+</IPN>

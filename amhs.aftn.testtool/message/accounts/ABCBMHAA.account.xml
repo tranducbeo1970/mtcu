@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Account>
+    <Name>ABCBMHAA</Name>
+    <OR>/CN=ABCBMHAA/OU=ABCB/O=AB-REGION3/PRMD=AMHSLAND-2/ADMD=ICAO/C=XX/</OR>
+    <PresentationAddress>"593"/URI+0000+URL+itot://laptop</PresentationAddress>
+    <MailBox>"3001"/URI+0000+URL+itot://laptop:3001</MailBox>
+    <Password>attech</Password>
+</Account>

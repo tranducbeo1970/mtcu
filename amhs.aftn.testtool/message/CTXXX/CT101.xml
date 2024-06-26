@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/amhs.message.xsl'?>
+<Message>
+    <Subject>Hello</Subject>
+    <ContentID>CT101</ContentID>
+    <OriginEncodeInformationType>IA5-text</OriginEncodeInformationType>
+    <ContentType>22</ContentType>
+    <Priority>2</Priority>
+    <Disclosure>1</Disclosure>
+    <ConversionProhibited>0</ConversionProhibited>
+    <AlternativeRecipientAllow>0</AlternativeRecipientAllow>
+    <ReassignmentProhibited>0</ReassignmentProhibited>
+    <ConversionWithLossProhibited>0</ConversionWithLossProhibited>
+    <DLExpasionProhibited>0</DLExpasionProhibited>
+    <ATS>
+        <Extended>0</Extended>
+        <EOHMode>3</EOHMode>
+        <FilingTime>220912</FilingTime>
+        <Text>ATS TEXTING</Text>
+        <Priority>SS</Priority>
+    </ATS>
+    <Recipient>
+        <OR>/CN=AAAAMHBA/OU=AAAA/O=AA-REGION/PRMD=AMHSLAND-1/ADMD=ICAO/C=XX/</OR>
+        <ReceiptNotify>2</ReceiptNotify>
+        <Report>DR_NO_REPORT</Report>
+    </Recipient>
+</Message>

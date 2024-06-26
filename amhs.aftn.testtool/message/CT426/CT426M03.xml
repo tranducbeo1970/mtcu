@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/amhs.message.xsl'?>
+<Message>
+    <Subject>CT426M03</Subject>
+    <ContentID>CT426032</ContentID>
+    <OriginEncodeInformationType>1.0.10021.7.1.0.1 1.0.10021.7.1.0.6 1.0.10021.7.1.0.100</OriginEncodeInformationType>
+    <ContentType>22</ContentType>
+    <Priority>0</Priority>
+    <ConversionProhibited>0</ConversionProhibited>
+    <AlternativeRecipientAllow>0</AlternativeRecipientAllow>
+    <ReassignmentProhibited>0</ReassignmentProhibited>
+    <ConversionWithLossProhibited>0</ConversionWithLossProhibited>
+    <DLExpasionProhibited>0</DLExpasionProhibited>
+    <Body>
+        <Type>General</Type>
+        <CharSet></CharSet>
+        <Text>[soh]PRI: SS[r][n]FT: 220912[r][n][sot]CT426M02</Text>
+    </Body>
+    <Recipient>
+        <OR>/CN=BAAAFTBA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <ReceiptNotify>2</ReceiptNotify>
+        <Report>DR_DELIVERY_REPORT</Report>
+    </Recipient>
+</Message>

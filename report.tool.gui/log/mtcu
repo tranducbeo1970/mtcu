@@ -1,0 +1,72 @@
+2022-07-06 15:27:00,050 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-06 15:27:00,160 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-06 17:47:38,082 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-06 17:47:38,301 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-06 17:48:51,697 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-06 17:48:51,794 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-06 17:49:39,986 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-06 17:49:40,087 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-06 17:50:48,457 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-06 17:50:48,556 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-06 17:51:44,031 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-06 17:51:44,128 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 11:16:19,919 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 11:16:20,168 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 11:17:44,254 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 11:17:44,385 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 11:19:50,394 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 11:19:50,501 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 11:20:54,920 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 11:20:55,037 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 11:22:19,717 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 11:22:19,819 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 11:23:51,090 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 11:23:51,187 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 11:24:00,761 WARN   [SqlExceptionHelper] SQL Error: 1146, SQLState: 42S02 
+2022-07-07 11:24:00,761 ERROR  [SqlExceptionHelper] Table 'amss.DeliveryReport' doesn't exist 
+2022-07-07 11:24:00,763 WARN   [SqlExceptionHelper] SQL Warning Code: 1146, SQLState: 42S02 
+2022-07-07 11:24:00,763 WARN   [SqlExceptionHelper] Table 'amss.DeliveryReport' doesn't exist 
+2022-07-07 11:24:08,075 WARN   [SqlExceptionHelper] SQL Error: 1146, SQLState: 42S02 
+2022-07-07 11:24:08,075 ERROR  [SqlExceptionHelper] Table 'amss.DeliveryReport' doesn't exist 
+2022-07-07 11:24:08,079 WARN   [SqlExceptionHelper] SQL Warning Code: 1146, SQLState: 42S02 
+2022-07-07 11:24:08,079 WARN   [SqlExceptionHelper] Table 'amss.DeliveryReport' doesn't exist 
+2022-07-07 11:25:01,653 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 11:25:01,807 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 11:25:38,049 WARN   [SqlExceptionHelper] SQL Error: 1146, SQLState: 42S02 
+2022-07-07 11:25:38,050 ERROR  [SqlExceptionHelper] Table 'amss.DeliveryReport' doesn't exist 
+2022-07-07 11:25:38,057 WARN   [SqlExceptionHelper] SQL Warning Code: 1146, SQLState: 42S02 
+2022-07-07 11:25:38,057 WARN   [SqlExceptionHelper] Table 'amss.DeliveryReport' doesn't exist 
+2022-07-07 11:27:53,010 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 11:27:53,112 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 11:28:08,885 WARN   [SqlExceptionHelper] SQL Error: 1146, SQLState: 42S02 
+2022-07-07 11:28:08,885 ERROR  [SqlExceptionHelper] Table 'amss.DeliveryReport' doesn't exist 
+2022-07-07 11:28:08,887 WARN   [SqlExceptionHelper] SQL Warning Code: 1146, SQLState: 42S02 
+2022-07-07 11:28:08,887 WARN   [SqlExceptionHelper] Table 'amss.DeliveryReport' doesn't exist 
+2022-07-07 14:31:10,712 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 14:31:10,962 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 14:36:13,710 WARN   [SqlExceptionHelper] SQL Error: 1054, SQLState: 42S22 
+2022-07-07 14:36:13,710 ERROR  [SqlExceptionHelper] Unknown column 'content_corralator_string' in 'field list' 
+2022-07-07 14:36:13,712 WARN   [SqlExceptionHelper] SQL Warning Code: 1054, SQLState: 42S22 
+2022-07-07 14:36:13,712 WARN   [SqlExceptionHelper] Unknown column 'content_corralator_string' in 'field list' 
+2022-07-07 14:38:46,366 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 14:38:46,471 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 14:39:14,213 WARN   [SqlExceptionHelper] SQL Error: 1054, SQLState: 42S22 
+2022-07-07 14:39:14,214 ERROR  [SqlExceptionHelper] Unknown column 'non_delivery_dianogstic_code' in 'field list' 
+2022-07-07 14:39:14,215 WARN   [SqlExceptionHelper] SQL Warning Code: 1054, SQLState: 42S22 
+2022-07-07 14:39:14,215 WARN   [SqlExceptionHelper] Unknown column 'non_delivery_dianogstic_code' in 'field list' 
+2022-07-07 14:40:03,854 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 14:40:03,975 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 14:42:06,587 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 14:42:06,697 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-07 15:23:28,482 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-07 15:23:28,607 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 00:35:19,630 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 00:35:19,743 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 15:26:20,763 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 15:26:20,897 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-08 15:47:19,381 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-08 15:47:19,479 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-13 14:19:20,849 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-13 14:19:20,967 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 
+2022-07-13 14:20:51,801 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2022-07-13 14:20:51,909 WARN   [DTDEntityResolver] HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide! 

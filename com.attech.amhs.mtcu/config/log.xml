@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+    
+    <appender name="consoleAppender" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %-5p  [%c{1}] %m %n" />
+            <!--param name="ConversionPattern" value="%d{yy/MM/dd HH:mm:ss} %-5p %m %n" /-->
+        </layout>
+    </appender>
+
+    <appender name="receiverLogAppender" class="org.apache.log4j.DailyRollingFileAppender">
+	<param name="Threshold" value="INFO" />
+	<param name="File" value="log/receiver.log"/>
+	<param name="DatePattern" value="'.'yyyy-MM-dd-HH-mm" />
+	<layout class="org.apache.log4j.PatternLayout">
+	    <param name="ConversionPattern" value="%d %-5p  [%c{1}] %m %n" />
+	</layout>
+    </appender>
+    
+    <appender name="deliverLogAppender" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="Threshold" value="INFO" />
+        <param name="File" value="log/delivery"/>
+        <param name="DatePattern" value="'.'yyyy-MM-dd" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %-5p  [%c{1}] %m %n" />
+        </layout>
+    </appender>
+    
+    <appender name="gatewayLogAppender" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="Threshold" value="INFO" />
+        <param name="File" value="log/log.log"/>
+        <param name="DatePattern" value="'.'yyyy-MM-dd-HH-mm" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %-5p  [%c{1}] %m %n" />
+        </layout>
+    </appender>
+    
+    <appender name="rollingLog" class="org.apache.log4j.DailyRollingFileAppender">
+	<param name="File" value="log/rolling.log" />
+	<param name="Append" value="true" />
+	<layout class="org.apache.log4j.PatternLayout"> 
+	    <param name="ConversionPattern" value="%d{ISO8601} %-5p [%t] [%c] %m%n"/> 
+	</layout> 
+    </appender>
+    
+    <appender name="ROLL" class="org.apache.log4j.rolling.RollingFileAppender">
+	<param name="file" value="log/mtcu" />
+	<param name="append" value="true" />
+	<param name="encoding" value="UTF-8" />
+	<rollingPolicy class="org.apache.log4j.rolling.TimeBasedRollingPolicy">
+	    <param name="FileNamePattern" value="log/mtcu.%d{yyyy-MM-dd}" />
+	</rollingPolicy>
+	<layout class="org.apache.log4j.PatternLayout">
+	    <param name="ConversionPattern" value="%d %-5p  [%c{1}] %m %n" />
+	</layout>
+    </appender>
+
+    <!--ogger name="amhs.mt.MtMessageReceiver" additivity="false" >
+        <level value="info" />
+        <appender-ref ref="consoleAppender"/>
+        <appender-ref ref="receiverLogAppender"/>
+    </logger>
+    
+     <logger name="amhs.mt.MtMessageDeliver" additivity="false" >
+	<level value="info" />
+	<appender-ref ref="consoleAppender"/>
+	<appender-ref ref="deliverLogAppender"/>
+    </logger-->
+    <logger name="org.hibernate">
+	<level value="warn"/> 
+    </logger>
+    <logger name="com.mchange.v2">
+	<level value="off"/>
+    </logger>
+    
+    <root>
+	<level value="INFO" />
+	<appender-ref ref="consoleAppender"/>
+	<!--appender-ref ref="gatewayLogAppender"/-->
+	<appender-ref ref="ROLL"/>
+    </root>
+ 
+</log4j:configuration>

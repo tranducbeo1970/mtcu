@@ -1,0 +1,3084 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Report>
+    <ContentID>CT412M02</ContentID>
+    <ContentType>22</ContentType>
+    <EncodedInfomationType>2.6.3.4.2</EncodedInfomationType>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAAA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAAB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAAC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAAD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAAE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAAF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAAG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAAH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAAI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAAJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFABA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFABB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFABC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFABD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFABE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFABF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFABG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFABH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFABI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFABJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFACA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFACB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFACC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFACD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFACE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFACF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFACG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFACH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFACI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFACJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFADA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFADB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFADC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFADD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFADE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFADF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFADG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFADH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFADI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFADJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAEA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAEB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAEC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAED/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAEE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAEF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAEG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAEH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAEI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAEJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAFA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAFB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAFC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAFD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAFE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAFF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAFG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAFH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAFI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAFJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAGA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAGB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAGC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAGD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAGE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAGF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAGG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAGH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAGI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAGJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAHA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAHB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAHC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAHD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAHE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAHF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAHG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAHH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAHI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAHJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAIA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAIB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAIC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAID/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAIE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAIF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAIG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAIH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAII/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAIJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAJA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAJB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAJC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAJD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAJE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAJF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAJG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAJH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAJI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFAJJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBAA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBAB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBAC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBAD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBAE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBAF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBAG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBAH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBAI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBAJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBBA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBBB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBBC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBBD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBBE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBBF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBBG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBBH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBBI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBBJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBCA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBCB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBCC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBCD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBCE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBCF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBCG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBCH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBCI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBCJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBDA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBDB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBDC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBDD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBDE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBDF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBDG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBDH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBDI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBDJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBEA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBEB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBEC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBED/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBEE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBEF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBEG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBEH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBEI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBEJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBFA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBFB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBFC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBFD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBFE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBFF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBFG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBFH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBFI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBFJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBGA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBGB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBGC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBGD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBGE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBGF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBGG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBGH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBGI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBGJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBHA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBHB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBHC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBHD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBHE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBHF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBHG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBHH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBHI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBHJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBIA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBIB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBIC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBID/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBIE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBIF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBIG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBIH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBII/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBIJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBJA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBJB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBJC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBJD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBJE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBJF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBJG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBJH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBJI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFBJJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCAA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCAB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCAC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCAD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCAE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCAF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCAG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCAH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCAI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCAJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCBA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCBB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCBC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCBD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCBE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCBF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCBG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCBH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCBI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCBJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCCA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCCB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCCC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCCD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCCE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCCF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCCG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCCH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCCI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCCJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCDA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCDB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCDC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCDD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCDE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCDF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCDG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCDH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCDI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCDJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCEA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCEB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCEC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCED/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCEE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCEF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCEG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCEH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCEI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCEJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCFA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCFB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCFC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCFD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCFE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCFF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCFG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCFH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCFI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCFJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCGA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCGB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCGC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCGD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCGE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCGF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCGG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCGH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCGI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCGJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCHA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCHB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCHC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCHD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCHE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCHF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCHG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCHH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCHI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCHJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCIA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCIB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCIC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCID/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCIE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCIF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCIG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCIH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCII/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCIJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCJA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCJB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCJC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCJD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCJE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCJF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCJG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCJH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCJI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFCJJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDAA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDAB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDAC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDAD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDAE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDAF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDAG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDAH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDAI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDAJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDBA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDBB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDBC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDBD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDBE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDBF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDBG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDBH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDBI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDBJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDCA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDCB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDCC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDCD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDCE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDCF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDCG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDCH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDCI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDCJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDDA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDDB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDDC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDDD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDDE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDDF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDDG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDDH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDDI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDDJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDEA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDEB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDEC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDED/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDEE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDEF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDEG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDEH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDEI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDEJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDFA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDFB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDFC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDFD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDFE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDFF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDFG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDFH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDFI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDFJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDGA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDGB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDGC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDGD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDGE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDGF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDGG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDGH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDGI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDGJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDHA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDHB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDHC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDHD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDHE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDHF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDHG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDHH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDHI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDHJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDIA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDIB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDIC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDID/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDIE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDIF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDIG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDIH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDII/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDIJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDJA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDJB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDJC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDJD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDJE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDJF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDJG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDJH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDJI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFDJJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEAA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEAB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEAC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEAD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEAE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEAF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEAG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEAH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEAI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEAJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEBA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEBB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEBC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEBD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEBE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEBF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEBG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEBH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEBI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEBJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFECA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFECB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFECC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFECD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFECE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFECF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFECG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFECH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFECI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFECJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEDA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEDB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEDC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEDD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEDE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEDF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEDG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEDH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEDI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEDJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEEA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEEB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEEC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEED/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEEE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEEF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEEG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEEH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEEI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEEJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEFA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEFB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEFC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEFD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEFE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEFF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEFG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEFH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEFI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEFJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEGA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEGB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEGC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEGD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEGE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEGF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEGG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEGH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEGI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEGJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEHA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEHB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEHC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEHD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEHE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEHF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEHG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEHH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEHI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEHJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEIA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEIB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEIC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEID/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEIE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEIF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEIG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEIH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEII/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEIJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEJA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEJB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEJC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEJD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEJE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEJF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEJG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEJH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEJI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFEJJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFFAA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFFAB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFFAC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFFAD/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFFAE/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFFAF/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFFAG/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFFAH/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFFAI/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFFAJ/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFFBA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFFBB/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+    <ReportRecipient>
+        <OR>/CN=BAAAFFBC/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>16</NonDeliveryDiagnosticCode>
+        <SupplementInfo>unable to convert to AFTN due to number of recipients</SupplementInfo>
+    </ReportRecipient>
+</Report>

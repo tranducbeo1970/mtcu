@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/amhs.message.xsl'?>
+<Message>
+    <Subject>CT401M03</Subject>
+    <ContentID>CT401M03</ContentID>
+    <OriginEncodeInformationType>2.6.3.4.2</OriginEncodeInformationType>
+    <ContentType>22</ContentType>
+    <Priority>2</Priority>
+    <Disclosure>1</Disclosure>
+    <ConversionProhibited>0</ConversionProhibited>
+    <AlternativeRecipientAllow>0</AlternativeRecipientAllow>
+    <ReassignmentProhibited>0</ReassignmentProhibited>
+    <ConversionWithLossProhibited>0</ConversionWithLossProhibited>
+    <DLExpasionProhibited>0</DLExpasionProhibited>
+    <ATS>
+        <Extended>0</Extended>
+        <EOHMode>3</EOHMode>
+        <FilingTime>010103</FilingTime>
+        <Text>CT401M03</Text>
+        <Priority>FF</Priority>
+    </ATS>
+    <Recipient>
+        <OR>/CN=BAAAFTBA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <ReceiptNotify>2</ReceiptNotify>
+        <Report>DR_DELIVERY_REPORT</Report>
+    </Recipient>
+</Message>

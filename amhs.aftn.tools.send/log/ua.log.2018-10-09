@@ -1,0 +1,6 @@
+2018-10-01 14:11:50,054 INFO   [MySQLConnection] Connecting to mysql server 
+2018-10-01 14:11:50,302 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2018-10-01 14:11:53,495 INFO   [MySQLConnection] Connected to mysql server 
+2018-10-01 14:41:30,444 INFO   [MySQLConnection] Connecting to mysql server 
+2018-10-01 14:41:30,510 DEBUG  [logging] Logging Provider: org.jboss.logging.Log4jLoggerProvider 
+2018-10-01 14:41:33,339 INFO   [MySQLConnection] Connected to mysql server 

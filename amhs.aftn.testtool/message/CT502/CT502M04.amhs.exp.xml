@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/amhs.message.xsl'?>
+<Message>
+    <OriginEncodeInformationType>ia5-text</OriginEncodeInformationType>
+    <ContentType>22</ContentType>
+    <Priority>2</Priority>
+    <ATS>
+        <Priority>SS</Priority>
+        <FilingTime>050204</FilingTime>
+        <OptionalHeading>LONG_OPTIONAL_HEADING_INFORMATION_FILING_ALL_THE_LINE</OptionalHeading>
+        <Text>CT502M04.THIS IS CONTENT OF MESSAGE CT502M04</Text>
+    </ATS>
+    <Recipient>
+        <OR>/CN=IUTAMHAA/OU=IUTA/O=IUT-REGION/PRMD=IUTLAND/ADMD=ICAO/C=XX/</OR>
+    </Recipient>
+</Message>

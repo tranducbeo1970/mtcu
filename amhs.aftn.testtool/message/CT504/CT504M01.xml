@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/AFTN.xsl'?>
+<Message>
+    <MessageID>ABC001</MessageID>
+    <Priority>SS</Priority>
+    <Addresses>VVNBYFYX</Addresses>
+    <Addresses>VVNBYHYH</Addresses>
+    <FilingTime>220303</FilingTime>
+    <Originator>XXNBUHUH</Originator>
+    <OHI>SSSSSSSSSSSSSSSSSSSs</OHI>
+    <Content>THIS IS TEST MESSAGE</Content>
+</Message>

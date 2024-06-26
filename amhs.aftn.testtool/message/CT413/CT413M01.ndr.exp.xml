@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Report>
+    <ContentID>CT413M01</ContentID>
+    <ContentType>22</ContentType>
+    <EncodedInfomationType>2.6.3.4.2</EncodedInfomationType>
+    <ReportRecipient>
+        <OR>/CN=BAXXXXXX/OU=BAAA/O=BA-REGION/PRMD=UNKNOWN/ADMD=ICAO/C=XX/</OR>
+        <NonDeliveryReasonCode>1</NonDeliveryReasonCode>
+        <NonDeliveryDiagnosticCode>0</NonDeliveryDiagnosticCode>
+    </ReportRecipient>
+</Report>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/amhs.message.xsl'?>
+<Message>
+    <Subject>CT405M05</Subject>
+    <ContentID>CT405M05</ContentID>
+    <OriginEncodeInformationType>2.6.3.4.2</OriginEncodeInformationType>
+    <ContentType>22</ContentType>
+    <Priority>2</Priority>
+    <Disclosure>1</Disclosure>
+    <ConversionProhibited>0</ConversionProhibited>
+    <AlternativeRecipientAllow>0</AlternativeRecipientAllow>
+    <ReassignmentProhibited>0</ReassignmentProhibited>
+    <ConversionWithLossProhibited>0</ConversionWithLossProhibited>
+    <DLExpasionProhibited>0</DLExpasionProhibited>
+    <ATS>
+        <Extended>0</Extended>
+        <EOHMode>3</EOHMode>
+        <Priority>KK</Priority>
+        <FilingTime>010105</FilingTime>
+        <OptionalHeading>OPTIONAL_HEADING_012345678901234567890123456789012345678901234567890123456789</OptionalHeading>
+        <Text>CT405M05</Text>
+    </ATS>
+    <Recipient>
+        <OR>/CN=BAAAFTBA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <ReceiptNotify>2</ReceiptNotify>
+        <Report>DR_NON_DELIVERY_REPORT</Report>
+    </Recipient>
+</Message>

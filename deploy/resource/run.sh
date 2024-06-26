@@ -1,0 +1,1 @@
+java -Djava.awt.headless=true -Djava.library.path=/opt/isode/lib:/opt/isode/lib/java/classes -jar com.attech.amhs.mtcu.jar

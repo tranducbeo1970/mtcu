@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Sender>
+    <Case>CT601</Case>
+    <Description>HELLO</Description>
+    <SendingItem No="CT601M01" Path="CT601M01.xml" Type="U" Account="AAAAMHAA.account.xml" />
+    <SendingItem No="CT601M02" Path="CT601M02.xml" Type="U" Account="AAAAMHAA.account.xml" />
+    <SendingItem No="CT601M03" Path="CT601M03.xml" Type="U" Account="AAAAMHAA.account.xml" />
+    <SendingItem No="CT601M04" Path="CT601M04.xml" Type="U" Account="AAAAMHAA.account.xml" />
+    <SendingItem No="CT601M05" Path="CT601M05.xml" Type="U" Account="AAAAMHAA.account.xml" />
+    <SendingItem No="CT601M06" Path="CT601M06.xml" Type="U" Account="AAAAMHAA.account.xml" />
+    <SendingItem No="CT601M07" Path="CT601M07.xml" Type="U" Account="AAAAMHAA.account.xml" />
+    <SendingItem No="CT601M08" Path="CT601M08.xml" Type="U" Account="AAAAMHAA.account.xml" />
+    <SendingItem No="CT601M09" Path="CT601M09.xml" Type="U" Account="AAAAMHAA.account.xml" />
+    <SendingItem No="CT601M10" Path="CT601M10.xml" Type="U" Account="AAAAMHAA.account.xml" />
+</Sender>

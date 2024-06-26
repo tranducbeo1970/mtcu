@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/amhs.message.xsl'?>
+<Message>
+    <Subject>CT424M04</Subject>
+    <ContentID>CT424M04</ContentID>
+    <OriginEncodeInformationType>ia5-text</OriginEncodeInformationType>
+    <ContentType>22</ContentType>
+    <Priority>2</Priority>
+    <Disclosure>1</Disclosure>
+    <ConversionProhibited>0</ConversionProhibited>
+    <AlternativeRecipientAllow>0</AlternativeRecipientAllow>
+    <ReassignmentProhibited>0</ReassignmentProhibited>
+    <ConversionWithLossProhibited>0</ConversionWithLossProhibited>
+    <DLExpasionProhibited>0</DLExpasionProhibited>
+    <ATS>
+        <Extended>0</Extended>
+        <EOHMode>3</EOHMode>
+        <FilingTime>220912</FilingTime>
+        <Text>CT424M04äé</Text>
+        <Priority>SS</Priority>
+    </ATS>
+    <Recipient>
+        <OR>/CN=BAAAFTBA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <ReceiptNotify>2</ReceiptNotify>
+        <Report>DR_NON_DELIVERY_REPORT</Report>
+    </Recipient>
+</Message>

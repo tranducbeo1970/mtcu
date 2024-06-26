@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Sender>
+    <Case>CT201</Case>
+    <Description>HELLO</Description>
+    <SendingItem>
+        <No>SSSSSSSSSSS</No>
+        <Path>AAAAAAAAAAAAA'</Path>
+        <Type>M</Type>
+        <Account>AAAAAAAAAAA</Account>
+    </SendingItem>
+</Sender>

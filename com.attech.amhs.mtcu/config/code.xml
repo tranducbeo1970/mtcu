@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Codes>
+    <Codes Code="0" Description="Transfer failure"/>
+    <Codes Code="1" Description="Unable to transfer"/>
+    <Codes Code="2" Description="Conversion not performed"/>
+    <Codes Code="3" Description="Physical rendition not performed"/>
+    <Codes Code="4" Description="Physical delivery not performed"/>
+    <Codes Code="5" Description="Restricted delivery"/>
+    <Codes Code="6" Description="Directory operation unsuccessful"/>
+    <Codes Code="7" Description="Deferred delivery not performed"/>
+    <Codes Code="8" Description="Transfer failure for security reasons"/>
+</Codes>

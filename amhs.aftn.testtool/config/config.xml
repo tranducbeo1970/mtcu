@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Account>
+    <P3PresentationAddress>&quot;593&quot;/URI+0000+URL+itot://localhost</P3PresentationAddress>
+    <P3Password>attech</P3Password>
+    <P7PresentationAddress>"3001"/URI+0000+URL+itot://localhost:3001</P7PresentationAddress>
+    <P7Password>attech</P7Password>
+    <Address>/CN=VVTSOPTA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/</Address>
+    <Address>/OU=VVTSOPTB/O=AFTN/PRMD=VIETNAM/ADMD=ICAO/C=XX/</Address>
+</Account>

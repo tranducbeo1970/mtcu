@@ -1,0 +1,3 @@
+1. Tạo config cho bảng Gwout
+2. Kiểm tra hàm xóa điện văn sau khi submit hoặc sau khi xử lý xong
+3. Tạo log khi không gửi được Report

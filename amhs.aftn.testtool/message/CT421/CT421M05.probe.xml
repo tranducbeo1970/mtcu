@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Probe>
+    <ContentID>CT421M05</ContentID>
+    <OriginEncodeInformationType>IA5-Text</OriginEncodeInformationType>
+    <Priority>2</Priority>
+    <ConversionProhibited>0</ConversionProhibited>
+    <ConversionWithLossProhibited>0</ConversionWithLossProhibited>
+    <DLExpasionProhibited>0</DLExpasionProhibited>
+    <ContentLength>100000</ContentLength>
+    <Recipient>
+        <OR>/CN=BAAAFTBA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <ReceiptNotify>2</ReceiptNotify>
+        <Report>DR_DELIVERY_REPORT</Report>
+    </Recipient>
+</Probe>

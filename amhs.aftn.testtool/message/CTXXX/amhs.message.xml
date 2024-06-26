@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/amhs.message.xsl'?>
+<Message>
+    <Subject>Hello</Subject>
+    <ContentID>contentID</ContentID>
+    <MessageID>Message id</MessageID>
+    <IPMID>ipm</IPMID>
+    <OriginEncodeInformationType>IA5-Text</OriginEncodeInformationType>
+    <GlobalDomain>/PRMD=IUTLAND/ADMD=ICAO/C=XX/</GlobalDomain>
+    <Priority>2</Priority>
+    <Disclosure>1</Disclosure>
+    <ConversionProhibited>0</ConversionProhibited>
+    <AlternativeRecipientAllow>0</AlternativeRecipientAllow>
+    <ReassignmentProhibited>0</ReassignmentProhibited>
+    <ConversionWithLossProhibited>0</ConversionWithLossProhibited>
+    <DLExpasionProhibited>0</DLExpasionProhibited>
+    <ATS>
+        <Extended>0</Extended>
+        <EOHMode>3</EOHMode>
+        <FilingTime>220912</FilingTime>
+        <Text>ATS TEXTING</Text>
+    </ATS>
+    <Recipient>
+        <OR>/CN=IUTAMHAA/OU=IUTA/O=IUT-REGION/PRMD=IUTLAND/ADMD=ICAO/C=XX/</OR>
+        <ReceiptNotify>2</ReceiptNotify>
+        <Report>DR_NO_REPORT</Report>
+    </Recipient>
+    <Recipient>
+        <OR>/CN=IUTAMHAB/OU=IUTA/O=IUT-REGION/PRMD=IUTLAND/ADMD=ICAO/C=XX/</OR>
+        <ReceiptNotify>1</ReceiptNotify>
+        <Report>DR_NON_DELIVERY_REPORT</Report>
+    </Recipient>
+    <Recipient>
+        <OR>/CN=IUTAMHAB/OU=IUTA/O=IUT-REGION/PRMD=IUTLAND/ADMD=ICAO/C=XX/</OR>
+        <Report>DR_NON_DELIVERY_REPORT</Report>
+    </Recipient>
+    <Body>
+        <Type>General</Type>
+        <CharSet>1 6 100</CharSet>
+        <Text>BODY TEXT</Text>
+    </Body>
+</Message>

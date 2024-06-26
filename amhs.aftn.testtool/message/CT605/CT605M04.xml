@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/amhs.message.xsl'?>
+<Message>
+    <Subject>CT605M04</Subject>
+    <ContentID>CT605M04</ContentID>
+    <OriginEncodeInformationType>2.6.3.4.2</OriginEncodeInformationType>
+    <ContentType>22</ContentType>
+    <Priority>2</Priority>
+    <ConversionProhibited>0</ConversionProhibited>
+    <ConversionWithLossProhibited>0</ConversionWithLossProhibited>
+    <DLExpasionProhibited>0</DLExpasionProhibited>
+    <Originator>/CN=AAAAMHAA/OU=/O=AA-REGION/PRMD=AMHSLAND-1/ADMD=ICAO/C=XX/</Originator>
+    <ATS>
+        <Extended>0</Extended>
+        <EOHMode>3</EOHMode>
+        <Priority>SS</Priority>
+        <FilingTime>220912</FilingTime>
+        <Text>CT605M04</Text>
+    </ATS>
+    <Recipient>
+        <OR>/CN=BAAAMHAA/OU=BAAA/O=BA-REGION/PRMD=AFTNLAND-1/ADMD=ICAO/C=XX/</OR>
+        <ReceiptNotify>2</ReceiptNotify>
+        <Report>DR_DELIVERY_REPORT</Report>
+        <OriginReportRequest>1</OriginReportRequest>
+        <MtaReportRequest>1</MtaReportRequest>
+    </Recipient>
+</Message>

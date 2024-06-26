@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DrawItem>
+    <type>msg01012015</type>
+    <Addresses>
+        <Address>VVTSYOYX</Address>
+    </Addresses>
+    <Interval>1000</Interval>
+    <Repeat>true</Repeat>
+</DrawItem>

@@ -1,0 +1,1 @@
+"C:\Program Files\WinRAR\rar.exe" a -r ua.%date:~-4,4%"-"%date:~-10,2%"-"%date:~7,2%.rar "*"

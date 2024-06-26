@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type='text/xsl' href='../xsl/AFTN.xsl'?>
+<Message>
+    <MessageID>CT003</MessageID>
+    <Priority>DD</Priority>
+    <Addresses>IUTAMHAA</Addresses>
+    <FilingTime>050903</FilingTime>
+    <Originator>BAAAFTAA</Originator>
+    <OHI>OPTIONAL_HEADING_INFO</OHI>
+    <Content>THIS IS TEST MESSAGE CT509M03</Content>
+</Message>
