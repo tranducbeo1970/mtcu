@@ -10,8 +10,6 @@ LAN 2
 
 LAN 3
 
-LAN 4
-
 
  */
 package com.attech.amhs.mtcu;
