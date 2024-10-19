@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
 
-LAN 1
-
-LAN 2
 
 
-LAN 3
+  */
 
 
- */
+/*
+
+
+Xu ly dien van mtcu
+package com.attech.amhs.mtcu; -> class AMHSProcessor  -> processMessage(mtmessage, session);
+
+*/
 package com.attech.amhs.mtcu;
 
 import com.attech.amhs.mtcu.threads.AFTNChannel;

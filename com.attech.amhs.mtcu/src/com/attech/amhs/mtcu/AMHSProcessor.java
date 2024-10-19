@@ -117,7 +117,10 @@ public class AMHSProcessor {
     public void process() throws X400APIException, SQLException, DSAPIException, Exception {
         Session session = new Session();
         session.SetSummarizeOnBind(false);
-
+        
+        // DUC 19/10/2024
+        // x400mt
+        String channame = this.channel.getChannelName();
         logger.info("Connecting to {}", this.channel.getChannelName());
 
         int result = X400mt.x400_mt_open(this.channel.getChannelName(), session);
@@ -151,6 +154,12 @@ public class AMHSProcessor {
                     }
 
                     try {
+                        
+                        /*
+                        XU LY DIEN VAN AMHS LAY TU MTCU
+                        
+                        *
+                        */                        
                         processMessage(mtmessage, session);
 
                         logger.info("Commit message status");
@@ -195,6 +204,11 @@ public class AMHSProcessor {
         }
     }
 
+    /*--------------------------------------------------
+    
+    
+    
+    --------------------------------------------------*/
     private void processMessage(MTMessage mtmessage, Session session) throws SQLException, X400APIException, DSAPIException {
 
         final int type = mtmessage.GetType();
@@ -226,7 +240,11 @@ public class AMHSProcessor {
                 logger.error("Unknown message type (type {})", type);
         }
     }
-
+    /*--------------------------------------------------
+    
+    
+    
+    --------------------------------------------------*/
     private void processIPM(MTMessage mtmessage, Session session) throws X400APIException, SQLException, DSAPIException {
 
         final ReceiveMessage ipm = new ReceiveMessage(mtmessage);
@@ -359,7 +377,11 @@ public class AMHSProcessor {
         }
         logger.info(E_CONVERT_SUCCESS);
     }
-
+    /*--------------------------------------------------
+    
+    
+    
+    --------------------------------------------------*/
     private void processIPN(MTMessage mtmessage, Session session) throws X400APIException, SQLException, DSAPIException {
 
         final ReceiveIPN ipn = new ReceiveIPN(mtmessage);
@@ -711,7 +733,7 @@ public class AMHSProcessor {
         
         
         logger.info("Create Report NDR");
-        DeliverReport report = probe.createNonDeliverReport(MtAttributes.RS_UNABLE_TO_TRANSFER, MtAttributes.D_UNRECOGNISED_OR_NAME, "");
+        DeliverReport report = probe.createNonDeliverReport(MtAttributes.RS_UNABLE_TO_TRANSFER, MtAttributes.D_UNRECOGNISED_OR_NAME, "Report From Gateway");
         send(report, session);
 //        message.returnNonDeliverReport(connection,    
         

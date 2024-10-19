@@ -1,0 +1,10 @@
+[INFO ] 2024-10-19 02:52:47.483 [main] Run - Load config/database.xml
+[INFO ] 2024-10-19 02:52:47.736 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-19 02:52:47.739 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-19 02:52:48.329 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-19 02:52:48.330 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-19 02:53:32.446 [main] Run - Load config/database.xml
+[INFO ] 2024-10-19 02:53:32.689 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-19 02:53:32.692 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-19 02:53:33.249 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-19 02:53:33.250 [Thread-7] AFTNChannel - Started OK
