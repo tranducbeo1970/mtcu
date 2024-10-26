@@ -294,6 +294,11 @@ public class AMHSProcessor {
         final List<String> aftnAddresses = new ArrayList<>();
         final List<Recipient> asymAddresses = new ArrayList<>();
 
+        /*------------------------
+        
+        Chuyen doi dia chi AMHS sang AFTN
+        
+        ------------------------*/
         for (Recipient address : envelopeRecips) {
             final AddressConvertResult convertedResult2 = DSAConnection.getInstance().convertToAftnAddress(address.getAddress(), true);
             if (convertedResult2 == null) {
@@ -316,9 +321,9 @@ public class AMHSProcessor {
         reportAsymmetricAddress(ipm, asymAddresses, session);
 
         //
-        MessageConversionLog log = ipm.createMessageConversionLog();
-        log.setStatus(ConvertResult.SUCCESS);
-        log.setRemark(E_CONVERT_SUCCESS);
+        MessageConversionLog mshConversionLog = ipm.createMessageConversionLog();
+        mshConversionLog.setStatus(ConvertResult.SUCCESS);
+        mshConversionLog.setRemark(E_CONVERT_SUCCESS);
 
         // Convert recipent to AFTN address
         List<List<String>> aftnAddress = MtCommon.buildupAftnAddresses(aftnAddresses);
@@ -347,8 +352,8 @@ public class AMHSProcessor {
                 MessageConversionLog convertedLog = new MessageConversionLog();
                 convertedLog.setCategory(MessageCategory.GENERAL);
                 convertedLog.setContent(ctn);
-                convertedLog.setConvertedTime(log.getConvertedTime());
-                convertedLog.setDate(log.getDate());
+                convertedLog.setConvertedTime(mshConversionLog.getConvertedTime());
+                convertedLog.setDate(mshConversionLog.getDate());
                 convertedLog.setFilingTime(ipm.getAtsFilingTime());
                 convertedLog.setOhi(ipm.getAtsOhi());
                 convertedLog.setOrigin(aftnOrigin);
@@ -358,7 +363,7 @@ public class AMHSProcessor {
                 for (String add : addStr) {
                     convertedLog.addAddressLog(new AddressConversionLog(add));
                 }
-                log.addChild(convertedLog);
+                mshConversionLog.addChild(convertedLog);
             }
         }
 
@@ -366,7 +371,7 @@ public class AMHSProcessor {
         messageDao.save(gatewayOuts);
 
         // Save log
-        messageDao.save(log);
+        messageDao.save(mshConversionLog);
 
         // Return delivery Report
         DeliverReport report = ipm.createDeliverReport();

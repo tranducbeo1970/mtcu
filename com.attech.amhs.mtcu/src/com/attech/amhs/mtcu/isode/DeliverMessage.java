@@ -58,6 +58,10 @@ public class DeliverMessage extends DeliverMessageBase {
 
     private Date time;
     // private MtCommon mtcommon = new MtCommon();
+    
+    
+    private boolean extended; 
+    
 
     public DeliverMessage() {
         super();
@@ -144,9 +148,22 @@ public class DeliverMessage extends DeliverMessageBase {
         return null;
     }
     
+    /*-----------------------------------------------------------
+    
+    
+    
+    -----------------------------------------------------------*/
     private void buildEnvelope(MTMessage mtMessage) {
         
+        
+        
+        
         final DefaultMessageValue config = Config.instance.getAftnChannel().getDefaultMessageValue();
+        
+        /* Use for debug value */
+        
+        String oeit =  config.getOriginEIT();
+        
         set(mtMessage, X400_att.X400_S_ORIGINAL_ENCODED_INFORMATION_TYPES, config.getOriginEIT());
         set(mtMessage, X400_att.X400_N_CONTENT_TYPE, config.getContentType());
         set(mtMessage, X400_att.X400_N_DISCLOSURE, config.getDisclosureRecip());
@@ -157,7 +174,7 @@ public class DeliverMessage extends DeliverMessageBase {
         set(mtMessage, X400_att.X400_N_DL_EXPANSION_PROHIBITED, config.getDlExpProhibited());
         set(mtMessage, X400_att.X400_N_CONVERSION_WITH_LOSS_PROHIBITED, config.getConversionLossProhibited());
         set(mtMessage, X400_att.X400_S_ORIGINATOR_RETURN_ADDRESS, config.getOriginReturnAddress());
-        set(mtMessage, X400_att.X400_S_ORIGINAL_ENCODED_INFORMATION_TYPES, config.getOriginEIT());
+        //set(mtMessage, X400_att.X400_S_ORIGINAL_ENCODED_INFORMATION_TYPES, config.getOriginEIT());
 
         set(mtMessage, X400_att.X400_S_MESSAGE_IDENTIFIER, this.messageId);
         set(mtMessage, X400_att.X400_S_OR_ADDRESS, this.originator);
@@ -167,7 +184,11 @@ public class DeliverMessage extends DeliverMessageBase {
         // Build trace & internal trace info
         buildTraceInfo(mtMessage, X400_att.X400_TRACE_INFO, this.arrivalTime);
     }
-
+    /*-----------------------------------------------------------
+    
+    
+    
+    -----------------------------------------------------------*/
     private void buildTraceInfo(MTMessage mtMessage, int type, String arrivalTime) {
         // get config
         final TraceInfo traceInfoConfig = Config.instance.getAftnChannel().getTraceInfo();
@@ -185,6 +206,11 @@ public class DeliverMessage extends DeliverMessageBase {
         set(traceInfo, X400_att.X400_N_DSI_ROUTING_ACTION, traceInfoConfig.getSuppliedDomainRoutingAction());
     }
 
+    /*-----------------------------------------------------------
+    
+    
+    
+    -----------------------------------------------------------*/
     private void buildRecipients(MTMessage mtMessage) {
         int rno = 1;
         for (Recipient recipient : this.recipients) {
@@ -198,19 +224,41 @@ public class DeliverMessage extends DeliverMessageBase {
         }
 
         final DefaultMessageValue config = Config.instance.getAftnChannel().getDefaultMessageValue();
-        set(mtMessage, AMHS_att.ATS_N_EXTENDED, config.getAtsExtended());
+        // DUC 19102024
+        int ext = config.getAtsExtended();
+        if(ext == 1) {
+            if(this.isExtended()) {
+                set(mtMessage, AMHS_att.ATS_N_EXTENDED,1);
+            } else {
+                set(mtMessage, AMHS_att.ATS_N_EXTENDED,0);
+            }
+        } else {
+            set(mtMessage, AMHS_att.ATS_N_EXTENDED, 0);     // BASIC
+        }
         set(mtMessage, AMHS_att.ATS_S_PRIORITY_INDICATOR, this.atsPriority);
         set(mtMessage, AMHS_att.ATS_S_FILING_TIME, this.atsFilingTime);
         set(mtMessage, AMHS_att.ATS_S_TEXT, this.content);
-        set(mtMessage, AMHS_att.ATS_S_OPTIONAL_HEADING_INFO, this.atsOHI);
-        set(mtMessage, AMHS_att.ATS_EOH_MODE, AMHS_att.ATS_EOH_MODE_NONE);
+        
+        if(this.atsOHI.length() > 0) {
+            set(mtMessage, AMHS_att.ATS_S_OPTIONAL_HEADING_INFO, this.atsOHI);
+        }
+        
+        //et(mtMessage, AMHS_att.ATS_EOH_MODE, AMHS_att.ATS_EOH_MODE_NONE);
 
+        /*------------------------------
+        
+        DUC 19102024
+        
+        --------------------------------*/
+        int i = config.getAtsExtendSupported();
         if (config.getAtsExtendSupported() == 1) {
             String authorizedTime = MtCommon.getAuthorizedTimeFromFilingTime(this.atsFilingTime);
             Integer precedence = PriorityUtil.toPrecedence(this.atsPriority);
             set(mtMessage, X400_att.X400_S_AUTHORIZATION_TIME, authorizedTime);
             set(mtMessage, X400_att.X400_S_PRECEDENCE_POLICY_ID, precedence);
-            set(mtMessage, X400_att.X400_S_ORIGINATORS_REFERENCE, this.atsOHI);
+            if(this.atsOHI.length() > 0) {
+                set(mtMessage, X400_att.X400_S_ORIGINATORS_REFERENCE, this.atsOHI);
+            }
         }
     }
 
@@ -221,9 +269,12 @@ public class DeliverMessage extends DeliverMessageBase {
         // X400_att.X400_S_RELATED_IPMS
         // X400_att.X400_S_EXPIRY_TIME
         // X400_att.X400_S_REPLY_TIME
-        set(mtMessage, X400_att.X400_N_IMPORTANCE, this.importance);
-        set(mtMessage, X400_att.X400_N_SENSITIVITY, this.sensitve);
-
+        
+        /*
+        set(mtMessage, X400_att.X400_N_IMPORTANCE, this.importance);            // NEW NOT SET
+        set(mtMessage, X400_att.X400_N_SENSITIVITY, this.sensitve);             // NEW NOT SET
+        */
+        
         // X400_att.X400_N_AUTOFORWARDED
         if (this.atsMessage) {
             return;
@@ -532,5 +583,19 @@ public class DeliverMessage extends DeliverMessageBase {
     protected void finalize() throws Throwable {
         super.finalize();
 //        System.out.println(this.getClass() + " successfully garbage collected");
+    }
+
+    /**
+     * @return the extended
+     */
+    public boolean isExtended() {
+        return extended;
+    }
+
+    /**
+     * @param extended the extended to set
+     */
+    public void setExtended(boolean extended) {
+        this.extended = extended;
     }
 }

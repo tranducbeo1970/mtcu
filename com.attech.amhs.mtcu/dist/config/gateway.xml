@@ -22,8 +22,8 @@
             <ConvertedInformationType>ia5-text</ConvertedInformationType>
             <OriginEncodedInformationType>ia5-text</OriginEncodedInformationType>
             <ContentType>22</ContentType>
-            <AtsExtendSupported>0</AtsExtendSupported>
-            <AtsExtend>0</AtsExtend>
+            <AtsExtendSupported>1</AtsExtendSupported>
+            <AtsExtend>1</AtsExtend>
         </MtMessageConfig>
         <TraceInfo>
             <GlobalDomainID>/PRMD=VIETNAM/ADMD=ICAO/C=XX/</GlobalDomainID>
@@ -65,7 +65,7 @@
     </AMHSChannel>
     <DSAChannel>
         <DsaPresentationAddress>URI+0000+URL+itot://localhost:19999</DsaPresentationAddress>
-        <DirectoryName>o=ms262,o=conversion-address-lookup-definition</DirectoryName>
+        <DirectoryName>o=md267,o=conversion-address-lookup-definition</DirectoryName>
         <UserLookupTable>o=custom-address-lookup,o=conversion-address-lookup-definition</UserLookupTable>
         <AftnLookupTable>o=aftn-address-lookup,o=conversion-address-lookup-definition</AftnLookupTable>
         <CacheExpire>3600000</CacheExpire>

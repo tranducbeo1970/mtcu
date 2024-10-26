@@ -7,12 +7,36 @@
 
   */
 
+/*------------------------------
+
+MAIN
+        amhsChannel = new AMHSChannel(Config.instance.getAmhsChannel(),AftnChannelList);
+        aftnChannel = new AFTNChannel(Config.instance.getAftnChannel());
+        amhsChannel.start();
+        aftnChannel.start();
+
+*/
+
+
 
 /*
 
 
-Xu ly dien van mtcu
+Xu ly dien van tu mtcu
 package com.attech.amhs.mtcu; -> class AMHSProcessor  -> processMessage(mtmessage, session);
+
+
+Xu ly dien van tu gwin aftn
+package com.attech.amhs.mtcu; -> public class AFTNProcessor 
+*/
+
+
+
+/*
+    TAO DIEN VAN AMHS VA PHAT DI
+
+package com.attech.amhs.mtcu.isode; -> public class DeliverMessage extends DeliverMessageBase {
+
 
 */
 package com.attech.amhs.mtcu;

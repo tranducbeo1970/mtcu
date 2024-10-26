@@ -11,12 +11,43 @@ package com.attech.amhs.mtcu.isode;
  */
 public class AddressConvertResult {
 
+    /**
+     * @return the ihe
+     */
+    public boolean isIhe() {
+        return ihe;
+    }
+
+    /**
+     * @param ihe the ihe to set
+     */
+    public void setIhe(boolean ihe) {
+        this.ihe = ihe;
+    }
+
+    /**
+     * @return the direct
+     */
+    public boolean isDirect() {
+        return direct;
+    }
+
+    /**
+     * @param direct the direct to set
+     */
+    public void setDirect(boolean direct) {
+        this.direct = direct;
+    }
+
     private String backwardAddress;
     private String convertedAddress;
     private String address;
 //    private boolean asym;
     private long date;
 //    private final DecimalFormat format = new DecimalFormat("###,###,###,###,###");
+    // DUC THEM 20/10/2024 de dung DIR
+    private boolean ihe;
+    private boolean direct;
 
     public AddressConvertResult() {
 //        this.date = new Date();

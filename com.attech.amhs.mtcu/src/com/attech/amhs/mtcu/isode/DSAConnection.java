@@ -164,7 +164,16 @@ public class DSAConnection extends WeakHashMap<Key, AddressConvertResult> implem
                 logger.debug(">>> Cache: {} [{} items]", key, map.size());
             }
 
+            /* DUC VIET DA LAY TU DIR */
+            
+            
+            readDSA readdsa = new readDSA();
+            dsaChannelData dsadsata = readdsa.ReadVal(aftnAddress);
+            
+            convertedResult.setDirect(dsadsata.isAtn_amhs_direct_access());
+            convertedResult.setIhe(dsadsata.isAtn_ipm_heading_extensions());
             return convertedResult;
+            
 
         } catch (Exception ex) {
 
@@ -179,6 +188,9 @@ public class DSAConnection extends WeakHashMap<Key, AddressConvertResult> implem
             throw new DSAPIException("Convert fail", ex);
         }
     }
+    
+    
+    
 
     public static DSAConnection getInstance() {
         if (instance == null) {
@@ -371,6 +383,9 @@ public class DSAConnection extends WeakHashMap<Key, AddressConvertResult> implem
         }
     }
 
+    
+    
+    
     private String toAFTN(DN dn, String address) throws DSAPIException {
         try {
 

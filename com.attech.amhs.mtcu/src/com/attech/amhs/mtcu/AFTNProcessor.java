@@ -204,6 +204,10 @@ public class AFTNProcessor {
 
                 default:
                     logger.info("GENERAL message found ({})", message.getOriginId());
+                    /*-----------------------------------------------
+                     Xu ly dien van nhan duoc tu gwin
+                    
+                    -----------------------------------------------*/
                     processNormalMessage(message, mtConnection);
                     break;
             }
@@ -226,11 +230,10 @@ public class AFTNProcessor {
 
     /*--------------------------------------------------
     
-    Xu ly dien van AFTN
+    Xu ly dien van AFTN THUONG
     
     --------------------------------------------------*/
-    private void processNormalMessage(Message message, MTConnection1 mtConnection) 
-            throws DSAPIException, X400APIException, SQLException, InvalidOperatingException {
+    private void processNormalMessage(Message message, MTConnection1 mtConnection)  throws DSAPIException, X400APIException, SQLException, InvalidOperatingException {
         final int priority = PriorityUtil.toAMHSPriority(message.getPriority());
         String errorMessage = "";
 
@@ -253,20 +256,38 @@ public class AFTNProcessor {
 
         final List<String> recipients = new ArrayList<>();
 
+        
+        /*--------------------------------------------
+    
+        
+        Lay dia chi trong dien van AFTN 
+        Chuyen doi sang AMHS
+        
+        --------------------------------------------*/
         for (String address : message.getEnvelopeMessages()) {
             if (address.isEmpty()) {
                 continue;
             }
 
+            
             result = DSAConnection.getInstance().convertToAmhsAddress(address, false);
             if (result == null) {
                 logger.warn(">{}: FAIL", address);
                 unknownAddresses_str_list.add(address);
                 continue;
             }
+            
+            
+// DUC 20/10/2024-------------------------------------------------------------------------------------------------
+            String s = (result.isIhe())?"YES":"NO";
+            String s1 = (result.isDirect())?"YES":"NO";
+            logger.info("Convert " + address + " to " + result.getConvertedAddress() + ", IHE=" + s + " DIRECT=" + s1);
+            
+            // Them cac dia chi vao string list
             recipients.add(result.getConvertedAddress());
             logger.debug(">{}:{}", address, result.getConvertedAddress());
         }
+        
 
         // Generate SVC UNKNOWN ADS INDICATOR
         if (!unknownAddresses_str_list.isEmpty()) {
@@ -285,22 +306,40 @@ public class AFTNProcessor {
             throw new InvalidOperatingException(error);
         }
 
+        
+        /* DUC 26/10/2024 */
+        /* Tao dien van phat di */
+        /* DeliverMessage class de tao dien */
         final DeliverMessage deliveryMessage = new DeliverMessage();
         deliveryMessage.setPriority(priority);
         deliveryMessage.setOriginator(amhsOrigin);
         deliveryMessage.setAftnMessage(message);
+        
 
         final RecipientConfig recipientCfg = (message.getMessageType() == Type.ACKNOWLEDGE || message.getMessageType() == Type.UNKNOWN)
                 ? Config.instance.getReportRecipient()
                 : (message.getPriority().equalsIgnoreCase("SS") ? Config.instance.getPriorityRecipient() : Config.instance.getConvertRecipient());
 
+        
+        /* Them cac dia chi */
         for (String recipient : recipients) {
             deliveryMessage.addRecip(new Recipient(recipient, recipientCfg));
         }
 
-        mtConnection.send(deliveryMessage);
+        
+        // SET DIEN VAN LOAI GI
+        deliveryMessage.setExtended(true);
+        
+        /******************************************************************************
+         * 
+         Build dien van va phat di 
+         * 
+         *****************************************************************************/
+        
+        mtConnection.send(deliveryMessage);         // Build message here
         logger.debug("Delivered");
 
+        
         final String remark = unknownAddresses_str_list.isEmpty()
                 ? "Converted"
                 : String.format("Some recipient cannot be converted: %s ", String.join(", ", unknownAddresses_str_list));
@@ -332,7 +371,10 @@ public class AFTNProcessor {
         messageDao.save(aftnLog);
         logger.info(CONVERT_SUCESSFULLY, message.getFilingTime(), message.getOriginator());
     }
+    /*------------------------------------------------
 
+    
+    ------------------------------------------------*/
     private void processAcknowledgeMessage(Message message, MTConnection1 mtConnection) 
             throws DSAPIException, X400APIException, SQLException, InvalidOperatingException {
 

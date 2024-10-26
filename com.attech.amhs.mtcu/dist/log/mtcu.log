@@ -1,10 +1,568 @@
-[INFO ] 2024-10-19 02:52:47.483 [main] Run - Load config/database.xml
-[INFO ] 2024-10-19 02:52:47.736 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-19 02:52:47.739 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-19 02:52:48.329 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-19 02:52:48.330 [Thread-7] AFTNChannel - Started OK
-[INFO ] 2024-10-19 02:53:32.446 [main] Run - Load config/database.xml
-[INFO ] 2024-10-19 02:53:32.689 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-19 02:53:32.692 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-19 02:53:33.249 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-19 02:53:33.250 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-26 03:09:17.070 [main] Run - Load config/database.xml
+[INFO ] 2024-10-26 03:09:17.320 [main] Run - Load config/gateway.xml
+[WARN ] 2024-10-26 03:09:17.321 [main] Run - Jar file is not found
+[INFO ] 2024-10-26 03:09:17.321 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-26 03:09:17.890 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-26 03:09:17.890 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-26 03:09:17.893 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-26 03:09:17.901 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-26 03:09:35.959 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0008 260309     
+GG VVTSYFYX VVTSMHSA
+260309 VVTSYFYX
+TEST
+
+
+
+
+
+NNNN
+[INFO ] 2024-10-26 03:09:35.960 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 03:09:35.970 [Thread-7] AFTNProcessor - GENERAL message found (260309 VVTSYFYX)
+[INFO ] 2024-10-26 03:09:44.419 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-26 03:09:54.841 [Thread-7] AFTNProcessor - [260309 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-26 03:09:54.866 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-26 03:10:42.980 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0009 260310     
+GG VVTSYFYX VVTSMHSA
+260310 VVTSYFYX
+TEST 1
+
+
+
+
+
+NNNN
+[INFO ] 2024-10-26 03:10:42.980 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 03:10:42.982 [Thread-7] AFTNProcessor - GENERAL message found (260310 VVTSYFYX)
+[INFO ] 2024-10-26 03:10:43.040 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-26 03:10:49.740 [Thread-7] AFTNProcessor - [260310 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-26 03:10:49.745 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-26 03:12:11.403 [main] Run - Load config/database.xml
+[INFO ] 2024-10-26 03:12:11.609 [main] Run - Load config/gateway.xml
+[WARN ] 2024-10-26 03:12:11.610 [main] Run - Jar file is not found
+[INFO ] 2024-10-26 03:12:11.610 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-26 03:12:12.093 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-26 03:12:12.093 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-26 03:12:12.095 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-26 03:12:12.103 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-26 03:12:27.149 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0010 260312     
+GG VVTSYFYX VVTSMHSA
+260312 VVTSYFYX
+TEST 1
+
+
+
+
+
+NNNN
+[INFO ] 2024-10-26 03:12:27.149 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 03:12:27.157 [Thread-7] AFTNProcessor - GENERAL message found (260312 VVTSYFYX)
+[INFO ] 2024-10-26 03:12:27.236 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-26 03:12:27.407 [Thread-7] AFTNProcessor - [260312 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-26 03:12:27.429 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[WARN ] 2024-10-26 03:31:42.082 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-26 03:40:26.761 [main] Run - Load config/database.xml
+[INFO ] 2024-10-26 03:40:26.975 [main] Run - Load config/gateway.xml
+[WARN ] 2024-10-26 03:40:26.976 [main] Run - Jar file is not found
+[INFO ] 2024-10-26 03:40:26.977 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-26 03:40:27.449 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-26 03:40:27.448 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-26 03:40:27.451 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-26 03:40:27.459 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-26 03:40:36.491 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0013 260340     
+GG VVTSYFYX VVTSMHSA
+260340 VVTSYFYX
+TEST 1
+
+
+
+
+
+NNNN
+[INFO ] 2024-10-26 03:40:36.491 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 03:40:36.497 [Thread-7] AFTNProcessor - GENERAL message found (260340 VVTSYFYX)
+[INFO ] 2024-10-26 03:40:36.577 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-26 03:40:36.761 [Thread-7] AFTNProcessor - [260340 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-26 03:40:36.782 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[WARN ] 2024-10-26 03:41:03.282 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-26 03:41:26.433 [main] Run - Load config/database.xml
+[INFO ] 2024-10-26 03:41:26.639 [main] Run - Load config/gateway.xml
+[WARN ] 2024-10-26 03:41:26.640 [main] Run - Jar file is not found
+[INFO ] 2024-10-26 03:41:26.640 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-26 03:41:27.100 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-26 03:41:27.101 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-26 03:41:27.103 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-26 03:41:27.112 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-26 03:41:39.149 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0014 260341     
+GG VVTSYFYX VVTSMHSA
+260341 VVTSYFYX
+TEST 00000001
+
+
+
+
+
+NNNN
+[INFO ] 2024-10-26 03:41:39.150 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 03:41:39.155 [Thread-7] AFTNProcessor - GENERAL message found (260341 VVTSYFYX)
+[INFO ] 2024-10-26 03:41:39.234 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-26 03:41:39.403 [Thread-7] AFTNProcessor - [260341 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-26 03:41:39.423 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[WARN ] 2024-10-26 03:42:14.009 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-26 03:42:19.512 [main] Run - Load config/database.xml
+[INFO ] 2024-10-26 03:42:19.761 [main] Run - Load config/gateway.xml
+[WARN ] 2024-10-26 03:42:19.763 [main] Run - Jar file is not found
+[INFO ] 2024-10-26 03:42:19.763 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-26 03:42:20.251 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-26 03:42:20.250 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-26 03:42:20.253 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-26 03:42:20.261 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-26 03:42:29.293 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0015 260342     
+GG VVTSYFYX VVTSMHSA
+260342 VVTSYFYX
+TEST 00000002
+
+
+
+
+
+NNNN
+[INFO ] 2024-10-26 03:42:29.294 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 03:42:29.302 [Thread-7] AFTNProcessor - GENERAL message found (260342 VVTSYFYX)
+[INFO ] 2024-10-26 03:42:29.378 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-26 03:42:29.531 [Thread-7] AFTNProcessor - [260342 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-26 03:42:29.552 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[WARN ] 2024-10-26 03:43:19.119 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-26 03:43:25.541 [main] Run - Load config/database.xml
+[INFO ] 2024-10-26 03:43:25.788 [main] Run - Load config/gateway.xml
+[WARN ] 2024-10-26 03:43:25.790 [main] Run - Jar file is not found
+[INFO ] 2024-10-26 03:43:25.790 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-26 03:43:26.352 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-26 03:43:26.352 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-26 03:43:26.354 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-26 03:43:26.363 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-26 03:43:35.401 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0016 260343     
+GG VVTSYFYX VVTSMHSA
+260343 VVTSYFYX
+TEST 00000002
+
+
+
+
+
+NNNN
+[INFO ] 2024-10-26 03:43:35.401 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 03:43:35.410 [Thread-7] AFTNProcessor - GENERAL message found (260343 VVTSYFYX)
+[INFO ] 2024-10-26 03:43:35.501 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-26 07:04:37.110 [main] Run - Load config/database.xml
+[INFO ] 2024-10-26 07:04:37.324 [main] Run - Load config/gateway.xml
+[WARN ] 2024-10-26 07:04:37.325 [main] Run - Jar file is not found
+[INFO ] 2024-10-26 07:04:37.325 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-26 07:04:37.837 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-26 07:04:37.837 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-26 07:04:37.839 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-26 07:04:37.850 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-26 07:04:37.863 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0016 260343     
+GG VVTSYFYX VVTSMHSA
+260343 VVTSYFYX
+TEST 00000002
+
+
+
+
+
+NNNN
+[INFO ] 2024-10-26 07:04:37.864 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 07:04:37.870 [Thread-7] AFTNProcessor - GENERAL message found (260343 VVTSYFYX)
+[INFO ] 2024-10-26 07:04:37.948 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-26 07:04:38.103 [Thread-7] AFTNProcessor - [260343 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-26 07:04:38.124 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-26 07:04:47.155 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0027 260704     
+GG VVTSYFYX VVTSMHSA
+260704 VVTSYFYX
+TEST 00000002
+
+
+
+
+
+NNNN
+[INFO ] 2024-10-26 07:04:47.156 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 07:04:47.158 [Thread-7] AFTNProcessor - GENERAL message found (260704 VVTSYFYX)
+[INFO ] 2024-10-26 07:04:47.213 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-26 07:04:47.293 [Thread-7] AFTNProcessor - [260704 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-26 07:04:47.298 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[WARN ] 2024-10-26 07:06:43.258 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-26 07:06:48.123 [main] Run - Load config/database.xml
+[INFO ] 2024-10-26 07:06:48.335 [main] Run - Load config/gateway.xml
+[WARN ] 2024-10-26 07:06:48.336 [main] Run - Jar file is not found
+[INFO ] 2024-10-26 07:06:48.337 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-26 07:06:48.808 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-26 07:06:48.809 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-26 07:06:48.810 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-26 07:06:48.820 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-26 07:06:54.847 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0028 260706     
+GG VVTSYFYX VVTSMHSA
+260706 VVTSYFYX
+TEST 00000003
+
+
+
+
+
+NNNN
+[INFO ] 2024-10-26 07:06:54.848 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 07:06:54.857 [Thread-7] AFTNProcessor - GENERAL message found (260706 VVTSYFYX)
+[INFO ] 2024-10-26 07:06:54.937 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-26 07:06:55.108 [Thread-7] AFTNProcessor - [260706 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-26 07:06:55.130 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[WARN ] 2024-10-26 07:09:19.174 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-26 07:09:24.076 [main] Run - Load config/database.xml
+[INFO ] 2024-10-26 07:09:24.281 [main] Run - Load config/gateway.xml
+[WARN ] 2024-10-26 07:09:24.282 [main] Run - Jar file is not found
+[INFO ] 2024-10-26 07:09:24.282 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-26 07:09:24.746 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-26 07:09:24.747 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-26 07:09:24.749 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-26 07:09:24.758 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-26 07:09:39.801 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0029 260709     
+GG VVTSYFYX VVTSMHSA
+260709 VVTSYFYX
+TEST 00000004
+
+
+
+
+
+NNNN
+[INFO ] 2024-10-26 07:09:39.801 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 07:09:39.807 [Thread-7] AFTNProcessor - GENERAL message found (260709 VVTSYFYX)
+[INFO ] 2024-10-26 07:09:39.887 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-26 07:09:40.064 [Thread-7] AFTNProcessor - [260709 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-26 07:09:40.084 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[WARN ] 2024-10-26 07:10:08.685 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-26 07:10:13.202 [main] Run - Load config/database.xml
+[INFO ] 2024-10-26 07:10:13.411 [main] Run - Load config/gateway.xml
+[WARN ] 2024-10-26 07:10:13.413 [main] Run - Jar file is not found
+[INFO ] 2024-10-26 07:10:13.413 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-26 07:10:13.901 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-26 07:10:13.901 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-26 07:10:13.904 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-26 07:10:13.913 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-26 07:10:22.945 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0030 260710     
+GG VVTSYFYX VVTSMHSA
+260710 VVTSYFYX
+TEST 00000005
+
+
+
+
+
+NNNN
+[INFO ] 2024-10-26 07:10:22.946 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 07:10:22.954 [Thread-7] AFTNProcessor - GENERAL message found (260710 VVTSYFYX)
+[INFO ] 2024-10-26 07:10:23.032 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-26 07:10:23.172 [Thread-7] AFTNProcessor - [260710 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-26 07:10:23.193 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-26 07:13:04.329 [main] Run - Load config/database.xml
+[INFO ] 2024-10-26 07:13:04.554 [main] Run - Load config/gateway.xml
+[WARN ] 2024-10-26 07:13:04.556 [main] Run - Jar file is not found
+[INFO ] 2024-10-26 07:13:04.556 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-26 07:13:05.107 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-26 07:13:05.106 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-26 07:13:05.111 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-26 07:13:05.123 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[WARN ] 2024-10-26 07:13:05.388 [Thread-5] Run - PROGRAM END
+[WARN ] 2024-10-26 07:13:08.718 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-26 07:13:13.338 [main] Run - Load config/database.xml
+[INFO ] 2024-10-26 07:13:13.556 [main] Run - Load config/gateway.xml
+[WARN ] 2024-10-26 07:13:13.559 [main] Run - Jar file is not found
+[INFO ] 2024-10-26 07:13:13.560 [main] Run - SOFTWARE START #2
+[INFO ] 2024-10-26 07:13:14.082 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-26 07:13:14.081 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-26 07:13:14.084 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-26 07:13:14.095 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-26 07:13:23.128 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0031 260713     
+GG VVTSYFYX VVTSMHSA
+260713 VVTSYFYX
+TEST 00000006
+
+
+
+
+
+NNNN
+[INFO ] 2024-10-26 07:13:23.129 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 07:13:23.138 [Thread-7] AFTNProcessor - GENERAL message found (260713 VVTSYFYX)
+[INFO ] 2024-10-26 07:13:23.219 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-26 07:13:23.359 [Thread-7] AFTNProcessor - [260713 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-26 07:13:23.381 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-26 07:18:47.192 [Thread-6] AMHSProcessor - Process IPM Message
+[INFO ] 2024-10-26 07:18:47.202 [Thread-6] AMHSProcessor - --------------------------------
+ID: [/PRMD=VIETNAM/ADMD=ICAO/C=XX/;vietnam.am.3562301-241026.071847]
+IPM ID: 17472.0 241026071846Z*/CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/
+CONTENT ID:                 null
+CONTENT TYPE:                   22
+PRIORITY:                    0
+CON_PROHI:                false
+DL_EX_PROHI:                false
+CON_LOSS_PROHI:                false
+ORIGIN EIT:             ia5-text
+BODYPART TYPE:                  401
+ATTACHMENT:                    1
+SUBMISSION TIME:        241026071847Z
+ATN PROPERTIES **** 
+FILING TIME:               260718
+ATS PRIORITY:                   FF
+OHI:                 null
+ADDRESS **** 
+FROM: /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/
+PRIMARY ****
+> TO: /CN=VVTSLOOP/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/ rpt: null mta-rpt: null notify: 0
+
+ENVELOPE ****
+> TO: /CN=VVTSLOOP/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/ rpt: 1 mta-rpt: 1 notify: 0
+SUBJECT ****
+
+CONTENT ****
+TEST
+
+[INFO ] 2024-10-26 07:18:47.202 [Thread-6] AMHSProcessor - --------------------------------
+
+[INFO ] 2024-10-26 07:18:47.337 [Thread-6] AMHSProcessor - No address to delivery report -> Do not Send anything
+[INFO ] 2024-10-26 07:18:47.338 [Thread-6] AMHSProcessor - Converted
+[INFO ] 2024-10-26 07:18:47.338 [Thread-6] AMHSProcessor - Commit message status
+[ERROR] 2024-10-26 07:18:47.340 [Thread-6] AMHSProcessor - MSG removed
+[INFO ] 2024-10-26 07:18:47.981 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC AAA123
+GG VVVVVVVV
+260718 VVTSAMHS
+SVC ADS 260718 VVTSMHSA
+VVTSLOOP
+UNKNOWN VVTSLOOP
+
+
+NNNN
+[INFO ] 2024-10-26 07:18:47.981 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 07:18:47.985 [Thread-7] AFTNProcessor - UNKNOWN message found (260718 VVTSAMHS) 
+[INFO ] 2024-10-26 07:18:48.045 [Thread-7] DSAConnection - Closed
+[ERROR] 2024-10-26 07:18:48.046 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[ERROR] 2024-10-26 07:18:48.046 [Thread-7] AFTNProcessor - ERROR FOUND!
+com.isode.dsapi.DSAPIException: Convert fail
+	at com.attech.amhs.mtcu.isode.DSAConnection.convertToAmhsAddress(DSAConnection.java:188) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.processAddressUnknownIndicator(AFTNProcessor.java:483) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.process(AFTNProcessor.java:202) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.process(AFTNProcessor.java:120) [classes/:?]
+	at com.attech.amhs.mtcu.threads.AFTNChannel.run(AFTNChannel.java:33) [classes/:?]
+Caused by: java.lang.NullPointerException
+	at com.attech.amhs.mtcu.isode.DSAConnection.convertToAmhsAddress(DSAConnection.java:173) ~[classes/:?]
+	... 4 more
+[INFO ] 2024-10-26 07:19:59.474 [Thread-6] AMHSProcessor - Process IPM Message
+[INFO ] 2024-10-26 07:19:59.476 [Thread-6] AMHSProcessor - --------------------------------
+ID: [/PRMD=VIETNAM/ADMD=ICAO/C=XX/;vietnam.am.3562303-241026.071959]
+IPM ID: 17472.2 241026071959Z*/CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/
+CONTENT ID:                 null
+CONTENT TYPE:                   22
+PRIORITY:                    0
+CON_PROHI:                false
+DL_EX_PROHI:                false
+CON_LOSS_PROHI:                false
+ORIGIN EIT:             ia5-text
+BODYPART TYPE:                  401
+ATTACHMENT:                    1
+SUBMISSION TIME:        241026071959Z
+ATN PROPERTIES **** 
+FILING TIME:               260719
+ATS PRIORITY:                   FF
+OHI:                 null
+ADDRESS **** 
+FROM: /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/
+PRIMARY ****
+> TO: /CN=VVTSLOOP/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/ rpt: null mta-rpt: null notify: 0
+
+ENVELOPE ****
+> TO: /CN=VVTSLOOP/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/ rpt: 1 mta-rpt: 1 notify: 0
+SUBJECT ****
+
+CONTENT ****
+AAA
+
+[INFO ] 2024-10-26 07:19:59.476 [Thread-6] AMHSProcessor - --------------------------------
+
+[INFO ] 2024-10-26 07:19:59.607 [Thread-6] AMHSProcessor - No address to delivery report -> Do not Send anything
+[INFO ] 2024-10-26 07:19:59.607 [Thread-6] AMHSProcessor - Converted
+[INFO ] 2024-10-26 07:19:59.608 [Thread-6] AMHSProcessor - Commit message status
+[ERROR] 2024-10-26 07:19:59.609 [Thread-6] AMHSProcessor - MSG removed
+[INFO ] 2024-10-26 07:20:00.190 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC AAA123
+GG VVVVVVVV
+260720 VVTSAMHS
+SVC ADS 260719 VVTSMHSA
+VVTSLOOP
+UNKNOWN VVTSLOOP
+
+
+NNNN
+[INFO ] 2024-10-26 07:20:00.192 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 07:20:00.194 [Thread-7] AFTNProcessor - UNKNOWN message found (260720 VVTSAMHS) 
+[INFO ] 2024-10-26 07:20:00.226 [Thread-7] DSAConnection - Closed
+[ERROR] 2024-10-26 07:20:00.227 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[ERROR] 2024-10-26 07:20:00.227 [Thread-7] AFTNProcessor - ERROR FOUND!
+com.isode.dsapi.DSAPIException: Convert fail
+	at com.attech.amhs.mtcu.isode.DSAConnection.convertToAmhsAddress(DSAConnection.java:188) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.processAddressUnknownIndicator(AFTNProcessor.java:483) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.process(AFTNProcessor.java:202) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.process(AFTNProcessor.java:120) [classes/:?]
+	at com.attech.amhs.mtcu.threads.AFTNChannel.run(AFTNChannel.java:33) [classes/:?]
+Caused by: java.lang.NullPointerException
+	at com.attech.amhs.mtcu.isode.DSAConnection.convertToAmhsAddress(DSAConnection.java:173) ~[classes/:?]
+	... 4 more
+[INFO ] 2024-10-26 07:22:36.074 [Thread-6] AMHSProcessor - Process IPM Message
+[INFO ] 2024-10-26 07:22:36.076 [Thread-6] AMHSProcessor - --------------------------------
+ID: [/PRMD=VIETNAM/ADMD=ICAO/C=XX/;vietnam.am.3566801-241026.072236]
+IPM ID: 17472.3 241026072235Z*/CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/
+CONTENT ID:                 null
+CONTENT TYPE:                   22
+PRIORITY:                    0
+CON_PROHI:                false
+DL_EX_PROHI:                false
+CON_LOSS_PROHI:                false
+ORIGIN EIT:             ia5-text
+BODYPART TYPE:                  401
+ATTACHMENT:                    1
+SUBMISSION TIME:        241026072236Z
+ATN PROPERTIES **** 
+FILING TIME:               260722
+ATS PRIORITY:                   FF
+OHI:                 null
+ADDRESS **** 
+FROM: /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/
+PRIMARY ****
+> TO: /CN=VVTSLOOP/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/ rpt: null mta-rpt: null notify: 0
+
+ENVELOPE ****
+> TO: /CN=VVTSLOOP/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/ rpt: 1 mta-rpt: 1 notify: 0
+SUBJECT ****
+
+CONTENT ****
+AAAA
+
+[INFO ] 2024-10-26 07:22:36.077 [Thread-6] AMHSProcessor - --------------------------------
+
+[INFO ] 2024-10-26 07:22:36.217 [Thread-6] AMHSProcessor - No address to delivery report -> Do not Send anything
+[INFO ] 2024-10-26 07:22:36.217 [Thread-6] AMHSProcessor - Converted
+[INFO ] 2024-10-26 07:22:36.217 [Thread-6] AMHSProcessor - Commit message status
+[ERROR] 2024-10-26 07:22:36.219 [Thread-6] AMHSProcessor - MSG removed
+[INFO ] 2024-10-26 07:22:36.486 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC AAA123
+GG VVVVVVVV
+260722 VVTSAMHS
+SVC ADS 260722 VVTSMHSA
+VVTSLOOP
+UNKNOWN VVTSLOOP
+
+
+NNNN
+[INFO ] 2024-10-26 07:22:36.486 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 07:22:36.489 [Thread-7] AFTNProcessor - UNKNOWN message found (260722 VVTSAMHS) 
+[INFO ] 2024-10-26 07:22:36.520 [Thread-7] DSAConnection - Closed
+[ERROR] 2024-10-26 07:22:36.520 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[ERROR] 2024-10-26 07:22:36.521 [Thread-7] AFTNProcessor - ERROR FOUND!
+com.isode.dsapi.DSAPIException: Convert fail
+	at com.attech.amhs.mtcu.isode.DSAConnection.convertToAmhsAddress(DSAConnection.java:188) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.processAddressUnknownIndicator(AFTNProcessor.java:483) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.process(AFTNProcessor.java:202) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.process(AFTNProcessor.java:120) [classes/:?]
+	at com.attech.amhs.mtcu.threads.AFTNChannel.run(AFTNChannel.java:33) [classes/:?]
+Caused by: java.lang.NullPointerException
+	at com.attech.amhs.mtcu.isode.DSAConnection.convertToAmhsAddress(DSAConnection.java:173) ~[classes/:?]
+	... 4 more
+[INFO ] 2024-10-26 07:23:48.386 [Thread-6] AMHSProcessor - Process IPM Message
+[INFO ] 2024-10-26 07:23:48.388 [Thread-6] AMHSProcessor - --------------------------------
+ID: [/PRMD=VIETNAM/ADMD=ICAO/C=XX/;vietnam.am.3568401-241026.072348]
+IPM ID: 17472.4 241026072348Z*/CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/
+CONTENT ID:                 null
+CONTENT TYPE:                   22
+PRIORITY:                    0
+CON_PROHI:                false
+DL_EX_PROHI:                false
+CON_LOSS_PROHI:                false
+ORIGIN EIT:             ia5-text
+BODYPART TYPE:                  401
+ATTACHMENT:                    1
+SUBMISSION TIME:        241026072348Z
+ATN PROPERTIES **** 
+FILING TIME:               260723
+ATS PRIORITY:                   FF
+OHI:                 null
+ADDRESS **** 
+FROM: /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/
+PRIMARY ****
+> TO: /CN=VVTSLOOP/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/ rpt: null mta-rpt: null notify: 0
+
+ENVELOPE ****
+> TO: /CN=VVTSLOOP/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/ rpt: 1 mta-rpt: 1 notify: 0
+SUBJECT ****
+
+CONTENT ****
+AAAAA
+
+[INFO ] 2024-10-26 07:23:48.388 [Thread-6] AMHSProcessor - --------------------------------
+
+[INFO ] 2024-10-26 07:23:48.530 [Thread-6] AMHSProcessor - No address to delivery report -> Do not Send anything
+[INFO ] 2024-10-26 07:23:48.530 [Thread-6] AMHSProcessor - Converted
+[INFO ] 2024-10-26 07:23:48.531 [Thread-6] AMHSProcessor - Commit message status
+[ERROR] 2024-10-26 07:23:48.532 [Thread-6] AMHSProcessor - MSG removed
+[INFO ] 2024-10-26 07:23:51.653 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC AAA123
+GG VVVVVVVV
+260723 VVTSAMHS
+SVC ADS 260723 VVTSMHSA
+VVTSLOOP
+UNKNOWN VVTSLOOP
+
+
+NNNN
+[INFO ] 2024-10-26 07:23:51.653 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-26 07:23:51.656 [Thread-7] AFTNProcessor - UNKNOWN message found (260723 VVTSAMHS) 
+[INFO ] 2024-10-26 07:23:51.683 [Thread-7] DSAConnection - Closed
+[ERROR] 2024-10-26 07:23:51.684 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[ERROR] 2024-10-26 07:23:51.684 [Thread-7] AFTNProcessor - ERROR FOUND!
+com.isode.dsapi.DSAPIException: Convert fail
+	at com.attech.amhs.mtcu.isode.DSAConnection.convertToAmhsAddress(DSAConnection.java:188) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.processAddressUnknownIndicator(AFTNProcessor.java:483) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.process(AFTNProcessor.java:202) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.process(AFTNProcessor.java:120) [classes/:?]
+	at com.attech.amhs.mtcu.threads.AFTNChannel.run(AFTNChannel.java:33) [classes/:?]
+Caused by: java.lang.NullPointerException
+	at com.attech.amhs.mtcu.isode.DSAConnection.convertToAmhsAddress(DSAConnection.java:173) ~[classes/:?]
+	... 4 more

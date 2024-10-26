@@ -69,6 +69,11 @@ public class MTConnection1 implements AutoCloseable {
         this.connected = false;
     }
 
+    /*-----------------------------------------------------------
+    
+    
+    
+    ------------------------------------------------------------*/
     public void send(DeliverMessage message) throws X400APIException {
 
         final MTMessage mtMessage = new MTMessage();
@@ -94,7 +99,11 @@ public class MTConnection1 implements AutoCloseable {
             delele(mtMessage);
         }
     }
-
+    /*-----------------------------------------------------------
+    
+    
+    
+    ------------------------------------------------------------*/
     public void send(DeliverIpnMessage message) throws X400APIException {
 
         final MTMessage mtMessage = new MTMessage();
