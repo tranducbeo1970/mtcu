@@ -218,20 +218,33 @@ public class DeliverMessage extends DeliverMessageBase {
         }
     }
 
+    /*-----------------------------------------------------------
+    
+    
+    
+    -----------------------------------------------------------*/
     private void buildAts(MTMessage mtMessage) {
         if (!this.atsMessage) {
             return;
         }
 
         final DefaultMessageValue config = Config.instance.getAftnChannel().getDefaultMessageValue();
+        
+        
         // DUC 19102024
+        // config.getAtsExtended()l get from config/gateway.xml
         int ext = config.getAtsExtended();
+        //ext = 0;
+        
         if(ext == 1) {
+            set(mtMessage, AMHS_att.ATS_N_EXTENDED,1);
+            /*
             if(this.isExtended()) {
                 set(mtMessage, AMHS_att.ATS_N_EXTENDED,1);
             } else {
                 set(mtMessage, AMHS_att.ATS_N_EXTENDED,0);
             }
+            */
         } else {
             set(mtMessage, AMHS_att.ATS_N_EXTENDED, 0);     // BASIC
         }
@@ -243,13 +256,15 @@ public class DeliverMessage extends DeliverMessageBase {
             set(mtMessage, AMHS_att.ATS_S_OPTIONAL_HEADING_INFO, this.atsOHI);
         }
         
+        
         //et(mtMessage, AMHS_att.ATS_EOH_MODE, AMHS_att.ATS_EOH_MODE_NONE);
 
         /*------------------------------
         
         DUC 19102024
-        
+        TAT DOAN DUOI KONG NO SINH RA 2
         --------------------------------*/
+        /*
         int i = config.getAtsExtendSupported();
         if (config.getAtsExtendSupported() == 1) {
             String authorizedTime = MtCommon.getAuthorizedTimeFromFilingTime(this.atsFilingTime);
@@ -260,6 +275,7 @@ public class DeliverMessage extends DeliverMessageBase {
                 set(mtMessage, X400_att.X400_S_ORIGINATORS_REFERENCE, this.atsOHI);
             }
         }
+        */
     }
 
     private void buildContent(MTMessage mtMessage) {

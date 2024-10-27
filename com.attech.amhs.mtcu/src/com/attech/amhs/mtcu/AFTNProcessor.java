@@ -254,7 +254,8 @@ public class AFTNProcessor {
         final List<String> unknownAddresses_str_list = new ArrayList<>();
         logger.debug("Convert recipient");
 
-        final List<String> recipients = new ArrayList<>();
+        final List<String> recipients_basic = new ArrayList<>();
+        final List<String> recipients_extend = new ArrayList<>();
 
         
         /*--------------------------------------------
@@ -278,13 +279,17 @@ public class AFTNProcessor {
             }
             
             
-// DUC 20/10/2024-------------------------------------------------------------------------------------------------
+            // DUC 20/10/2024-------------------------------------------------------------------------------------------------
             String s = (result.isIhe())?"YES":"NO";
             String s1 = (result.isDirect())?"YES":"NO";
             logger.info("Convert " + address + " to " + result.getConvertedAddress() + ", IHE=" + s + " DIRECT=" + s1);
             
             // Them cac dia chi vao string list
-            recipients.add(result.getConvertedAddress());
+            if(result.isIhe() && result.isDirect()) {
+                recipients_extend.add(result.getConvertedAddress());
+            } else {
+                recipients_basic.add(result.getConvertedAddress());
+            }
             logger.debug(">{}:{}", address, result.getConvertedAddress());
         }
         
@@ -297,8 +302,9 @@ public class AFTNProcessor {
             this.reportControlPosition(message.getMessage(), String.format(CONVERT_RECIPIENT_UNKNOW_ERROR, unknowAddressStr), mtConnection);
         }
 
+        
         // Logging and return
-        if (recipients.isEmpty()) {
+        if (recipients_basic.isEmpty()) {
             final String error = String.format(CONVERT_RECIPIENT_ERROR, String.join(", ", message.getEnvelopeMessages()));
             this.log(message, ConvertResult.FAIL, error);
             logger.error(error);
@@ -310,6 +316,8 @@ public class AFTNProcessor {
         /* DUC 26/10/2024 */
         /* Tao dien van phat di */
         /* DeliverMessage class de tao dien */
+        /* Phat tat ca dien */
+        
         final DeliverMessage deliveryMessage = new DeliverMessage();
         deliveryMessage.setPriority(priority);
         deliveryMessage.setOriginator(amhsOrigin);
@@ -322,13 +330,14 @@ public class AFTNProcessor {
 
         
         /* Them cac dia chi */
-        for (String recipient : recipients) {
+        for (String recipient : recipients_basic) {
             deliveryMessage.addRecip(new Recipient(recipient, recipientCfg));
         }
 
         
         // SET DIEN VAN LOAI GI
-        deliveryMessage.setExtended(true);
+        // Chua can
+        //deliveryMessage.setExtended(true);
         
         /******************************************************************************
          * 
@@ -338,6 +347,10 @@ public class AFTNProcessor {
         
         mtConnection.send(deliveryMessage);         // Build message here
         logger.debug("Delivered");
+        
+        //
+        //  Da phat xong
+        //
 
         
         final String remark = unknownAddresses_str_list.isEmpty()
