@@ -1,381 +1,488 @@
-[INFO ] 2024-10-27 02:20:47.504 [main] Run - Load config/database.xml
-[INFO ] 2024-10-27 02:20:47.733 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-27 02:20:47.737 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-27 02:20:48.247 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-27 02:20:48.248 [Thread-7] AFTNChannel - Started OK
-[INFO ] 2024-10-27 02:20:48.251 [Thread-6] AMHSProcessor - Connecting to x400mt
-[INFO ] 2024-10-27 02:20:48.263 [Thread-6] AMHSProcessor - Connect OK, System's ready
-[INFO ] 2024-10-27 02:21:00.301 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 00:31:30.939 [main] Run - Load config/database.xml
+[INFO ] 2024-10-28 00:31:31.154 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-28 00:31:31.157 [main] Run - SOFTWARE START #27/10/2024#
+[INFO ] 2024-10-28 00:31:31.695 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-28 00:31:31.695 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-28 00:31:31.697 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-28 00:31:31.705 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-28 00:31:31.716 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0042 270220     
+ZCZC SVA0003 280031     
 GG VVTSYFYX VVTSMHSA
-270220 VVTSYFYX
-TEST 00000006
+280031 VVTSYFYX
+TEST 000000014
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:21:00.301 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:21:00.306 [Thread-7] AFTNProcessor - GENERAL message found (270220 VVTSYFYX)
-[INFO ] 2024-10-27 02:21:00.387 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:21:00.559 [Thread-7] AFTNProcessor - [270220 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 02:21:00.580 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[INFO ] 2024-10-27 02:21:45.682 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 00:31:31.717 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 00:31:31.722 [Thread-7] AFTNProcessor - GENERAL message found (280031 VVTSYFYX)
+[INFO ] 2024-10-28 00:31:31.800 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-28 00:31:31.971 [Thread-7] AFTNProcessor - [280031 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 00:31:31.991 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-28 01:42:55.924 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0043 270221     
+ZCZC SVA0008 280142     
 GG VVTSYFYX VVTSMHSA
-270221 VVTSYFYX
-TEST 00000006
+280142 VVTSYFYX
+TEST 000000015
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:21:45.682 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:21:45.685 [Thread-7] AFTNProcessor - GENERAL message found (270221 VVTSYFYX)
-[INFO ] 2024-10-27 02:21:45.741 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:21:45.856 [Thread-7] AFTNProcessor - [270221 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 02:21:45.861 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[INFO ] 2024-10-27 02:30:49.764 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 01:42:55.925 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 01:42:55.928 [Thread-7] AFTNProcessor - GENERAL message found (280142 VVTSYFYX)
+[INFO ] 2024-10-28 01:42:55.984 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-28 01:42:56.096 [Thread-7] AFTNProcessor - [280142 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 01:42:56.101 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-28 02:03:27.258 [main] Run - Load config/database.xml
+[INFO ] 2024-10-28 02:03:27.467 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-28 02:03:27.470 [main] Run - SOFTWARE START #27/10/2024#
+[INFO ] 2024-10-28 02:03:27.937 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-28 02:03:27.938 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-28 02:03:27.939 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-28 02:03:27.946 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[WARN ] 2024-10-28 02:03:29.362 [Thread-5] Run - PROGRAM END
+[WARN ] 2024-10-28 02:03:33.401 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-28 02:03:41.109 [main] Run - Load config/database.xml
+[INFO ] 2024-10-28 02:03:41.325 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-28 02:03:41.328 [main] Run - SOFTWARE START #27/10/2024#
+[INFO ] 2024-10-28 02:03:41.823 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-28 02:03:41.823 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-28 02:03:41.826 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-28 02:03:41.834 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-28 02:07:00.238 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0044 270230     
+ZCZC SVA0010 280206     
 GG VVTSYFYX VVTSMHSA
-270230 VVTSYFYX
-TEST 00000006
+280206 VVTSYFYX
+TEST 000000015
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:30:49.764 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:30:49.767 [Thread-7] AFTNProcessor - GENERAL message found (270230 VVTSYFYX)
-[INFO ] 2024-10-27 02:30:49.818 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:30:49.949 [Thread-7] AFTNProcessor - [270230 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 02:30:49.955 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[WARN ] 2024-10-27 02:31:52.972 [Thread-5] Run - PROGRAM END
-[INFO ] 2024-10-27 02:31:57.954 [main] Run - Load config/database.xml
-[INFO ] 2024-10-27 02:31:58.178 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-27 02:31:58.181 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-27 02:31:58.711 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-27 02:31:58.712 [Thread-7] AFTNChannel - Started OK
-[INFO ] 2024-10-27 02:31:58.713 [Thread-6] AMHSProcessor - Connecting to x400mt
-[INFO ] 2024-10-27 02:31:58.722 [Thread-6] AMHSProcessor - Connect OK, System's ready
-[INFO ] 2024-10-27 02:32:13.769 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:07:00.239 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:07:00.244 [Thread-7] AFTNProcessor - GENERAL message found (280206 VVTSYFYX)
+[INFO ] 2024-10-28 02:07:00.325 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-28 02:07:00.477 [Thread-7] AFTNProcessor - [280206 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:07:00.492 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[WARN ] 2024-10-28 02:09:27.093 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-28 02:11:01.194 [main] Run - Load config/database.xml
+[INFO ] 2024-10-28 02:11:01.428 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-28 02:11:01.431 [main] Run - SOFTWARE START #27/10/2024#
+[INFO ] 2024-10-28 02:11:01.948 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-28 02:11:01.949 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-28 02:11:01.951 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-28 02:11:01.959 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-28 02:11:23.018 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0045 270232     
+ZCZC SVA0011 280211     
 GG VVTSYFYX VVTSMHSA
-270232 VVTSYFYX
-TEST 00000006
+280211 VVTSYFYX
+TEST 000000015
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:32:13.769 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:32:13.775 [Thread-7] AFTNProcessor - GENERAL message found (270232 VVTSYFYX)
-[INFO ] 2024-10-27 02:32:13.853 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:32:14.018 [Thread-7] AFTNProcessor - [270232 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 02:32:14.040 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[WARN ] 2024-10-27 02:33:36.591 [Thread-5] Run - PROGRAM END
-[INFO ] 2024-10-27 02:33:44.194 [main] Run - Load config/database.xml
-[INFO ] 2024-10-27 02:33:44.404 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-27 02:33:44.407 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-27 02:33:44.883 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-27 02:33:44.883 [Thread-7] AFTNChannel - Started OK
-[INFO ] 2024-10-27 02:33:44.886 [Thread-6] AMHSProcessor - Connecting to x400mt
-[INFO ] 2024-10-27 02:33:44.897 [Thread-6] AMHSProcessor - Connect OK, System's ready
-[INFO ] 2024-10-27 02:33:47.914 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:11:23.019 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:11:23.027 [Thread-7] AFTNProcessor - GENERAL message found (280211 VVTSYFYX)
+[INFO ] 2024-10-28 02:11:23.123 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-28 02:12:13.394 [main] Run - Load config/database.xml
+[INFO ] 2024-10-28 02:12:13.617 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-28 02:12:13.620 [main] Run - SOFTWARE START #27/10/2024#
+[INFO ] 2024-10-28 02:12:14.129 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-28 02:12:14.129 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-28 02:12:14.131 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-28 02:12:14.140 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-28 02:12:14.151 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0046 270233     
+ZCZC SVA0011 280211     
 GG VVTSYFYX VVTSMHSA
-270233 VVTSYFYX
-TEST 00000006
+280211 VVTSYFYX
+TEST 000000015
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:33:47.915 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:33:47.923 [Thread-7] AFTNProcessor - GENERAL message found (270233 VVTSYFYX)
-[INFO ] 2024-10-27 02:33:48.003 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:33:48.148 [Thread-7] AFTNProcessor - [270233 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 02:33:48.171 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[WARN ] 2024-10-27 02:34:12.070 [Thread-5] Run - PROGRAM END
-[INFO ] 2024-10-27 02:34:21.856 [main] Run - Load config/database.xml
-[INFO ] 2024-10-27 02:34:22.110 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-27 02:34:22.113 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-27 02:34:22.684 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-27 02:34:22.685 [Thread-7] AFTNChannel - Started OK
-[INFO ] 2024-10-27 02:34:22.687 [Thread-6] AMHSProcessor - Connecting to x400mt
-[INFO ] 2024-10-27 02:34:22.697 [Thread-6] AMHSProcessor - Connect OK, System's ready
-[INFO ] 2024-10-27 02:34:25.725 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:12:14.151 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:12:14.157 [Thread-7] AFTNProcessor - GENERAL message found (280211 VVTSYFYX)
+[INFO ] 2024-10-28 02:12:14.233 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
+[INFO ] 2024-10-28 02:12:14.384 [Thread-7] AFTNProcessor - [280211 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:12:14.405 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-28 02:21:19.187 [main] Run - Load config/database.xml
+[INFO ] 2024-10-28 02:21:19.472 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-28 02:21:19.476 [main] Run - SOFTWARE START #27/10/2024#
+[INFO ] 2024-10-28 02:21:20.020 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-28 02:21:20.020 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-28 02:21:20.022 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-28 02:21:20.032 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[WARN ] 2024-10-28 02:21:21.130 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-28 02:22:13.156 [main] Run - Load config/database.xml
+[INFO ] 2024-10-28 02:22:13.370 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-28 02:22:13.373 [main] Run - SOFTWARE START #27/10/2024#
+[WARN ] 2024-10-28 02:22:13.612 [Thread-5] Run - PROGRAM END
+[WARN ] 2024-10-28 02:22:16.074 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-28 02:22:23.190 [main] Run - Load config/database.xml
+[INFO ] 2024-10-28 02:22:23.419 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-28 02:22:23.422 [main] Run - SOFTWARE START #27/10/2024#
+[INFO ] 2024-10-28 02:22:23.955 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-28 02:22:23.954 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-28 02:22:23.958 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-28 02:22:23.973 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-28 02:22:29.995 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0047 270234     
+ZCZC SVA0013 280222     
 GG VVTSYFYX VVTSMHSA
-270234 VVTSYFYX
-TEST 00000006
+280222 VVTSYFYX
+TEST 000000015
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:34:25.725 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:34:25.736 [Thread-7] AFTNProcessor - GENERAL message found (270234 VVTSYFYX)
-[INFO ] 2024-10-27 02:34:25.831 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:35:30.038 [main] Run - Load config/database.xml
-[INFO ] 2024-10-27 02:35:30.246 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-27 02:35:30.249 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-27 02:35:30.771 [Thread-7] AFTNChannel - Started OK
-[INFO ] 2024-10-27 02:35:30.771 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-27 02:35:30.773 [Thread-6] AMHSProcessor - Connecting to x400mt
-[INFO ] 2024-10-27 02:35:30.781 [Thread-6] AMHSProcessor - Connect OK, System's ready
-[INFO ] 2024-10-27 02:35:30.791 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:22:29.995 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:22:30.003 [Thread-7] AFTNProcessor - GENERAL message found (280222 VVTSYFYX)
+[INFO ] 2024-10-28 02:22:30.082 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO Support EXTENED 1
+[INFO ] 2024-10-28 02:22:30.242 [Thread-7] AFTNProcessor - [280222 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:22:30.260 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-28 02:23:57.441 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0047 270234     
+ZCZC SVA0014 280223     
 GG VVTSYFYX VVTSMHSA
-270234 VVTSYFYX
-TEST 00000006
+280223 VVTSYFYX
+TEST 000000016
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:35:30.791 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:35:30.797 [Thread-7] AFTNProcessor - GENERAL message found (270234 VVTSYFYX)
-[INFO ] 2024-10-27 02:35:30.873 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:35:31.046 [Thread-7] AFTNProcessor - [270234 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 02:35:31.065 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[INFO ] 2024-10-27 02:35:34.085 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:23:57.441 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:23:57.443 [Thread-7] AFTNProcessor - GENERAL message found (280223 VVTSYFYX)
+[INFO ] 2024-10-28 02:23:57.497 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 1
+[ERROR] 2024-10-28 02:23:57.581 [Thread-7] AFTNProcessor - System cannot convert recipient address: VVTSMHSA
+[ERROR] 2024-10-28 02:23:57.581 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[ERROR] 2024-10-28 02:23:57.582 [Thread-7] AFTNProcessor - ERROR FOUND!
+com.attech.amhs.mtcu.common.InvalidOperatingException: System cannot convert recipient address: VVTSMHSA
+	at com.attech.amhs.mtcu.AFTNProcessor.processNormalMessage(AFTNProcessor.java:327) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.process(AFTNProcessor.java:215) ~[classes/:?]
+	at com.attech.amhs.mtcu.AFTNProcessor.process(AFTNProcessor.java:124) [classes/:?]
+	at com.attech.amhs.mtcu.threads.AFTNChannel.run(AFTNChannel.java:33) [classes/:?]
+[WARN ] 2024-10-28 02:24:20.040 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-28 02:26:38.676 [main] Run - Load config/database.xml
+[INFO ] 2024-10-28 02:26:38.884 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-28 02:26:38.887 [main] Run - SOFTWARE START #27/10/2024#
+[INFO ] 2024-10-28 02:26:39.390 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-28 02:26:39.390 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-28 02:26:39.392 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-28 02:26:39.400 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-28 02:26:48.435 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0048 270235     
+ZCZC SVA0015 280226     
 GG VVTSYFYX VVTSMHSA
-270235 VVTSYFYX
-TEST 00000006
+280226 VVTSYFYX
+TEST 000000016
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:35:34.085 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:35:34.087 [Thread-7] AFTNProcessor - GENERAL message found (270235 VVTSYFYX)
-[INFO ] 2024-10-27 02:35:34.144 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:35:34.267 [Thread-7] AFTNProcessor - [270235 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 02:35:34.273 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[WARN ] 2024-10-27 02:36:21.767 [Thread-5] Run - PROGRAM END
-[INFO ] 2024-10-27 02:36:27.087 [main] Run - Load config/database.xml
-[INFO ] 2024-10-27 02:36:27.290 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-27 02:36:27.293 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-27 02:36:27.769 [Thread-7] AFTNChannel - Started OK
-[INFO ] 2024-10-27 02:36:27.768 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-27 02:36:27.771 [Thread-6] AMHSProcessor - Connecting to x400mt
-[INFO ] 2024-10-27 02:36:27.779 [Thread-6] AMHSProcessor - Connect OK, System's ready
-[INFO ] 2024-10-27 02:36:30.799 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:26:48.436 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:26:48.444 [Thread-7] AFTNProcessor - GENERAL message found (280226 VVTSYFYX)
+[INFO ] 2024-10-28 02:26:48.519 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 1
+[ERROR] 2024-10-28 02:26:51.533 [Thread-7] MTConnection1 - Sending IPM fail (code: 3 - Bad parameter value)
+[INFO ] 2024-10-28 02:26:51.662 [Thread-7] AFTNProcessor - [280226 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:26:51.683 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[WARN ] 2024-10-28 02:28:08.413 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-28 02:28:15.013 [main] Run - Load config/database.xml
+[INFO ] 2024-10-28 02:28:15.219 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-28 02:28:15.222 [main] Run - SOFTWARE START #27/10/2024#
+[INFO ] 2024-10-28 02:28:15.679 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-28 02:28:15.680 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-28 02:28:15.681 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-28 02:28:15.689 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-28 02:28:24.720 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0049 270236     
+ZCZC SVA0016 280228     
 GG VVTSYFYX VVTSMHSA
-270236 VVTSYFYX
-TEST 00000006
+280228 VVTSYFYX
+TEST 000000016
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:36:30.799 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:36:30.804 [Thread-7] AFTNProcessor - GENERAL message found (270236 VVTSYFYX)
-[INFO ] 2024-10-27 02:36:30.886 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:36:31.046 [Thread-7] AFTNProcessor - [270236 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 02:36:31.068 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[WARN ] 2024-10-27 02:36:49.422 [Thread-5] Run - PROGRAM END
-[INFO ] 2024-10-27 02:36:54.131 [main] Run - Load config/database.xml
-[INFO ] 2024-10-27 02:36:54.343 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-27 02:36:54.346 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-27 02:36:54.825 [Thread-7] AFTNChannel - Started OK
-[INFO ] 2024-10-27 02:36:54.824 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-27 02:36:54.828 [Thread-6] AMHSProcessor - Connecting to x400mt
-[INFO ] 2024-10-27 02:36:54.838 [Thread-6] AMHSProcessor - Connect OK, System's ready
-[INFO ] 2024-10-27 02:37:00.861 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:28:24.721 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:28:24.726 [Thread-7] AFTNProcessor - GENERAL message found (280228 VVTSYFYX)
+[INFO ] 2024-10-28 02:28:24.802 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 1
+[ERROR] 2024-10-28 02:28:27.815 [Thread-7] MTConnection1 - Sending IPM fail (code: 3 - Bad parameter value)
+[INFO ] 2024-10-28 02:28:27.966 [Thread-7] AFTNProcessor - [280228 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:28:27.988 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[WARN ] 2024-10-28 02:29:01.997 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-28 02:29:44.419 [main] Run - Load config/database.xml
+[INFO ] 2024-10-28 02:29:44.663 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-28 02:29:44.666 [main] Run - SOFTWARE START #27/10/2024#
+[INFO ] 2024-10-28 02:29:45.232 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-28 02:29:45.232 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-28 02:29:45.234 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-28 02:29:45.244 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-28 02:29:54.280 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0050 270236     
+ZCZC SVA0017 280229     
 GG VVTSYFYX VVTSMHSA
-270236 VVTSYFYX
-TEST 00000007
+280229 VVTSYFYX
+TEST 000000016
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:37:00.862 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:37:00.868 [Thread-7] AFTNProcessor - GENERAL message found (270236 VVTSYFYX)
-[INFO ] 2024-10-27 02:37:00.948 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:37:01.125 [Thread-7] AFTNProcessor - [270236 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 02:37:01.145 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[WARN ] 2024-10-27 02:37:39.865 [Thread-5] Run - PROGRAM END
-[INFO ] 2024-10-27 02:37:44.858 [main] Run - Load config/database.xml
-[INFO ] 2024-10-27 02:37:45.076 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-27 02:37:45.080 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-27 02:37:45.583 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-27 02:37:45.584 [Thread-7] AFTNChannel - Started OK
-[INFO ] 2024-10-27 02:37:45.586 [Thread-6] AMHSProcessor - Connecting to x400mt
-[INFO ] 2024-10-27 02:37:45.594 [Thread-6] AMHSProcessor - Connect OK, System's ready
-[INFO ] 2024-10-27 02:37:54.628 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:29:54.280 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:29:54.288 [Thread-7] AFTNProcessor - GENERAL message found (280229 VVTSYFYX)
+[INFO ] 2024-10-28 02:29:54.379 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 1
+[INFO ] 2024-10-28 02:30:42.644 [main] Run - Load config/database.xml
+[INFO ] 2024-10-28 02:30:42.857 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-28 02:30:42.860 [main] Run - SOFTWARE START #27/10/2024#
+[INFO ] 2024-10-28 02:30:43.345 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-28 02:30:43.345 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-28 02:30:43.348 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-28 02:30:43.360 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-28 02:30:43.371 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0051 270237     
+ZCZC SVA0017 280229     
 GG VVTSYFYX VVTSMHSA
-270237 VVTSYFYX
-TEST 00000008
+280229 VVTSYFYX
+TEST 000000016
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:37:54.628 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:37:54.633 [Thread-7] AFTNProcessor - GENERAL message found (270237 VVTSYFYX)
-[INFO ] 2024-10-27 02:37:54.713 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:37:54.872 [Thread-7] AFTNProcessor - [270237 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 02:37:54.893 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[INFO ] 2024-10-27 02:38:52.022 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:30:43.372 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:30:43.377 [Thread-7] AFTNProcessor - GENERAL message found (280229 VVTSYFYX)
+[INFO ] 2024-10-28 02:30:43.440 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 1
+[INFO ] 2024-10-28 02:30:46.612 [Thread-7] AFTNProcessor - [280229 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:30:46.633 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-28 02:30:58.669 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0052 270238     
+ZCZC SVA0018 280230     
 GG VVTSYFYX VVTSMHSA
-270238 VVTSYFYX OHI
-TEST 00000009
+280230 VVTSYFYX
+TEST 000000017
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:38:52.022 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:38:52.024 [Thread-7] AFTNProcessor - GENERAL message found (270238 VVTSYFYX)
-[INFO ] 2024-10-27 02:38:52.078 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:38:52.156 [Thread-7] AFTNProcessor - [270238 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 02:38:52.161 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[INFO ] 2024-10-27 02:39:22.229 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:30:58.669 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:30:58.672 [Thread-7] AFTNProcessor - GENERAL message found (280230 VVTSYFYX)
+[INFO ] 2024-10-28 02:30:58.729 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 1
+[INFO ] 2024-10-28 02:31:01.806 [Thread-7] AFTNProcessor - [280230 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:31:01.811 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-28 02:37:20.471 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0053 270239     
-GG VVTSYFYX VVTSMHSA
-270239 VVTSYFYX
-TEST 000000010
+ZCZC SVA0019 280237     
+GG VVTSYFYX VVTSMHSA VVTSOPTA
+280237 VVTSYFYX
+TEST 000000017
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:39:22.229 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:39:22.231 [Thread-7] AFTNProcessor - GENERAL message found (270239 VVTSYFYX)
-[INFO ] 2024-10-27 02:39:22.288 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:39:22.381 [Thread-7] AFTNProcessor - [270239 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 02:39:22.386 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[WARN ] 2024-10-27 02:40:17.041 [Thread-5] Run - PROGRAM END
-[INFO ] 2024-10-27 02:40:21.559 [main] Run - Load config/database.xml
-[INFO ] 2024-10-27 02:40:21.778 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-27 02:40:21.782 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-27 02:40:22.332 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-27 02:40:22.332 [Thread-7] AFTNChannel - Started OK
-[INFO ] 2024-10-27 02:40:22.335 [Thread-6] AMHSProcessor - Connecting to x400mt
-[INFO ] 2024-10-27 02:40:22.347 [Thread-6] AMHSProcessor - Connect OK, System's ready
-[INFO ] 2024-10-27 02:40:25.361 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:37:20.471 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:37:20.473 [Thread-7] AFTNProcessor - GENERAL message found (280237 VVTSYFYX)
+[INFO ] 2024-10-28 02:37:20.526 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 1
+[INFO ] 2024-10-28 02:37:20.569 [Thread-7] AFTNProcessor - Convert VVTSOPTA to /CN=VVTSOPTA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 1
+[INFO ] 2024-10-28 02:37:23.675 [Thread-7] AFTNProcessor - [280237 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:37:23.679 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-28 02:37:50.732 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0055 270240     
-GG VVTSYFYX VVTSMHSA
-270240 VVTSYFYX
-TEST 000000010
+ZCZC SVA0020 280237     
+GG VVTSYFYX VVTSMHSA VVTSOPTA
+280237 VVTSYFYX
+TEST 000000018
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 02:40:25.361 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 02:40:25.367 [Thread-7] AFTNProcessor - GENERAL message found (270240 VVTSYFYX)
-[INFO ] 2024-10-27 02:40:25.449 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 02:40:25.628 [Thread-7] AFTNProcessor - [270240 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 02:40:25.647 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[WARN ] 2024-10-27 03:03:43.823 [Thread-5] Run - PROGRAM END
-[INFO ] 2024-10-27 03:04:03.949 [main] Run - Load config/database.xml
-[INFO ] 2024-10-27 03:04:04.180 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-27 03:04:04.183 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-27 03:04:04.678 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-27 03:04:04.679 [Thread-7] AFTNChannel - Started OK
-[INFO ] 2024-10-27 03:04:04.680 [Thread-6] AMHSProcessor - Connecting to x400mt
-[INFO ] 2024-10-27 03:04:04.689 [Thread-6] AMHSProcessor - Connect OK, System's ready
-[INFO ] 2024-10-27 03:04:13.727 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:37:50.732 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:37:50.734 [Thread-7] AFTNProcessor - GENERAL message found (280237 VVTSYFYX)
+[INFO ] 2024-10-28 02:37:50.789 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 1
+[INFO ] 2024-10-28 02:37:50.831 [Thread-7] AFTNProcessor - Convert VVTSOPTA to /CN=VVTSOPTA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO Support EXTENED 1
+[INFO ] 2024-10-28 02:37:50.906 [Thread-7] AFTNProcessor - [280237 VVTSYFYX] is converted successfully
+[INFO ] 2024-10-28 02:37:53.991 [Thread-7] AFTNProcessor - [280237 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:37:53.994 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-28 02:40:42.252 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0057 270304     
-GG VVTSYFYX VVTSMHSA
-270304 VVTSYFYX
-TEST 000000010
+ZCZC SVA0022 280240     
+GG VVTSYFYX VVTSMHSA VVTSOPTA
+280240 VVTSYFYX
+TEST 000000019
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 03:04:13.727 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 03:04:13.736 [Thread-7] AFTNProcessor - GENERAL message found (270304 VVTSYFYX)
-[INFO ] 2024-10-27 03:04:13.813 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 03:04:13.991 [Thread-7] AFTNProcessor - [270304 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 03:04:14.013 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[WARN ] 2024-10-27 03:04:38.970 [Thread-5] Run - PROGRAM END
-[INFO ] 2024-10-27 03:04:55.908 [main] Run - Load config/database.xml
-[INFO ] 2024-10-27 03:04:56.132 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-27 03:04:56.135 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-27 03:04:56.645 [Thread-7] AFTNChannel - Started OK
-[INFO ] 2024-10-27 03:04:56.644 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-27 03:04:56.648 [Thread-6] AMHSProcessor - Connecting to x400mt
-[INFO ] 2024-10-27 03:04:56.657 [Thread-6] AMHSProcessor - Connect OK, System's ready
-[INFO ] 2024-10-27 03:05:05.690 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:40:42.253 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:40:42.255 [Thread-7] AFTNProcessor - GENERAL message found (280240 VVTSYFYX)
+[INFO ] 2024-10-28 02:40:42.307 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 1
+[INFO ] 2024-10-28 02:40:42.354 [Thread-7] AFTNProcessor - Convert VVTSOPTA to /CN=VVTSOPTA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO Support EXTENED 1
+[INFO ] 2024-10-28 02:40:42.428 [Thread-7] AFTNProcessor - [280240 VVTSYFYX] is converted successfully
+[INFO ] 2024-10-28 02:40:45.517 [Thread-7] AFTNProcessor - [280240 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:40:45.522 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-28 02:42:03.653 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0058 270305     
-GG VVTSYFYX VVTSMHSA
-270305 VVTSYFYX
-TEST 000000011
+ZCZC SVA0023 280241     
+GG VVTSYFYX VVTSMHSA VVTSOPTA
+280241 VVTSYFYX
+TEST 000000020
 
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 03:05:05.690 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 03:05:05.696 [Thread-7] AFTNProcessor - GENERAL message found (270305 VVTSYFYX)
-[INFO ] 2024-10-27 03:05:05.772 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 03:05:05.938 [Thread-7] AFTNProcessor - [270305 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 03:05:05.961 [Thread-7] MTConnection1 - Connection closed (code: 0)
-[WARN ] 2024-10-27 03:07:00.747 [Thread-5] Run - PROGRAM END
-[INFO ] 2024-10-27 03:07:11.663 [main] Run - Load config/database.xml
-[INFO ] 2024-10-27 03:07:11.872 [main] Run - Load config/gateway.xml
-[INFO ] 2024-10-27 03:07:11.876 [main] Run - SOFTWARE START #2
-[INFO ] 2024-10-27 03:07:12.352 [Thread-6] AMHSChannel - Started OK
-[INFO ] 2024-10-27 03:07:12.352 [Thread-7] AFTNChannel - Started OK
-[INFO ] 2024-10-27 03:07:12.354 [Thread-6] AMHSProcessor - Connecting to x400mt
-[INFO ] 2024-10-27 03:07:12.362 [Thread-6] AMHSProcessor - Connect OK, System's ready
-[INFO ] 2024-10-27 03:07:21.396 [Thread-7] AFTNProcessor - Receive AFTN message
+[INFO ] 2024-10-28 02:42:03.653 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:42:03.655 [Thread-7] AFTNProcessor - GENERAL message found (280241 VVTSYFYX)
+[INFO ] 2024-10-28 02:42:03.712 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO Support EXTENED 1
+[INFO ] 2024-10-28 02:42:03.759 [Thread-7] AFTNProcessor - Convert VVTSOPTA to /CN=VVTSOPTA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 1
+[INFO ] 2024-10-28 02:42:03.873 [Thread-7] AFTNProcessor - [280241 VVTSYFYX] is converted successfully
+[INFO ] 2024-10-28 02:42:06.961 [Thread-7] AFTNProcessor - [280241 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:42:06.965 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-28 02:43:01.058 [Thread-7] AFTNProcessor - Receive AFTN message
 --------------------------------------------------------------------
-ZCZC SVA0059 270307     
-GG VVTSYFYX VVTSMHSA
-270307 VVTSYFYX
-TEST 000000012
-
+ZCZC SVA0024 280242     
+GG VVTSYFYX VVTSMHSA VVTSOPTA
+280242 VVTSYFYX
+TEST 000000021
+2 BASIC
 
 
 
 
 NNNN
-[INFO ] 2024-10-27 03:07:21.396 [Thread-7] AFTNProcessor - Connected to x400mt
-[INFO ] 2024-10-27 03:07:21.405 [Thread-7] AFTNProcessor - GENERAL message found (270307 VVTSYFYX)
-[INFO ] 2024-10-27 03:07:21.482 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO
-[INFO ] 2024-10-27 03:07:21.647 [Thread-7] AFTNProcessor - [270307 VVTSYFYX] is converted successfully
-[ERROR] 2024-10-27 03:07:21.671 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-28 02:43:01.058 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:43:01.060 [Thread-7] AFTNProcessor - GENERAL message found (280242 VVTSYFYX)
+[INFO ] 2024-10-28 02:43:01.115 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=NO Support EXTENED 1
+[INFO ] 2024-10-28 02:43:01.161 [Thread-7] AFTNProcessor - Convert VVTSOPTA to /CN=VVTSOPTA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=NO DIRECT=YES Support EXTENED 1
+[INFO ] 2024-10-28 02:43:01.260 [Thread-7] AFTNProcessor - [280242 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:43:01.264 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-28 02:43:43.350 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0025 280243     
+GG VVTSYFYX VVTSMHSA VVTSOPTA
+280243 VVTSYFYX
+TEST 000000022
+2 EXTENDED
+
+
+
+
+NNNN
+[INFO ] 2024-10-28 02:43:43.350 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:43:43.352 [Thread-7] AFTNProcessor - GENERAL message found (280243 VVTSYFYX)
+[INFO ] 2024-10-28 02:43:43.409 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 1
+[INFO ] 2024-10-28 02:43:43.451 [Thread-7] AFTNProcessor - Convert VVTSOPTA to /CN=VVTSOPTA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 1
+[INFO ] 2024-10-28 02:43:46.548 [Thread-7] AFTNProcessor - [280243 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:43:46.553 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[WARN ] 2024-10-28 02:46:02.690 [Thread-5] Run - PROGRAM END
+[INFO ] 2024-10-28 02:46:13.505 [main] Run - Load config/database.xml
+[INFO ] 2024-10-28 02:46:13.722 [main] Run - Load config/gateway.xml
+[INFO ] 2024-10-28 02:46:13.725 [main] Run - SOFTWARE START #27/10/2024#
+[INFO ] 2024-10-28 02:46:14.218 [Thread-6] AMHSChannel - Started OK
+[INFO ] 2024-10-28 02:46:14.219 [Thread-7] AFTNChannel - Started OK
+[INFO ] 2024-10-28 02:46:14.220 [Thread-6] AMHSProcessor - Connecting to x400mt
+[INFO ] 2024-10-28 02:46:14.228 [Thread-6] AMHSProcessor - Connect OK, System's ready
+[INFO ] 2024-10-28 02:46:29.277 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0026 280246     
+GG VVTSYFYX VVTSMHSA VVTSOPTA
+280246 VVTSYFYX
+TEST 000000023
+2 EXTENDED - BASIC
+
+
+
+
+NNNN
+[INFO ] 2024-10-28 02:46:29.277 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 02:46:29.286 [Thread-7] AFTNProcessor - GENERAL message found (280246 VVTSYFYX)
+[INFO ] 2024-10-28 02:46:29.367 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 0
+[INFO ] 2024-10-28 02:46:29.417 [Thread-7] AFTNProcessor - Convert VVTSOPTA to /CN=VVTSOPTA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 0
+[INFO ] 2024-10-28 02:46:29.603 [Thread-7] AFTNProcessor - [280246 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 02:46:29.624 [Thread-7] MTConnection1 - Connection closed (code: 0)
+[INFO ] 2024-10-28 02:52:19.615 [Thread-6] AMHSProcessor - Process IPM Message
+[INFO ] 2024-10-28 02:52:19.624 [Thread-6] AMHSProcessor - --------------------------------
+ID: [/PRMD=VIETNAM/ADMD=ICAO/C=XX/;vietnam.am.2210501-241028.025219]
+IPM ID: 1730083939548*/CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/
+CONTENT ID:        1730083939549
+CONTENT TYPE:                   22
+PRIORITY:                    0
+CON_PROHI:                false
+DL_EX_PROHI:                false
+CON_LOSS_PROHI:                false
+ORIGIN EIT:             ia5-text
+BODYPART TYPE:                  401
+ATTACHMENT:                    1
+SUBMISSION TIME:        241028025219Z
+ATN PROPERTIES **** 
+FILING TIME:               280252
+ATS PRIORITY:                   FF
+OHI:                 null
+ADDRESS **** 
+FROM: /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/
+PRIMARY ****
+> TO: /CN=VVTSYFYX/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/ rpt: null mta-rpt: null notify: 0
+
+ENVELOPE ****
+> TO: /CN=VVTSYFYX/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/ rpt: 1 mta-rpt: 1 notify: 0
+SUBJECT ****
+Re:  SVA0025 - 280243 VVTSYFYX
+CONTENT ****
+REPLY
+
+[INFO ] 2024-10-28 02:52:19.625 [Thread-6] AMHSProcessor - --------------------------------
+
+[INFO ] 2024-10-28 02:52:19.772 [Thread-6] AMHSProcessor - No address to delivery report -> Do not Send anything
+[INFO ] 2024-10-28 02:52:19.772 [Thread-6] AMHSProcessor - Converted
+[INFO ] 2024-10-28 02:52:19.772 [Thread-6] AMHSProcessor - Commit message status
+[ERROR] 2024-10-28 02:52:19.774 [Thread-6] AMHSProcessor - MSG removed
+[INFO ] 2024-10-28 04:54:48.824 [Thread-7] AFTNProcessor - Receive AFTN message
+--------------------------------------------------------------------
+ZCZC SVA0033 280454     
+GG VVTSYFYX VVTSMHSA VVTSOPTA
+280454 VVTSYFYX
+TEST 000000024
+2 EXTENDED - BASIC
+
+
+
+
+NNNN
+[INFO ] 2024-10-28 04:54:48.825 [Thread-7] AFTNProcessor - Connected to x400mt
+[INFO ] 2024-10-28 04:54:48.827 [Thread-7] AFTNProcessor - GENERAL message found (280454 VVTSYFYX)
+[INFO ] 2024-10-28 04:54:48.884 [Thread-7] AFTNProcessor - Convert VVTSMHSA to /CN=VVTSMHSA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 0
+[INFO ] 2024-10-28 04:54:48.930 [Thread-7] AFTNProcessor - Convert VVTSOPTA to /CN=VVTSOPTA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/, IHE=YES DIRECT=YES Support EXTENED 0
+[INFO ] 2024-10-28 04:54:49.018 [Thread-7] AFTNProcessor - [280454 VVTSYFYX] is converted successfully
+[ERROR] 2024-10-28 04:54:49.022 [Thread-7] MTConnection1 - Connection closed (code: 0)

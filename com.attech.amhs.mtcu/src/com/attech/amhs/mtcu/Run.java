@@ -39,6 +39,15 @@ package com.attech.amhs.mtcu.isode; -> public class DeliverMessage extends Deliv
 
 
 */
+
+/*
+    Diaary
+
+Ngay 28/10/2024 copy code vao /gatewaynew_28102024
+
+
+*/
+
 package com.attech.amhs.mtcu;
 
 import com.attech.amhs.mtcu.threads.AFTNChannel;
@@ -78,7 +87,7 @@ public class Run implements Runnable {
     }
 
     public void start() throws SQLException {
-        logger.info("SOFTWARE START #2");
+        logger.info("SOFTWARE START #27/10/2024#");
 
         final AFTNMessageDao util = new AFTNMessageDao();
         String s = util.getAFTNAddressIndicator();

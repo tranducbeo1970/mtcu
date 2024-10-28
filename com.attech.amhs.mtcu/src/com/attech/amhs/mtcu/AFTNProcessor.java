@@ -16,9 +16,12 @@ import com.attech.amhs.mtcu.common.PriorityUtil;
 import com.attech.amhs.mtcu.aftn.AckInfo;
 import com.attech.amhs.mtcu.aftn.Message;
 import com.attech.amhs.mtcu.aftn.Type;
+import static com.attech.amhs.mtcu.aftn.Type.ACKNOWLEDGE;
+import static com.attech.amhs.mtcu.aftn.Type.UNKNOWN;
 import com.attech.amhs.mtcu.aftn.UnknownAddressInfo;
 import com.attech.amhs.mtcu.common.InvalidOperatingException;
 import com.attech.amhs.mtcu.config.AFTNChannelConfig;
+import com.attech.amhs.mtcu.config.DefaultMessageValue;
 import com.attech.amhs.mtcu.config.RecipientConfig;
 import com.attech.amhs.mtcu.database.Connection;
 import com.attech.amhs.mtcu.database.dao.GatewayInDao;
@@ -45,6 +48,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
+import java.util.logging.Level;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -234,6 +238,8 @@ public class AFTNProcessor {
     
     --------------------------------------------------*/
     private void processNormalMessage(Message message, MTConnection1 mtConnection)  throws DSAPIException, X400APIException, SQLException, InvalidOperatingException {
+        final DefaultMessageValue config = Config.instance.getAftnChannel().getDefaultMessageValue();   
+        
         final int priority = PriorityUtil.toAMHSPriority(message.getPriority());
         String errorMessage = "";
 
@@ -258,6 +264,8 @@ public class AFTNProcessor {
         final List<String> recipients_extend = new ArrayList<>();
 
         
+        int ext = config.getAtsExtended();
+        
         /*--------------------------------------------
     
         
@@ -279,17 +287,24 @@ public class AFTNProcessor {
             }
             
             
+            
             // DUC 20/10/2024-------------------------------------------------------------------------------------------------
             String s = (result.isIhe())?"YES":"NO";
             String s1 = (result.isDirect())?"YES":"NO";
-            logger.info("Convert " + address + " to " + result.getConvertedAddress() + ", IHE=" + s + " DIRECT=" + s1);
-            
-            // Them cac dia chi vao string list
-            if(result.isIhe() && result.isDirect()) {
-                recipients_extend.add(result.getConvertedAddress());
+            logger.info("Convert " + address + " to " + result.getConvertedAddress() + ", IHE=" + s + " DIRECT=" + s1 + " Support EXTENED " + Integer.toString(ext));
+                        
+            if (ext == 1) {
+
+                // Them cac dia chi vao string list
+                if (result.isIhe() && result.isDirect()) {
+                    recipients_extend.add(result.getConvertedAddress());
+                } else {
+                    recipients_basic.add(result.getConvertedAddress());
+                }
             } else {
                 recipients_basic.add(result.getConvertedAddress());
             }
+            
             logger.debug(">{}:{}", address, result.getConvertedAddress());
         }
         
@@ -303,21 +318,50 @@ public class AFTNProcessor {
         }
 
         
-        // Logging and return
-        if (recipients_basic.isEmpty()) {
-            final String error = String.format(CONVERT_RECIPIENT_ERROR, String.join(", ", message.getEnvelopeMessages()));
-            this.log(message, ConvertResult.FAIL, error);
-            logger.error(error);
-            // return;
-            throw new InvalidOperatingException(error);
+        
+        if (!recipients_basic.isEmpty()) {
+            Send(false, message, mtConnection, priority, amhsOrigin, recipients_basic, unknownAddresses_str_list);
+
+            // Logging and return
+            if (recipients_basic.isEmpty()) {
+                final String error = String.format(CONVERT_RECIPIENT_ERROR, String.join(", ", message.getEnvelopeMessages()));
+                this.log(message, ConvertResult.FAIL, error);
+                logger.error(error);
+                // return;
+                throw new InvalidOperatingException(error);
+            }
+        }
+        
+        if (ext == 1) {
+            if (!recipients_extend.isEmpty()) {
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException ex) {
+                    java.util.logging.Logger.getLogger(AFTNProcessor.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                Send(true, message, mtConnection, priority, amhsOrigin, recipients_extend, unknownAddresses_str_list);
+                // Logging and return
+                if (recipients_extend.isEmpty()) {
+                    final String error = String.format(CONVERT_RECIPIENT_ERROR, String.join(", ", message.getEnvelopeMessages()));
+                    this.log(message, ConvertResult.FAIL, error);
+                    logger.error(error);
+                    // return;
+                    throw new InvalidOperatingException(error);
+                }
+            }
         }
 
         
-        /* DUC 26/10/2024 */
-        /* Tao dien van phat di */
-        /* DeliverMessage class de tao dien */
-        /* Phat tat ca dien */
         
+        
+        // ******************************** BAT DAU TAO MESSSAGE DE SEND ****************************************
+        
+        
+        // DUC 26/10/2024 
+        // Tao dien van phat di 
+        // DeliverMessage class de tao dien 
+        // Phat tat ca dien 
+/*        
         final DeliverMessage deliveryMessage = new DeliverMessage();
         deliveryMessage.setPriority(priority);
         deliveryMessage.setOriginator(amhsOrigin);
@@ -329,7 +373,7 @@ public class AFTNProcessor {
                 : (message.getPriority().equalsIgnoreCase("SS") ? Config.instance.getPriorityRecipient() : Config.instance.getConvertRecipient());
 
         
-        /* Them cac dia chi */
+        // Them cac dia chi 
         for (String recipient : recipients_basic) {
             deliveryMessage.addRecip(new Recipient(recipient, recipientCfg));
         }
@@ -339,14 +383,15 @@ public class AFTNProcessor {
         // Chua can
         //deliveryMessage.setExtended(true);
         
-        /******************************************************************************
-         * 
-         Build dien van va phat di 
-         * 
-         *****************************************************************************/
+        //
+        //  
+        // Build dien van va phat di trong nay
+        // 
+        //
         
         mtConnection.send(deliveryMessage);         // Build message here
         logger.debug("Delivered");
+        
         
         //
         //  Da phat xong
@@ -383,7 +428,97 @@ public class AFTNProcessor {
 
         messageDao.save(aftnLog);
         logger.info(CONVERT_SUCESSFULLY, message.getFilingTime(), message.getOriginator());
+        
+  */      
+        
+        
+        
     }
+    /*------------------------------------------------
+
+    
+    ------------------------------------------------*/
+    private void Send(boolean extend,Message message, MTConnection1 mtConnection,int priority,String amhsOrigin,List<String> recipients_address,List<String> unknownAddresses_str_list) {
+        
+        final DeliverMessage deliveryMessage = new DeliverMessage();
+        deliveryMessage.setPriority(priority);
+        deliveryMessage.setOriginator(amhsOrigin);
+        deliveryMessage.setAftnMessage(message);
+        
+
+        final RecipientConfig recipientCfg = (message.getMessageType() == Type.ACKNOWLEDGE || message.getMessageType() == Type.UNKNOWN)
+                ? Config.instance.getReportRecipient()
+                : (message.getPriority().equalsIgnoreCase("SS") ? Config.instance.getPriorityRecipient() : Config.instance.getConvertRecipient());
+
+        
+        // Them cac dia chi 
+        for (String recipient : recipients_address) {
+            deliveryMessage.addRecip(new Recipient(recipient, recipientCfg));
+        }
+
+        
+        try {
+            // SET DIEN VAN LOAI GI
+            // Chua can
+            
+            deliveryMessage.setExtended(extend);
+            
+            //
+            //
+            // Build dien van va phat di trong nay
+            //
+            //
+            
+            mtConnection.send(deliveryMessage);         // Build message here
+        } catch (X400APIException ex) {
+            java.util.logging.Logger.getLogger(AFTNProcessor.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        logger.debug("Delivered");
+        
+        
+        //
+        //  Da phat xong
+        //
+
+        
+        final String remark = unknownAddresses_str_list.isEmpty()
+                ? "Converted"
+                : String.format("Some recipient cannot be converted: %s ", String.join(", ", unknownAddresses_str_list));
+
+        final Date convertedTime = new Date();
+        final MessageConversionLog aftnLog = message.getMessageConversionLog();
+
+        switch (message.getMessageType()) {
+            case ACKNOWLEDGE:
+                aftnLog.setCategory(MessageCategory.GENERAL);
+                break;
+            case UNKNOWN:
+                aftnLog.setCategory(MessageCategory.UNKNOWN);
+                break;
+            default:
+                aftnLog.setCategory(MessageCategory.GENERAL);
+                break;
+        }
+
+        aftnLog.setStatus(ConvertResult.SUCCESS);
+        aftnLog.setRemark(remark);
+        aftnLog.setConvertedDate(convertedTime);
+
+        final MessageConversionLog amhsLog = deliveryMessage.createMessageConversionLog();
+        amhsLog.setStatus(ConvertResult.SUCCESS);
+        amhsLog.setConvertedDate(convertedTime);
+        aftnLog.addChild(amhsLog);
+
+        try {
+            messageDao.save(aftnLog);
+        } catch (SQLException ex) {
+            java.util.logging.Logger.getLogger(AFTNProcessor.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        logger.info(CONVERT_SUCESSFULLY, message.getFilingTime(), message.getOriginator());
+        
+    }
+            
+    
     /*------------------------------------------------
 
     

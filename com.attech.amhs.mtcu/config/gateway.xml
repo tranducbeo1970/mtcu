@@ -23,7 +23,7 @@
             <OriginEncodedInformationType>ia5-text</OriginEncodedInformationType>
             <ContentType>22</ContentType>
             <AtsExtendSupported>1</AtsExtendSupported>
-            <AtsExtend>1</AtsExtend>
+            <AtsExtend>0</AtsExtend>
         </MtMessageConfig>
         <TraceInfo>
             <GlobalDomainID>/PRMD=VIETNAM/ADMD=ICAO/C=XX/</GlobalDomainID>

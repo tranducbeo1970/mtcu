@@ -233,21 +233,21 @@ public class DeliverMessage extends DeliverMessageBase {
         
         // DUC 19102024
         // config.getAtsExtended()l get from config/gateway.xml
-        int ext = config.getAtsExtended();
+        //int ext = config.getAtsExtended();
         //ext = 0;
         
-        if(ext == 1) {
-            set(mtMessage, AMHS_att.ATS_N_EXTENDED,1);
-            /*
+        //f(ext == 1) {
+            //set(mtMessage, AMHS_att.ATS_N_EXTENDED,1);
+            
             if(this.isExtended()) {
                 set(mtMessage, AMHS_att.ATS_N_EXTENDED,1);
             } else {
                 set(mtMessage, AMHS_att.ATS_N_EXTENDED,0);
             }
-            */
-        } else {
-            set(mtMessage, AMHS_att.ATS_N_EXTENDED, 0);     // BASIC
-        }
+            
+        //} else {
+        //    set(mtMessage, AMHS_att.ATS_N_EXTENDED, 0);     // BASIC
+        //}
         set(mtMessage, AMHS_att.ATS_S_PRIORITY_INDICATOR, this.atsPriority);
         set(mtMessage, AMHS_att.ATS_S_FILING_TIME, this.atsFilingTime);
         set(mtMessage, AMHS_att.ATS_S_TEXT, this.content);

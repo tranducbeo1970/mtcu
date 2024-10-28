@@ -2,9 +2,9 @@ Manifest-Version: 1.0
 Ant-Version: Apache Ant 1.10.8
 Created-By: 1.8.0_391-b13 (Oracle Corporation)
 Bundle-Name: mtcu
-Version: 1.0.2_b2033
-Built-Date: 2024-10-27 03:07:08 UTC
+Version: 1.0.2_b2050
+Built-Date: 2024-10-28 02:46:10 UTC
 Implementation-Title: mtcu
-Built-Num: 2033
+Built-Num: 2050
 URL: www.attech.com.vn
 
