@@ -71,16 +71,24 @@ public class AMHSProcessor {
     private final String E_CONTENT_TOO_LONG = "unable to convert to AFTN due to message text length";
     private final String E_MULTI_BODYPART = "unable to convert to AFTN due to multiple body parts";
     private final String E_CONVERT_ORIGINATOR_FAIL = "unable to convert to AFTN due to unrecognized originator O/R address";
-    private final String E_DELIVER_SUCCESS = "Delivered";
-    private final String E_CONVERT_SUCCESS = "Converted";
+    private final String E_DELIVER_SUCCESS = "Delivered.";
+    private final String E_CONVERT_SUCCESS = "Converted. ";
     private final String E_NRN_REJECT = "MTCU rejects NRN message (IPN) and reports it to control position";
     private final String E_MISROUTE_RN = "unable to convert RN to AFTN ACK service message due to misrouted RN";
     private final String E_RN_WITHOUT_SS_REJECT = "MTCU rejects IPN of message which doesnot have priority of SS";
     private final String SUBJECT_MESSAGE_CANNOT_BE_FOUND = "Subject message cannot be found";
     private final String UNKNOWN_ADDRESS = "Unknown address indicator %s";
+    private final String INVALID_ADDRESS = "Invalid recipient address";
     private final String DIFFERENCE_ADDRESS = "Original-Intended-Recipient is quite difference from actual recipient. DR is rejected and reported to control position";
     private final String NOT_CORRECT_NDR_TYPE = "NDR is not the Unrecognised O/R Name Report. NDR is rejected and reported to control position.";
     private final String ACTUAL_RECIPIENT_CANNOT_BE_CONVERT = "Actual-recipients-name cannot be converted";
+    private final String ZCZC_IN_CONTENT = "ZCZC IN THE CONTENT";
+    private final String NNNN_IN_CONTENT = "NNNN IN THE CONTENT";
+    private final String ZCZC_IN_OHI = "ZCZC IN THE OHI";
+    private final String NNNN_IN_OHI = "NNNN IN THE OHI";
+    private final String UNABLE_CONVERT_ORIGINATOR = "unable to convert to AFTN due to unrecognized originator O/R address";
+    
+    private final String MULTI_INFO_LOST = "MULTI INFO LOST";
 
     private static final Logger logger = LoggerFactory.getLogger(AMHSProcessor.class);
 
@@ -155,11 +163,11 @@ public class AMHSProcessor {
 
                     try {
                         
-                        /*
-                        XU LY DIEN VAN AMHS LAY TU MTCU
+                        /*-------------------------------------------------
                         
-                        *
-                        */                        
+                        XU LY DIEN VAN AMHS LAY TU MTCU
+                                                
+                        -------------------------------------------------*/                        
                         processMessage(mtmessage, session);
 
                         logger.info("Commit message status");
@@ -232,8 +240,8 @@ public class AMHSProcessor {
                     return;
                 }
 
-                logger.info("Process IPM Message");
-                processIPM(mtmessage, session);
+                logger.info("Process IPM Message from MTCU");
+                processIPM(mtmessage, session);                     // DIEN VAN IPM
                 break;
 
             default:
@@ -242,15 +250,26 @@ public class AMHSProcessor {
     }
     /*--------------------------------------------------
     
-    
+    XU LY DIEN VAN IPM PHAT RA
     
     --------------------------------------------------*/
     private void processIPM(MTMessage mtmessage, Session session) throws X400APIException, SQLException, DSAPIException {
 
+        /*
+         Contructor phan tich cach thuoc tinh cua dien van
+        */
         final ReceiveMessage ipm = new ReceiveMessage(mtmessage);
-        logger.info("--------------------------------\n{}", ipm.toString());
-        logger.info("--------------------------------\n");
+        
+        
+        logger.info("*1* L251 --------------------------------\n{}", ipm.toString());
+        
+        logger.info("*2* L252 --------------------------------\n");
+        
+        
+        // Kiem tra khuon dang dien van tu AMHS
         final int error = validate(ipm);
+        
+        
         if (error != MtAttributes.E_NO_ERROR) {
 
             // Return Non Delivery Report to sender
@@ -268,14 +287,18 @@ public class AMHSProcessor {
 
         }
 
+        // Chuyen doi SS sang Int
         final int priority = MtCommon.priorityMapping(ipm.getAtsPriority());
 
-        // Convert Origin
+        // Convert Origin sang AFTN
         final AddressConvertResult convertedResult = DSAConnection.getInstance().convertToAftnAddress(ipm.getOrAddress(), false);
+        // Neu khong chuyen doc thi gui REPORT
         if (convertedResult == null) {
 
             // Return Non Delivery Report to sender
-            DeliverReport report = ipm.createNonDeliverReport(MtAttributes.RS_UNABLE_TO_TRANSFER, MtAttributes.D_INVALID_ARGUMENTS, E_CONVERT_ORIGINATOR_FAIL);
+            DeliverReport report = ipm.createNonDeliverReport(  MtAttributes.RS_UNABLE_TO_TRANSFER, 
+                                                        MtAttributes.D_INVALID_ARGUMENTS, 
+                                                            E_CONVERT_ORIGINATOR_FAIL);
             send(report, session);
 
             // Save log to DB
@@ -289,6 +312,7 @@ public class AMHSProcessor {
             return;
         }
 
+        // Neu chuyen do duoc
         final String aftnOrigin = convertedResult.getConvertedAddress();
         final List<Recipient> envelopeRecips = ipm.getEnvelopeRecipients();
         final List<String> aftnAddresses = new ArrayList<>();
@@ -298,6 +322,7 @@ public class AMHSProcessor {
         
         Chuyen doi dia chi AMHS sang AFTN
         
+        Co kiem tra ASYMETRIC
         ------------------------*/
         for (Recipient address : envelopeRecips) {
             final AddressConvertResult convertedResult2 = DSAConnection.getInstance().convertToAftnAddress(address.getAddress(), true);
@@ -392,7 +417,7 @@ public class AMHSProcessor {
         final ReceiveIPN ipn = new ReceiveIPN(mtmessage);
 
         // logger.info("Process IPN from " + ipn.getOrigin());
-        logger.info("--------------------------------------------------------------------\n{}", ipn.toString());
+        logger.info("*3*--------------------------------------------------------------------\n{}", ipn.toString());
 
         if (!ipn.isReceipt()) {
 
@@ -409,7 +434,16 @@ public class AMHSProcessor {
             logger.warn(E_NRN_REJECT);
             return;
         }
-
+        /* DOAN NAY LEO THEM VAO TEST */
+        if (ipn.getReceiptTime() == null) {
+            // This is an IPN with a Non-Read-Notification (NRN)
+            System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+            System.out.println("Non Receipt Reason=" + ipn.getNonReceipReason());
+            System.out.println("Discard Reason=" + ipn.getDiscardReason());
+            // Write log to file
+            logger.warn(E_NRN_REJECT);
+            return;
+        }
         // Get previous message
         final MessageConversionLog lastConvertedMessage = messageDao.getByIpmId(ipn.getSubjectIPM());
         if (lastConvertedMessage == null || lastConvertedMessage.getParents() == null) {
@@ -452,7 +486,7 @@ public class AMHSProcessor {
 
         final AddressConvertResult result = DSAConnection.getInstance().convertToAftnAddress(ipn.getOrigin(), false);
         if (result == null) {
-            final String errMessage = String.format("Convert originator address %s fail", ipn.getOrigin());
+            final String errMessage = String.format("L455 Convert originator address %s fail", ipn.getOrigin());
 
             // Report this error to controller
             this.report2Controller(String.format("%s\r\n\r\n%s", errMessage, ipn.toString()), session);
@@ -505,9 +539,10 @@ public class AMHSProcessor {
         logger.info(E_CONVERT_SUCCESS, ipn.getOrigin());
     }
 
+    
     private void processNDR(MTMessage mtmessage, Session session) throws X400APIException, SQLException, DSAPIException {
         final ReceiveReport report = new ReceiveReport(mtmessage);
-        logger.info("--------------------------------------------------------------------\n{}", report.getReportContent());
+        logger.info("L511 --------------------------------------------------------------------\n{}", report.getReportContent());
 
         if (report.getUnrecognizeAddresses().isEmpty()) {
             processReportLog(report, NOT_CORRECT_NDR_TYPE, session);
@@ -617,7 +652,7 @@ public class AMHSProcessor {
                 java.util.logging.Logger.getLogger(AMHSProcessor.class.getName()).log(Level.SEVERE, null, ex);
             }
             if (result == null) {
-                final String errMessage = String.format("Convert originator address %s fail", addamhs);
+                final String errMessage = String.format("L620 Convert originator address %s fail", addamhs);
                 // Write log to file
                 logger.warn(errMessage);
                 return false;
@@ -698,9 +733,15 @@ public class AMHSProcessor {
             report_request = _envelopeRecipients.get(j).getReportRequest();
             add = _envelopeRecipients.get(j).getAddress();
             
-            //logger.info("Test probe Address {} " , add +  ", Mta report request {" + Integer.toString(i) + "}, Report Request {" + Integer.toString(ii) +"}");
+           
             
             boolean pk = testPhankenhProbeAftn(add);
+            if(pk) {
+                logger.info("Test probe Address {} " , add +  ", Mta report request {" + Integer.toString(j) + "}, Report Request {" + Integer.toString(j) +"} -> OK");
+            }
+            else {
+                logger.info("Test probe Address {} " , add +  ", Mta report request {" + Integer.toString(j) + "}, Report Request {" + Integer.toString(j) +"} -> No OK");
+            }
             _envelopeRecipients.get(j).setPhankenhduocaftn(pk);
             // NDR
             // DR
@@ -785,9 +826,11 @@ public class AMHSProcessor {
                 break;
 
             case MtAttributes.E_ATS_MESSAGE_HEADER_ERROR:
+                err = E_ATS_HEADER;
+                suplementInfo = E_ATS_HEADER;
                 nonDeliveryReason = MtAttributes.RS_UNABLE_TO_TRANSFER;
                 nonDeliveryDiagnosticCode = MtAttributes.D_CONTENT_SYNTAX_ERROR;
-                err = E_ATS_HEADER;
+                
                 break;
 
             case MtAttributes.E_BODYPART_TYPE_NOT_SUPPORT:
@@ -831,6 +874,7 @@ public class AMHSProcessor {
 
             case MtAttributes.E_LINE_TOO_LONG:
                 err = E_LINE_TOO_LONG;
+                suplementInfo = E_LINE_TOO_LONG;
                 nonDeliveryReason = MtAttributes.RS_CONVERSION_NOT_PERFORM;
                 nonDeliveryDiagnosticCode = MtAttributes.D_LINE_TOO_LONG;
                 break;
@@ -855,6 +899,51 @@ public class AMHSProcessor {
                 nonDeliveryReason = MtAttributes.RS_UNABLE_TO_TRANSFER;
                 nonDeliveryDiagnosticCode = MtAttributes.D_CONTENT_SYNTAX_ERROR;
                 break;
+// DUC 02/11/2024                
+                
+            case MtAttributes.E_INVALID_CHARACTERSET_ZCZC_CONTENT:
+                err = ZCZC_IN_CONTENT;
+                suplementInfo = ZCZC_IN_CONTENT;
+                nonDeliveryReason = MtAttributes.RS_CONVERSION_NOT_PERFORM;
+                nonDeliveryDiagnosticCode = MtAttributes.D_CONVERSION_WITH_LOSS_PROHIBITED;
+                break;
+            case MtAttributes.E_INVALID_CHARACTERSET_NNNN_CONTENT:
+                err = NNNN_IN_CONTENT;
+                suplementInfo = NNNN_IN_CONTENT;
+                nonDeliveryReason = MtAttributes.RS_CONVERSION_NOT_PERFORM;
+                nonDeliveryDiagnosticCode = MtAttributes.D_CONVERSION_WITH_LOSS_PROHIBITED;
+                break;    
+                
+            case MtAttributes.E_INVALID_CHARACTERSET_ZCZC_OHI:
+                err = ZCZC_IN_OHI;
+                suplementInfo = ZCZC_IN_OHI;
+                nonDeliveryReason = MtAttributes.RS_CONVERSION_NOT_PERFORM;
+                nonDeliveryDiagnosticCode = MtAttributes.D_CONVERSION_WITH_LOSS_PROHIBITED;
+                break;
+            case MtAttributes.E_INVALID_CHARACTERSET_NNNN_OHI:
+                err = NNNN_IN_OHI;
+                suplementInfo = NNNN_IN_OHI;
+                nonDeliveryReason = MtAttributes.RS_CONVERSION_NOT_PERFORM;
+                nonDeliveryDiagnosticCode = MtAttributes.D_CONVERSION_WITH_LOSS_PROHIBITED;
+                break;    
+                
+            case MtAttributes.E_MULTI_INFO_LOST:
+                err = MULTI_INFO_LOST;
+                //suplementInfo = MULTI_INFO_LOST;
+                nonDeliveryReason = MtAttributes.RS_CONVERSION_NOT_PERFORM;
+                nonDeliveryDiagnosticCode = MtAttributes.D_MULTIPLE_INFORMATION_LOSS;
+                break;    
+                
+           case MtAttributes.D_UNDELIVERABLE_MAIL_RECIPIENT_UNKNOWN:
+               suplementInfo = INVALID_ADDRESS;
+               break;
+           case MtAttributes.D_UNRECOGNIZE_ORIGINATOR:
+               err = UNABLE_CONVERT_ORIGINATOR;
+               suplementInfo = UNABLE_CONVERT_ORIGINATOR;
+               nonDeliveryReason = MtAttributes.RS_UNABLE_TO_TRANSFER;
+               nonDeliveryDiagnosticCode = MtAttributes.D_INVALID_ARGUMENTS;
+               break;
+
         }
 
         // DeliverReport report = message.createNonDeliverReport(error, nonDeliveryReason, suplementInfo);
@@ -869,6 +958,169 @@ public class AMHSProcessor {
         return StringUtil.splitContent(StringUtil.correctLineLength(StringUtil.autoCorrectCharacter(content)));
     }
 
+    
+ public static String wrapString(String text, int width) {
+        StringBuilder wrapped = new StringBuilder();
+        String[] words = text.split(" ");
+        int lineLength = 0;
+
+        for (String word : words) {
+            if (lineLength + word.length() > width) {
+                wrapped.append("\n");
+                lineLength = 0;
+            }
+            wrapped.append(word).append(" ");
+            lineLength += word.length() + 1; // +1 for the space
+        }
+
+        return wrapped.toString().trim();
+    }
+
+    public static String wrapString1(String text, int width) {
+        StringBuilder wrapped = new StringBuilder();
+
+        for (int i = 0; i < text.length(); i += width) {
+            int end = Math.min(i + width, text.length());
+            wrapped.append(text, i, end).append("\n");
+        }
+
+        return wrapped.toString().trim();
+    }
+
+    public static String wrapString2(String text, int width) {
+        StringBuilder wrapped = new StringBuilder();
+        int start = 0;
+
+        while (start < text.length()) {
+            // Check for the maximum end index without exceeding the length
+            int end = Math.min(start + width, text.length());
+            // If the next character is not a space and we are not at the end
+            if (end < text.length() && text.charAt(end) != ' ') {
+                // Find the last space before the 'end' index
+                int lastSpaceIndex = text.lastIndexOf(' ', end);
+                if (lastSpaceIndex > start) {
+                    end = lastSpaceIndex; // Wrap at the last space
+                }
+            }
+            // Append the substring from start to end
+            wrapped.append(text, start, end).append("\n");
+            start = end + 1; // Move to the next segment
+        }
+
+        return wrapped.toString().trim();
+    }
+    
+    private static String wrapString3(String text, int width) {
+        StringBuilder wrapped = new StringBuilder();
+        int start = 0;
+
+        while (start < text.length()) {
+            int end = Math.min(start + width, text.length());
+            // If the next character is not a space and we are not at the end
+            if (end < text.length() && text.charAt(end) != ' ') {
+                int lastSpaceIndex = text.lastIndexOf(' ', end);
+                if (lastSpaceIndex > start) {
+                    end = lastSpaceIndex; // Wrap at the last space
+                }
+            }
+            // Append the substring from start to end
+            wrapped.append(text, start, end).append("\n");
+            start = end + 1; // Move to the next segment
+        }
+        String tmp = wrapped.toString().trim();
+        String tmp1 = tmp.replaceAll("\n", "\r\n");
+        return tmp1;
+    }
+
+    /*------------------------------------------------
+    
+     DOC TRONG CONFIG
+    
+    ------------------------------------------------*/
+    private boolean validateAddressCAAS(String add) {
+        
+        String ou ="";
+        logger.info("Validate CAAS like -> " + add);
+        //if(add.equals("/CN=VVTSYFYX/OU=/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/")) {
+        
+        //String regex1 = "^/CN=[A-Z]{8}/OU=[A-Z]{4}/O=[A-Z]{4}/PRMD=[A-Z]+/ADMD=ICAO/C=XX/$";
+        //String regex1 = "^/CN=[A-Z]{8}/OU=[A-Z-]{4}/O=[A-Z-]+/PRMD=[A-Z]+/ADMD=ICAO/C=XX/$";
+        
+        // Regex pattern for exactly 8 capital letters for CAAS
+        String regex1 = "^/CN=[A-Z]{8}/OU=[A-Z]{4}/O=[A-Z-]+/PRMD=[A-Z0-9-]+/ADMD=ICAO/C=XX/$";
+        
+        Pattern pattern = Pattern.compile(regex1);
+        Matcher matcher = pattern.matcher(add);
+        if(!matcher.matches()) {
+            return false;
+        }
+        
+        // if MATCHED then continue check
+        
+        String[] split= add.split("/");
+        for( String s : split) {
+            if(s.contains("CN")) {
+                ou = s.substring(3, 7);
+                
+                break;
+            }
+        }
+        
+        // Regex pattern for exactly 8 capital letters for XF
+        String regex2 = "^/CN=[A-Z]{8}/OU=" + ou + "/O=[A-Z-]+/PRMD=[A-Z0-9-]+/ADMD=ICAO/C=XX/$";
+
+        // Compile the regex into a Pattern
+        pattern = Pattern.compile(regex2);
+        // Create a matcher for the input string
+        matcher = pattern.matcher(add);
+
+        // Return true if it matches, false otherwise
+        
+        //if(add.equals("/CN=VVTSYFYX/OU=/O=VVTS/PRMD=
+         if(matcher.matches()) {
+            logger.info("CAAS address Valid");
+            return true;
+        } else {
+            logger.info("CAAS address InValid");
+            return false;
+        }
+        
+    }
+    //-------------------------------------------------------------
+    //
+    //
+    //
+    //
+    //-------------------------------------------------------------
+    private boolean validateAddressXF(String add) {
+        
+        String ou ="";
+        logger.info("Validate Address XF like -> " + add);
+        //if(add.equals("/CN=VVTSYFYX/OU=/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/")) {
+        
+        String regex1 = "^/OU[12]?=[A-Z]{8}/O=AFTN/PRMD=[A-Z-]+/ADMD=ICAO/C=XX/$";
+        Pattern pattern = Pattern.compile(regex1);
+        Matcher matcher = pattern.matcher(add);
+                
+        // Return true if it matches, false otherwise
+        if(matcher.matches()) {
+            logger.info("XF Address Valid");
+            return true;
+        } else {
+            logger.info("XF address InValid");
+            return false;
+        }
+        
+    }
+
+    
+    
+    
+    /*------------------------------------------------
+    
+     DOC TRONG CONFIG
+    
+    ------------------------------------------------*/
     private int validate(ReceiveMessage ipm) {
 
         if (ipm.getDlExpansionProhibited() && ipm.getNumberOfDLAddress() > 0) {
@@ -884,7 +1136,8 @@ public class AMHSProcessor {
         final String oeit = ipm.getOriginEncodeInformationType();
         if (oeit == null || oeit.isEmpty()) {
             return MtAttributes.E_MESSAGE_UNSUPPORT_ENCODED_INFORMATION_TYPE;
-        } else {
+        } 
+        else {
             EncodedInformationType characterSet = Config.instance.getAmhsChannel().getAllowEIT();
             String[] encoders = oeit.split(" ");
             List<String> validSet = characterSet.getEncodedType();
@@ -900,13 +1153,62 @@ public class AMHSProcessor {
             return MtAttributes.E_CONVERSION_PROHITED;
         }
 
+        //String data = ipm.getBodyPartCharacterSet();
+        
+        //String s1 = ipm.getAtsPriority();
+        //String s2 = ipm.getAtsOhi();
+        //String s3 = ipm.getAtsPriority();
+        //String s4 = ipm.getAtsFilingTime();
+        
+        /*
         if (!AmhsValidator.validatePriority(ipm.getAtsPriority())
                 || !AmhsValidator.validateOHI(ipm.getAtsOhi(), ipm.getAtsPriority()) // Case 402
                 || !AmhsValidator.validateFilingTime(ipm.getAtsFilingTime())) {
             return MtAttributes.E_ATS_MESSAGE_HEADER_ERROR;
         }
+        */
+        
+        /*
+            Validate ADDRESS
+        */
+        
+        List<Recipient> add = ipm.getPrimaryRecipients();
+        for (Recipient a : add) {
+            if(!validateAddressCAAS(a.getAddress())) {
+                logger.info("Invalid CAAS-> " + a);
+                logger.info("Continue check if XF?");
+                if(!validateAddressXF(a.getAddress())) {
+                    logger.info("And Invalid XF-> " + a);
+                    return MtAttributes.D_UNDELIVERABLE_MAIL_RECIPIENT_UNKNOWN;
+                }
+            }
+            // OK CAAS
+        }
+        
+        
+        String Originator = ipm.getOrAddress();
+        logger.info("Test originator CAAS -> " + Originator);
+        if (!validateAddressCAAS(Originator)) {
+            logger.info("Invalid Originator CAAS -> " + Originator);
+            logger.info("Test originator XF -> ");
+            if (!validateAddressXF(Originator)) {
+                logger.info("Originator Invalid XF-> " + Originator);
+                return MtAttributes.D_UNRECOGNIZE_ORIGINATOR;
+            }
+        }
+        
+        
+        if (!AmhsValidator.validatePriority(ipm.getAtsPriority()) ) {
+            return MtAttributes.E_ATS_MESSAGE_HEADER_ERROR;
+        }
+        if(!AmhsValidator.validateOHI(ipm.getAtsOhi(), ipm.getAtsPriority())) {     // Case 402
+            return MtAttributes.E_ATS_MESSAGE_HEADER_ERROR;
+        }
+        if(!AmhsValidator.validateFilingTime(ipm.getAtsFilingTime())) {
+            return MtAttributes.E_ATS_MESSAGE_HEADER_ERROR;
+        }
 
-        int error = validateBodyPart(ipm);
+        int error = validateBodyPart(ipm);          
         if (error != MtAttributes.E_NO_ERROR) {
             return error;
         }
@@ -915,6 +1217,8 @@ public class AMHSProcessor {
             return MtAttributes.E_MESSAGE_TO_LONG;
         }
 
+        
+        // < 80 , 138
         if (!validateCharacterSet(ipm.getContent())) {
             return MtAttributes.E_INVALID_CHARACTERSET;
         }
@@ -923,22 +1227,187 @@ public class AMHSProcessor {
             return MtAttributes.E_EXCEED_MAXIMUM_OF_RECIPIENTS;
         }
 
+        
+        int error_line_too_long = 0;
+        int content_error_zczc = 0;
+        int content_error_nnnn = 0;
+        int ohi_error_zczc = 0;
+        int ohi_error_nnnn = 0;
+        int content_error_character = 0;
+        int ohi_error_character = 0;
+        
+        /* NEU CAM CHUYEN DOI */
         if (ipm.getConversionWithLossProhibited()) {
 
             // Case 408, Process 4.5.2.1.6 c), d) and e)
             error = AmhsValidator.validateCharacter(ipm.getContent());
             if (error != MtAttributes.E_NO_ERROR) {
-                return error;
+                
+                content_error_character = error;
+                //return error;
             }
-
+           
+            // Goi ham processError
             // Case 407, Process 4.5.2.1.6 a)
-            if (!AmhsValidator.validateContentLine(ipm.getContent())) {
-                return MtAttributes.E_LINE_TOO_LONG;
+            if (!AmhsValidator.validateContentLine(ipm.getContent()) ) {
+                //return MtAttributes.E_LINE_TOO_LONG;
+                error_line_too_long = MtAttributes.E_LINE_TOO_LONG;
+            }
+        } else {
+            if (!AmhsValidator.validateContentLine(ipm.getContent()) ) {
+                String tmp = ipm.getContent();
+                String tmp1 = wrapString3(tmp,69);
+                logger.info("[" + tmp1 + "]");
+                ipm.setContent(tmp1);
             }
         }
+  
+        
+        /* DUC THEM VAO NGAY 02112024 */
+        boolean b = ipm.getConversionWithLossProhibited();
+        if (b) {            // NEU CAM
+            if(ipm.getContent().contains("ZCZC")) {
+                content_error_zczc = MtAttributes.E_INVALID_CHARACTERSET_ZCZC_CONTENT;
+                //return MtAttributes.E_INVALID_CHARACTERSET_ZCZC;
 
+            }
+            
+            if(ipm.getContent().contains("NNNN")) {
+                content_error_zczc = MtAttributes.E_INVALID_CHARACTERSET_NNNN_CONTENT;
+                //return MtAttributes.E_INVALID_CHARACTERSET_ZCZC;
+
+            }
+            
+        }
+        else {
+            if(ipm.getContent().contains("ZCZC")) {
+                String tmp = ipm.getContent();
+                tmp = tmp.replaceAll("ZCZC", "????");
+                ipm.setContent(tmp);
+
+            }
+            if(ipm.getContent().contains("NNNN")) {
+                String tmp = ipm.getContent();
+                tmp = tmp.replaceAll("NNNN", "????");
+                ipm.setContent(tmp);
+
+            }
+        }
+        
+        
+        // TEST OHI
+        // NEU CAM
+        if (b) {
+            String ohi = ipm.getAtsOhi();
+            if (ohi != null) {
+                if (ohi.contains("NNNN")) {
+                    //return MtAttributes.E_INVALID_CHARACTERSET_NNNN;
+                    ohi_error_nnnn = MtAttributes.E_INVALID_CHARACTERSET_NNNN_OHI;
+
+                }
+                if (ohi.contains("ZCZC")) {
+                    //return MtAttributes.E_INVALID_CHARACTERSET_ZCZC;
+                    ohi_error_zczc = MtAttributes.E_INVALID_CHARACTERSET_ZCZC_OHI;
+
+                }
+            }
+        } else {
+            String ohi = ipm.getAtsOhi();
+            if (ohi != null) {
+                if (ohi.contains("NNNN")) {
+                    String tmp = ipm.getAtsOhi();
+                    tmp = tmp.replaceAll("NNNN", "????");
+                    ipm.setAtsOhi(tmp);
+
+                }
+                if (ohi.contains("ZCZC")) {
+                    String tmp = ipm.getAtsOhi();
+                    tmp = tmp.replaceAll("ZCZC", "????");
+                    ipm.setAtsOhi(tmp);
+
+                }
+
+            }
+        }
+        
+        if(b) {
+            String ohi = ipm.getAtsOhi();
+            if (ohi != null) {
+                error = AmhsValidator.validateCharacter(ipm.getAtsOhi());
+                if (error != MtAttributes.E_NO_ERROR) {
+                    ohi_error_character = error;
+                    //return error;
+                }
+            }
+        } else {
+            String ohi = ipm.getAtsOhi();
+            if(ohi!=null)
+            ipm.setAtsOhi(ohi.toUpperCase());
+        }
+        
+        /*
+        int error_line_too_long = 0;
+        int content_error_zczc = 0;
+        int content_error_nnnn = 0;
+        int ohi_error_zczc = 0;
+        int ohi_error_nnnn = 0;
+        int content_error_character = 0;
+        int ohi_error_character = 0;
+        */
+        
+        int error_count = 0;
+        int last_error = 0;
+        
+        if(error_line_too_long != MtAttributes.E_NO_ERROR) {
+            last_error = error_line_too_long;
+            error_count ++;
+        }
+        if(content_error_zczc != MtAttributes.E_NO_ERROR) {
+             last_error = content_error_zczc;
+            error_count ++;
+        }
+        if(content_error_nnnn != MtAttributes.E_NO_ERROR) {
+            last_error = content_error_nnnn;
+            error_count ++;
+        }
+        if(ohi_error_zczc != MtAttributes.E_NO_ERROR) {
+            last_error = ohi_error_zczc;
+            error_count ++;
+        }
+        if(ohi_error_nnnn != MtAttributes.E_NO_ERROR) {
+            last_error = ohi_error_nnnn;
+            error_count ++;
+        }
+        if(content_error_character != MtAttributes.E_NO_ERROR)  {
+            last_error = content_error_character;
+            error_count ++;
+        }
+        if(ohi_error_character != MtAttributes.E_NO_ERROR)  {
+            last_error = ohi_error_character;
+            error_count ++;
+        }
+        
+        if(error_count > 1) {
+           return MtAttributes.E_MULTI_INFO_LOST;
+        } 
+        else {
+            if(last_error > MtAttributes.E_NO_ERROR) {
+                return last_error;
+            }
+            
+        }
+        
+        
+        
         return MtAttributes.E_NO_ERROR;
     }
+
+   /*------------------------------------------------
+    
+    
+    KIEM TRA KHUONG DANG TEXT
+    
+    ------------------------------------------------*/
 
     private int validateBodyPart(ReceiveMessage mtMessage) {
 
@@ -954,12 +1423,16 @@ public class AMHSProcessor {
             if (charset == null || charset.isEmpty()) {
                 return MtAttributes.E_BODYPART_TYPE_NOT_SUPPORT;
             }
+            
+            
+            /* KIEM TR ALAI CASE NAY
             String[] charsets = charset.split(" ");
             for (String c : charsets) {
                 if (!Config.instance.getAmhsChannel().getAllowedCharSet().contains(c)) {
                     return MtAttributes.E_BODYPART_TYPE_NOT_SUPPORT;
                 }
             }
+*/
             return MtAttributes.E_NO_ERROR;
         }
         return MtAttributes.E_BODYPART_TYPE_NOT_SUPPORT;
@@ -1008,6 +1481,7 @@ public class AMHSProcessor {
         logger.debug("Reported asymmetric address conversion message to controller");
     }
 
+    
     private void report2Controller(String content, Session session) throws X400APIException {
 
         final List<StringValue> controllers = Config.instance.getControllers();
@@ -1033,7 +1507,7 @@ public class AMHSProcessor {
         ipmMessage.setAtsFilingTime(filingTimeFormat.format(new Date()));
         ipmMessage.setAtsContent(content);
 
-        logger.info("Report to controller: ");
+        logger.info("Report to controller: " + content);
         for (StringValue controller : controllers) {
             ipmMessage.addRecip(new Recipient(controller.getValue(), config));
             logger.info("CTRLER: {}", controller.getValue());

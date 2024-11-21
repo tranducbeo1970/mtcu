@@ -167,11 +167,18 @@ public class DSAConnection extends WeakHashMap<Key, AddressConvertResult> implem
             /* DUC VIET DA LAY TU DIR */
             
             
+            
             readDSA readdsa = new readDSA();
             dsaChannelData dsadsata = readdsa.ReadVal(aftnAddress);
+
+	    if (dsadsata == null) {	//  
+		convertedResult.setDirect(false);
+                convertedResult.setIhe(false);
+  	    } else {				//
+                convertedResult.setDirect(dsadsata.isAtn_amhs_direct_access());
+                convertedResult.setIhe(dsadsata.isAtn_ipm_heading_extensions());
+            }
             
-            convertedResult.setDirect(dsadsata.isAtn_amhs_direct_access());
-            convertedResult.setIhe(dsadsata.isAtn_ipm_heading_extensions());
             return convertedResult;
             
 
@@ -366,7 +373,8 @@ public class DSAConnection extends WeakHashMap<Key, AddressConvertResult> implem
             }
         }
 
-        return toAMHS(mdLookupDN, address);
+        String add = toAMHS(mdLookupDN, address);
+        return add;
 
     }
 
@@ -390,7 +398,8 @@ public class DSAConnection extends WeakHashMap<Key, AddressConvertResult> implem
         try {
 
             ATNds.ATNdsResult result = ATNds.convertAMHS2AFTN(ds, dn, address); //ATNds.convertAMHS2AFTN(
-            return result.getString();
+            String tmp = result.getString();
+            return tmp;
 
         } catch (BadValueException ex) {
             logger.warn("Invalid address {}", address);
@@ -399,11 +408,11 @@ public class DSAConnection extends WeakHashMap<Key, AddressConvertResult> implem
 
             switch (ex.getNativeErrorCode()) {
                 case DSAPIException.DS_E_NOTFOUND:
-                    logger.warn("Search address {} is not found under {}", address, dn);
+                    logger.warn("DSAConnection.410 Search address {} is not found under {}", address, dn);
                     return null;
 
                 case DSAPIException.DS_E_BADPARAM:
-                    logger.warn("Search address {} has bad parameter under {}", address, dn);
+                    logger.warn("DSAConnection.414 Search address {} has bad parameter under {}", address, dn);
                     return null;
 
                 default:

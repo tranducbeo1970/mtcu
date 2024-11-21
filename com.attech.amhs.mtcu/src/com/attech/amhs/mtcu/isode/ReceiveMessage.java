@@ -32,6 +32,8 @@ public final class ReceiveMessage extends ReceiveMessageBase {
 
     private final SimpleDateFormat format = new SimpleDateFormat("yyMMddHHmmss");
 
+    private Boolean extended;
+    
     private String messageId;
     private String ipmId;
 
@@ -57,6 +59,7 @@ public final class ReceiveMessage extends ReceiveMessageBase {
     private List<Recipient> primaryRecipients;
     private List<Recipient> envelopeRecipients;
 
+   
     private String atsFilingTime;
     private String atsPriority;
     private String atsOhi;
@@ -70,7 +73,8 @@ public final class ReceiveMessage extends ReceiveMessageBase {
     @Override
     public String toString() {
         final StringBuilder builder = new StringBuilder();
-        // builder.append("MESSAGE PROPERTIES ----------------------------------------------------- \n");
+        
+        builder.append("MESSAGE PROPERTIES ----------------------------------------------------- \n");
         builder.append(String.format("ID: %20s\n", this.messageId));
         builder.append(String.format("IPM ID: %20s\n",this.ipmId));
         builder.append(String.format("CONTENT ID: %20s\n", this.contentId));
@@ -85,25 +89,25 @@ public final class ReceiveMessage extends ReceiveMessageBase {
         builder.append(String.format("ATTACHMENT: %20s\n", this.numberOfAttachment));
         builder.append(String.format("SUBMISSION TIME: %20s\n",this.getSumissionTime()));
         // builder.append("DL ADDRESS: " + this.numberOfDLAddress + "\n");
-        builder.append("ATN PROPERTIES **** \n");
+        builder.append("**** ATN PROPERTIES **** \n");
         builder.append(String.format("FILING TIME: %20s\n", this.atsFilingTime));
         builder.append(String.format("ATS PRIORITY: %20s\n", this.atsPriority));
         builder.append(String.format("OHI: %20s\n", this.atsOhi));
-        builder.append("ADDRESS **** \n");
+        builder.append("**** ADDRESS **** \n");
         builder.append(String.format("FROM: %20s\n", this.orAddress));
-        builder.append("PRIMARY ****\n");
-        for (Recipient address : this.primaryRecipients) {
+        builder.append("**** PRIMARY ****\n");
+        for (Recipient address : this.getPrimaryRecipients()) {
             builder.append(String.format("> TO: %20s\n", address.toString()));
         }
         builder.append("\n");
-        builder.append("ENVELOPE ****\n");
+        builder.append("**** ENVELOPE ****\n");
         for (Recipient address : this.envelopeRecipients) {
             builder.append(String.format("> TO: %20s\n", address.toString()));
         }
-        builder.append("SUBJECT ****\n");
-        builder.append(this.subject + "\n");
-        builder.append("CONTENT ****\n");
-        builder.append(this.content + "\n");
+        builder.append("**** SUBJECT ****\n");
+        builder.append("<" + this.subject + ">\n");
+        builder.append("**** CONTENT ****\n");
+        builder.append(this.content + "\n############\n");
         return builder.toString();
     }
     
@@ -159,7 +163,7 @@ public final class ReceiveMessage extends ReceiveMessageBase {
             recipient.setMtaReportRequest(add.getMtaReportRequest());
             recipient.setReportRequest(add.getReportRequest());
             // recipient.setReceiptNotification(config.getNotificationRequest());
-            recipient.setSuplementInfo("This report only indicates successful (potential) conversion to AFTN, not delivery to a recipient");
+            recipient.setSuplementInfo("This report only indicates successful (potential) conversion to AFTN, not delivery to a recipient (1)");
             recipient.setDeliveryTime(deliveriedTime);
             // recipient.setUserType(6);
             report.add(recipient);
@@ -229,10 +233,34 @@ public final class ReceiveMessage extends ReceiveMessageBase {
         }
         return log;
     }
-
+    
+    /*--------------------------------------------------------
+    
     // PRIVATE METHODS
+    
+    --------------------------------------------------------*/
+    
     @Override
     protected void parse(MTMessage mtMessage) {
+        
+        String s = getStr(mtMessage, X400_att.X400_S_PRECEDENCE_POLICY_ID);
+        
+        if( s==null ) {
+            this.extended = false;
+            
+        } else {
+            this.extended = s.equals("1.3.27.8.0.0");
+            if(this.extended) {
+                
+                String time = getStr(mtMessage, X400_att.X400_S_AUTHORIZATION_TIME);
+                this.atsFilingTime = time.substring(6, 6 + 6);                                  // FILING TIME
+                this.atsOhi = getStr(mtMessage, X400_att.X400_S_ORIGINATORS_REFERENCE);
+                
+             //   int prio = getInt(mtMessage, X400_att.X400_N_PRECEDENCE);             
+                this.priority = getInt(mtMessage, X400_att.X400_N_PRIORITY);      
+            }
+        }
+        
         this.messageId = getStr(mtMessage, X400_att.X400_S_MESSAGE_IDENTIFIER);
         this.ipmId = getStr(mtMessage, X400_att.X400_S_IPM_IDENTIFIER);
         this.contentId = getStr(mtMessage, X400_att.X400_S_CONTENT_IDENTIFIER);
@@ -247,27 +275,43 @@ public final class ReceiveMessage extends ReceiveMessageBase {
         this.numberOfAttachment = getInt(mtMessage, X400_att.X400_N_NUM_ATTACHMENTS);
         this.subject = getStr(mtMessage, X400_att.X400_S_SUBJECT);
 
+        //this.bodyPartType = getInt(mtMessage, X400_att.X400_N_BODY_TYPE);
+        
         MessageContent mscontent = this.getBodyPart(mtMessage, X400_att.X400_T_IA5TEXT);
         if (mscontent == null) {
             mscontent = this.getBodyPart(mtMessage, X400_att.X400_T_GENERAL_TEXT);
+            this.atsPriority = getStr(mtMessage, AMHS_att.ATS_S_PRIORITY_INDICATOR);            
+            //mscontent = this.getBodyPart(mtMessage, X400_att.X400_S_BODY_DATA);
+        } else {
+            this.atsPriority = getStr(mtMessage, AMHS_att.ATS_S_PRIORITY_INDICATOR);     
         }
         if (mscontent != null) {
             // this.content = mscontent.getContent();
             this.bodyPartType = mscontent.getType();
             this.bodyPartCharacterSet = mscontent.getCharacterSet();
             Ats ats = extractATS(mtMessage, mscontent);
-            this.atsFilingTime = ats.getFilingTime();
-            this.atsPriority = ats.getPriotity();
-            this.atsOhi = ats.getOptionalHeading();
+            if (!extended) {
+                this.atsFilingTime = ats.getFilingTime();
+                this.atsPriority = ats.getPriotity();
+                this.atsOhi = ats.getOptionalHeading();
+            } else {
+                //this.atsFilingTime = "111111";
+               // this.atsPriority = "FF";
+                
+            }
             // this.atsExtention = ats.get;
         }
         this.envelopeRecipients = getAddress(mtMessage, X400_att.X400_RECIP_ENVELOPE);
-        this.primaryRecipients = getAddress(mtMessage, X400_att.X400_RECIP_PRIMARY);
+        this.setPrimaryRecipients(getAddress(mtMessage, X400_att.X400_RECIP_PRIMARY));
         this.numberOfDLAddress = dlAddressCount(mtMessage);
         this.orAddress = getStr(mtMessage, X400_att.X400_S_OR_ADDRESS);
-
+   
+/*
+FAKE        
+        this.orAddress = "CN=VVTSMHSAA/OU=VVTS/O=VVTS/PRMD=VIETNAM/ADMD=ICAO/C=XX/";
+*/
         for (Recipient envelope : envelopeRecipients) {
-            for (Recipient primary : primaryRecipients) {
+            for (Recipient primary : getPrimaryRecipients()) {
                 if (!primary.getAddress().equals(envelope.getAddress())) {
                     continue;
                 }
@@ -394,22 +438,56 @@ public final class ReceiveMessage extends ReceiveMessageBase {
 //        return content.substring(index1 + 1);
         return content;
     }
-
-    private MessageContent getBodyPart(MTMessage mtMessage, int type) {
+    /*
+    private MessageContent getBodyPart_OLD(MTMessage mtMessage, int type) {
 
         int num = 0;
         int status = 0;
 
-        for (num = 0;; num++) {
+        for (num = 1;; num++) {
             final BodyPart bodyPart = new BodyPart();
             status = X400mt.x400_mt_msggetbodypart(mtMessage, num, bodyPart);
             if (status == X400_att.X400_E_MISSING_ATTR || status == X400_att.X400_E_NO_VALUE || status != X400_att.X400_E_NOERROR) {
                 break;
             }
             Integer bodytype = getInt(bodyPart, X400_att.X400_N_BODY_TYPE);
-            if (bodytype == null || bodytype == 0 || bodytype != type) {
+            if (bodytype == null || bodytype == 0 || bodytype != type) {                      // DUC RAO 02112024
                 continue;
+            }                                                                                 // DUC RAO 02112024                    
+            String bodyContent = getStr(bodyPart, X400_att.X400_S_BODY_DATA);
+            String charset = null;
+            if (type == X400_att.X400_T_GENERAL_TEXT) {
+                charset = getStr(bodyPart, X400_att.X400_S_GENERAL_TEXT_CHARSETS);
             }
+            return new MessageContent(bodytype, bodyContent, charset);
+        }
+        return null;
+    }
+    */
+    private MessageContent getBodyPart(MTMessage mtMessage, int type) {
+
+        int num = 0;
+        int status = 0;
+        
+        
+        if(type == X400_att.X400_T_GENERAL_TEXT) {
+            num = 1;
+        } else {
+            num = 0;
+        }
+
+        // Neu general text thi lay tu 1
+        
+        for ( ;; num++) {
+            final BodyPart bodyPart = new BodyPart();
+            status = X400mt.x400_mt_msggetbodypart(mtMessage, num, bodyPart);
+            if (status == X400_att.X400_E_MISSING_ATTR || status == X400_att.X400_E_NO_VALUE || status != X400_att.X400_E_NOERROR) {
+                break;
+            }
+            Integer bodytype = getInt(bodyPart, X400_att.X400_N_BODY_TYPE);
+            if (bodytype == null || bodytype == 0 || bodytype != type) {                      
+                continue;
+            }                                                                                 
             String bodyContent = getStr(bodyPart, X400_att.X400_S_BODY_DATA);
             String charset = null;
             if (type == X400_att.X400_T_GENERAL_TEXT) {
@@ -420,6 +498,8 @@ public final class ReceiveMessage extends ReceiveMessageBase {
         return null;
     }
 
+    
+    
     private int dlAddressCount(MTMessage message) {
 
         List<String> distAddresses = new ArrayList<>();
@@ -820,6 +900,20 @@ public final class ReceiveMessage extends ReceiveMessageBase {
     protected void finalize() throws Throwable {
         super.finalize();
         System.out.println(this.getClass() + " successfully garbage collected");
+    }
+
+    /**
+     * @return the extended
+     */
+    public Boolean getExtended() {
+        return extended;
+    }
+
+    /**
+     * @param extended the extended to set
+     */
+    public void setExtended(Boolean extended) {
+        this.extended = extended;
     }
 
     

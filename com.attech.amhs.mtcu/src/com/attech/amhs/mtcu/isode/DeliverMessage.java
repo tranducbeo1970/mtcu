@@ -15,7 +15,6 @@ import com.attech.amhs.mtcu.database.entity.MessageConversionLog;
 import com.attech.amhs.mtcu.database.entity.SysConfig;
 import com.attech.amhs.mtcu.database.enums.MessageCategory;
 import com.attech.amhs.mtcu.database.enums.MessageType;
-import com.attech.amhs.mtcu.common.PriorityUtil;
 import com.isode.x400api.AMHS_att;
 import com.isode.x400api.Traceinfo;
 import com.isode.x400api.X400_att;
@@ -93,7 +92,11 @@ public class DeliverMessage extends DeliverMessageBase {
 
     public void setAftnMessage(Message message) {
         // this.messageId = MtCommon.generateMessageId();
-        this.subject = String.format("%s - %s", message.getChannelId(), message.getOriginId());
+        
+// DUC THEM NGAY 03112024 
+// DIEN VAN AFTN KHONG CO SUBJECT
+
+        //this.subject = String.format("%s - %s", message.getChannelId(), message.getOriginId());
         this.content = message.getContent();
         this.amhsPriority = convertPriority(message.getPriority());
         // this.amhsPriority = Priority.parse(message.getPriority());
@@ -175,7 +178,7 @@ public class DeliverMessage extends DeliverMessageBase {
         set(mtMessage, X400_att.X400_N_CONVERSION_WITH_LOSS_PROHIBITED, config.getConversionLossProhibited());
         set(mtMessage, X400_att.X400_S_ORIGINATOR_RETURN_ADDRESS, config.getOriginReturnAddress());
         //set(mtMessage, X400_att.X400_S_ORIGINAL_ENCODED_INFORMATION_TYPES, config.getOriginEIT());
-
+        
         set(mtMessage, X400_att.X400_S_MESSAGE_IDENTIFIER, this.messageId);
         set(mtMessage, X400_att.X400_S_OR_ADDRESS, this.originator);
         set(mtMessage, X400_att.X400_N_PRIORITY, this.priority);
@@ -252,7 +255,7 @@ public class DeliverMessage extends DeliverMessageBase {
         set(mtMessage, AMHS_att.ATS_S_FILING_TIME, this.atsFilingTime);
         set(mtMessage, AMHS_att.ATS_S_TEXT, this.content);
         
-        if(this.atsOHI.length() > 0) {
+        if(this.atsOHI != null && this.atsOHI.length() > 0) {
             set(mtMessage, AMHS_att.ATS_S_OPTIONAL_HEADING_INFO, this.atsOHI);
         }
         

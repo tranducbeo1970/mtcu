@@ -41,11 +41,35 @@ package com.attech.amhs.mtcu.isode; -> public class DeliverMessage extends Deliv
 */
 
 /*
+
+    KIEM TRA DIEN VAN THU VE TU MTCU
+
+ 
+package com.attech.amhs.mtcu; public class AMHSProcess ;  private int validate(ReceiveMessage ipm) 
+834
+
+validateBodyPart(ReceiveMessage mtMessage) {
+
+*/
+
+/*
+Kiem tra report to controller
+  private void processIPN(MTMessage mtmessage, Session session) throws X400APIException, SQLException, DSAPIException {
+
+*/
+
+/*
     Diaary
 
 Ngay 28/10/2024 copy code vao /gatewaynew_28102024
 
 
+
+Toi ngay 05112024
+
+FAKE Origin trong 
+public final class ReceiveMessage extends ReceiveMessageBase {
+parse
 */
 
 package com.attech.amhs.mtcu;
@@ -87,7 +111,7 @@ public class Run implements Runnable {
     }
 
     public void start() throws SQLException {
-        logger.info("SOFTWARE START #27/10/2024#");
+        logger.info("Start gateway AMHS-AFTN 22/11/2024");
 
         final AFTNMessageDao util = new AFTNMessageDao();
         String s = util.getAFTNAddressIndicator();

@@ -100,9 +100,16 @@ public final class ReceiveReport extends ReceiveMessageBase {
             }
             RptRecipient address = new RptRecipient();
             address.setAddress(getStr(recipObj, X400_att.X400_S_OR_ADDRESS));
-            address.setNonDeliveryDiagnosticCode(getInt(recipObj, X400_att.X400_N_NON_DELIVERY_DIAGNOSTIC));
+      
+            if(getInt(recipObj, X400_att.X400_N_NON_DELIVERY_DIAGNOSTIC) != null) {
+                address.setNonDeliveryDiagnosticCode(getInt(recipObj, X400_att.X400_N_NON_DELIVERY_DIAGNOSTIC));
+            }
+            
             address.setNonDeliveryReason(getInt(recipObj, X400_att.X400_N_NON_DELIVERY_REASON));
-            address.setSuplementInfo(getStr(recipObj, X400_att.X400_S_SUPPLEMENTARY_INFO));
+            if(getStr(recipObj, X400_att.X400_S_SUPPLEMENTARY_INFO) != null) {
+                address.setSuplementInfo(getStr(recipObj, X400_att.X400_S_SUPPLEMENTARY_INFO));
+            }
+            
             address.setDeliveryTime(getStr(recipObj, X400_att.X400_S_MESSAGE_DELIVERY_TIME));
             this.recipients.add(address);
 

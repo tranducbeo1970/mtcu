@@ -133,7 +133,7 @@ public class ReceiveProbe extends ReceiveMessageBase {
                 recipient.setMtaReportRequest(add.getMtaReportRequest());
                 recipient.setReportRequest(add.getReportRequest());
                 // recipient.setReceiptNotification(config.getNotificationRequest());
-                recipient.setSuplementInfo("This report only indicates successful (potential) conversion to AFTN, not delivery to a recipient");
+                recipient.setSuplementInfo("This report only indicates successful (potential) conversion to AFTN, not delivery to a recipient (2)");
                 recipient.setDeliveryTime(deliveriedTime);
                 recipient.setUserType(6);
                 report.add(recipient);

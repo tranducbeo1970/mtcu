@@ -65,7 +65,7 @@
     </AMHSChannel>
     <DSAChannel>
         <DsaPresentationAddress>URI+0000+URL+itot://localhost:19999</DsaPresentationAddress>
-        <DirectoryName>o=md267,o=conversion-address-lookup-definition</DirectoryName>
+        <DirectoryName>o=new267,o=conversion-address-lookup-definition</DirectoryName>
         <UserLookupTable>o=custom-address-lookup,o=conversion-address-lookup-definition</UserLookupTable>
         <AftnLookupTable>o=aftn-address-lookup,o=conversion-address-lookup-definition</AftnLookupTable>
         <CacheExpire>3600000</CacheExpire>
@@ -111,5 +111,5 @@
     <AutoReloadingConfig>false</AutoReloadingConfig>
     <ThreadingStatusReportPeriodTimeout>15000</ThreadingStatusReportPeriodTimeout>
     <ReportAsymAddress>false</ReportAsymAddress>
-    <ReportReportType>false</ReportReportType>
+    <ReportReportType>true</ReportReportType>
 </GatewayConfig>

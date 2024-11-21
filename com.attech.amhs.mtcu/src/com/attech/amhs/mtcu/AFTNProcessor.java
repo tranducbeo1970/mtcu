@@ -68,6 +68,8 @@ public class AFTNProcessor {
     private final String CONVERT_SUCESSFULLY = "[{} {}] is converted successfully";
     private final String SUBJECT_MESSAGE_CANNOT_BE_FOUND = "Subject message cannot be found";
     private final String SUBJECT_MESSAGE_IS_MORE_THAN_ONE = "Subject message found more than one";
+    
+    private final String UNKNOWN_ADDRESS = "Unknown recipient address";
 
     private static final Logger logger = LoggerFactory.getLogger(AFTNProcessor.class);
 
@@ -279,7 +281,8 @@ public class AFTNProcessor {
             }
 
             
-            result = DSAConnection.getInstance().convertToAmhsAddress(address, false);
+            //result = DSAConnection.getInstance().convertToAmhsAddress(address, false);
+            result = DSAConnection.getInstance().convertToAmhsAddress(address, true);
             if (result == null) {
                 logger.warn(">{}: FAIL", address);
                 unknownAddresses_str_list.add(address);
@@ -673,6 +676,13 @@ public class AFTNProcessor {
                 deliverAsIpmAddressList.add(unkAddress);
             }
 
+/*
+            
+DUC 03/11/2024
+Tao bao cao dien van UNKNOWN            
+
+*/            
+            
             // Build NDR report
             if (!deliverAsReportAddressList.isEmpty()) {
 
@@ -686,6 +696,7 @@ public class AFTNProcessor {
                     rp.setAddress(add.getAddress());
                     rp.setNonDeliveryReason(MtAttributes.RS_UNABLE_TO_TRANSFER);
                     rp.setNonDeliveryDiagnosticCode(MtAttributes.D_UNRECOGNISED_OR_NAME);
+                    rp.setSuplementInfo(UNKNOWN_ADDRESS);
                     rp.setReportRequest(add.getReportRequest() == null ? config.getReportRequest() : add.getReportRequest().intValue());
                     rp.setMtaReportRequest(add.getMtaReportRequest() == null ? config.getMtaReportRequest() : add.getMtaReportRequest().intValue());
                     report.add(rp);

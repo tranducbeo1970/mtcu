@@ -41,9 +41,14 @@ public class RptRecipient extends Recipient {
         final StringBuilder builder = new StringBuilder();
         if (this.deliveryTime == null || this.deliveryTime.isEmpty()) {
             builder.append("It could *NOT* be sent to: ").append(this.address).append("\r\n");
+            
             builder.append("Non Delivery Reason: ").append(this.nonDeliveryReason).append("\r\n");
-            builder.append("Non Delivery Diagnostic: ").append(this.nonDeliveryDiagnosticCode).append("\r\n");
-            builder.append("Supplementary Info: ").append(this.suplementInfo).append("\r\n");
+            if (this.nonDeliveryDiagnosticCode != -1) {
+                builder.append("Non Delivery Diagnostic: ").append(this.nonDeliveryDiagnosticCode).append("\r\n");
+            }
+            if(this.suplementInfo!=null) {
+                builder.append("Supplementary Info: ").append(this.suplementInfo).append("\r\n");
+            }
         } else {
             builder.append("It was successfully sent to: ").append(this.address).append("\r\n");
             builder.append("Message Delivery Time: ").append(this.deliveryTime).append("\r\n");
@@ -75,7 +80,9 @@ public class RptRecipient extends Recipient {
 
         //set(recip, X400_att.X400_N_NON_DELIVERY_REASON, this.nonDeliveryReason);
         set(recip, X400_att.X400_N_NON_DELIVERY_REASON, this.nonDeliveryReason);
-        set(recip, X400_att.X400_N_NON_DELIVERY_DIAGNOSTIC, this.nonDeliveryDiagnosticCode);
+        if (this.nonDeliveryDiagnosticCode != -1) {
+            set(recip, X400_att.X400_N_NON_DELIVERY_DIAGNOSTIC, this.nonDeliveryDiagnosticCode);
+        }
     }
 
     public void getRecip(MTMessage mtMessage, int index, String arrrivalTime) {
@@ -102,7 +109,9 @@ public class RptRecipient extends Recipient {
         }
 
         set(recip, X400_att.X400_N_NON_DELIVERY_REASON, this.nonDeliveryReason);
-        set(recip, X400_att.X400_N_NON_DELIVERY_DIAGNOSTIC, this.nonDeliveryDiagnosticCode);
+        if (this.nonDeliveryDiagnosticCode != -1) {
+            set(recip, X400_att.X400_N_NON_DELIVERY_DIAGNOSTIC, this.nonDeliveryDiagnosticCode);
+        }
 
     }
 

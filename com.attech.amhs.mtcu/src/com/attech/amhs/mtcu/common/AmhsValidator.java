@@ -73,8 +73,10 @@ public class AmhsValidator {
         if (ohi == null || ohi.isEmpty()) {
             return true;
         }
+        
+        int l = ohi.length();
 
-        if ((priority.equals("SS") && ohi.length() > 48) || ohi.length() > 53) {
+        if ((priority.equals("SS") && l > 48) || l > 53) {
             return false;
         }
 

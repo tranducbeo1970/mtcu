@@ -72,6 +72,7 @@ public class MtAttributes {
     public static final int D_UNABLE_TO_DOWNGRADE = 47;
     public static final int D_UNABLE_TO_COMPLETE_TRANSFER = 48;
     public static final int D_TRANSFER_ATTEMPTS_LIMIT_REACHED = 49;
+    public static final int D_UNRECOGNIZE_ORIGINATOR = 50;
 
     // MTA REPORT REQUEST
     public static final int MTA_NON_DELIVERY_REPORT = 1;
@@ -103,6 +104,12 @@ public class MtAttributes {
     public static final int E_MESSAGE_UNSUPPORT_ENCODED_INFORMATION_TYPE = 12;
     public static final int E_DISTRIBUTION_PROHIBITED = 13;
     public static final int E_INVALID_CHARACTERSET = 14;
+    public static final int E_INVALID_CHARACTERSET_ZCZC_CONTENT = 15;
+    public static final int E_INVALID_CHARACTERSET_NNNN_CONTENT = 16;
+    public static final int E_INVALID_CHARACTERSET_ZCZC_OHI = 17;
+    public static final int E_INVALID_CHARACTERSET_NNNN_OHI = 18;
+    
+    public static final int E_MULTI_INFO_LOST = 19;
     
     // Priority
     public static final int PRIORITY_NORMAL = 0;

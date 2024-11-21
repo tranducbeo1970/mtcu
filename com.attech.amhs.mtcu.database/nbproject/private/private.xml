@@ -2,11 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/mtcu/com.attech.amhs.mtcu.database/src/com/attech/amhs/mtcu/database/dao/GatewayInDao.java</file>
-            <file>file:/mtcu/com.attech.amhs.mtcu.database/src/com/attech/amhs/mtcu/database/entity/GatewayIn.java</file>
-            <file>file:/mtcu/com.attech.amhs.mtcu.database/src/com/attech/amhs/mtcu/database/entity/GatewayInFails.java</file>
-            <file>file:/mtcu/com.attech.amhs.mtcu.database/src/com/attech/amhs/mtcu/database/entity/GatewayOut.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
